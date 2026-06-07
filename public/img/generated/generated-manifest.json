@@ -178,5 +178,17 @@
     "file": "scenes/pro-shop-interior-panorama.png",
     "category": "scenes",
     "description": "Wide panoramic interior view of the pro shop showing the service counter, walls of bowling balls and bags, and the colorful patterned carpet."
+  },
+  {
+    "original": "ElevenLabs_image_nano-banana-pro_Create a fro..._2026-06-07T21_32_17.png",
+    "file": "mascot/mascot-four-views.png",
+    "category": "mascot",
+    "description": "Turnaround sheet of the All Star Bowl pin mascot (smiling cartoon bowling pin) in four labeled views: front, back, left, right. Transparent background (green chroma-keyed out). Reference/future asset for rigging; not placed on the page."
+  },
+  {
+    "original": "ElevenLabs_image_nano-banana-pro_Upscale this..._2026-06-07T21_31_24.png",
+    "file": "mascot/mascot-wave.png",
+    "category": "mascot",
+    "description": "Single hero pose of the All Star Bowl pin mascot, one arm raised waving, red tongue out, smiling. Transparent background (green chroma-keyed out, despilled). This is the corner-buddy asset used by the interactive mascot. Near-direct capture of the client's real mural mascot."
   }
 ]

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All Star Bowl — Mascot Corner Buddy Demo</title>
+<style>
+  :root {
+    --buddy-size: 150px;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #14161c;
+    color: #e8eaf0;
+    line-height: 1.6;
+  }
+
+  /* --- Fake page content so you can scroll and see the buddy react --- */
+  header.hero {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: radial-gradient(circle at 50% 30%, #2a2f3d 0%, #14161c 70%);
+  }
+  header.hero h1 { font-size: clamp(2rem, 6vw, 4rem); margin: 0 0 .3em; }
+  header.hero p { opacity: .7; max-width: 40ch; }
+
+  section.block {
+    min-height: 80vh;
+    padding: 4rem clamp(1rem, 8vw, 8rem);
+    border-top: 1px solid #2a2f3d;
+  }
+  section.block h2 { font-size: 1.8rem; }
+  .cta {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: .9rem 2rem;
+    background: #e23b3b;
+    color: #fff;
+    border-radius: 999px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* ================= MASCOT CORNER BUDDY ================= */
+  .buddy {
+    position: fixed;
+    right: clamp(12px, 3vw, 32px);
+    bottom: clamp(12px, 3vw, 28px);
+    width: var(--buddy-size);
+    z-index: 9999;
+    cursor: pointer;
+    /* enters by sliding up + fading in */
+    transform: translateY(140%);
+    opacity: 0;
+    transition: transform .6s cubic-bezier(.2,.9,.3,1.2), opacity .5s ease;
+    /* drop shadow so it reads as a sticker, not pasted */
+    filter: drop-shadow(0 12px 18px rgba(0,0,0,.45));
+  }
+  .buddy.in {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  /* The image itself idles (gentle bob + sway) via its own layer,
+     so the entrance transform on .buddy doesn't fight the idle loop. */
+  .buddy img {
+    width: 100%;
+    display: block;
+    transform-origin: 50% 90%;          /* pivots near the base, like it's standing */
+    animation: idle 4s ease-in-out infinite;
+    will-change: transform;
+  }
+  @keyframes idle {
+    0%, 100% { transform: translateY(0) rotate(-1.5deg); }
+    50%      { transform: translateY(-8px) rotate(1.5deg); }
+  }
+
+  /* Hover = it gets excited: faster, bigger wave-bounce */
+  .buddy:hover img {
+    animation: wave 0.6s ease-in-out infinite;
+  }
+  @keyframes wave {
+    0%, 100% { transform: translateY(0) rotate(-6deg); }
+    50%      { transform: translateY(-14px) rotate(6deg); }
+  }
+
+  /* "Excited" pulse we trigger from JS when near a CTA */
+  .buddy.excited img {
+    animation: excited 0.45s ease-in-out 3;
+  }
+  @keyframes excited {
+    0%, 100% { transform: translateY(0) rotate(-8deg) scale(1); }
+    50%      { transform: translateY(-22px) rotate(8deg) scale(1.06); }
+  }
+
+  /* Speech bubble */
+  .buddy .bubble {
+    position: absolute;
+    bottom: 78%;
+    right: 60%;
+    background: #fff;
+    color: #14161c;
+    padding: .55rem .9rem;
+    border-radius: 14px 14px 2px 14px;
+    font-size: .85rem;
+    font-weight: 700;
+    white-space: nowrap;
+    box-shadow: 0 6px 14px rgba(0,0,0,.3);
+    opacity: 0;
+    transform: translateY(6px) scale(.9);
+    transform-origin: bottom right;
+    transition: opacity .25s, transform .25s;
+    pointer-events: none;
+  }
+  .buddy .bubble.show {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+
+  /* Dismiss button — buddy must always be dismissible */
+  .buddy .close {
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    width: 24px; height: 24px;
+    border-radius: 50%;
+    border: none;
+    background: #2a2f3d;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+  .buddy:hover .close { opacity: 1; }
+
+  .buddy.dismissed {
+    transform: translateY(160%);
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  /* Respect users who don't want motion */
+  @media (prefers-reduced-motion: reduce) {
+    .buddy img { animation: none !important; }
+    .buddy { transition: opacity .4s; transform: none; }
+  }
+</style>
+</head>
+<body>
+
+  <header class="hero">
+    <h1>All Star Bowl</h1>
+    <p>Scroll down. Hover the mascot. Scroll to the red button and watch him get excited.</p>
+  </header>
+
+  <section class="block">
+    <h2>Leagues &amp; Open Play</h2>
+    <p>Filler content so there's something to scroll. The buddy idles in the corner the whole time, bobbing gently.</p>
+  </section>
+
+  <section class="block" id="book">
+    <h2>Book a Lane</h2>
+    <p>When this section's button scrolls into view, the buddy points at it and pops a speech bubble.</p>
+    <a class="cta" id="bookBtn">Book a Lane</a>
+  </section>
+
+  <section class="block">
+    <h2>The Cafe</h2>
+    <p>More filler. Buddy goes back to idling once the CTA is out of view.</p>
+  </section>
+
+  <!-- ================= THE MASCOT ================= -->
+  <div class="buddy" id="buddy" aria-label="All Star Bowl mascot" role="img">
+    <button class="close" id="buddyClose" aria-label="Dismiss mascot">&times;</button>
+    <div class="bubble" id="buddyBubble">Ready to bowl?</div>
+    <img src="img/generated/mascot/mascot-wave.png" alt="All Star Bowl pin mascot">
+  </div>
+
+  <script>
+    const buddy   = document.getElementById('buddy');
+    const bubble  = document.getElementById('buddyBubble');
+    const closeBtn= document.getElementById('buddyClose');
+    const bookBtn = document.getElementById('bookBtn');
+
+    // 1. Entrance after a beat
+    setTimeout(() => buddy.classList.add('in'), 800);
+
+    // 2. Hover = show a friendly bubble
+    let hoverLines = ['Ready to bowl?', 'Strike!', 'Grab a lane!', 'Hey there!'];
+    let li = 0;
+    buddy.addEventListener('mouseenter', () => {
+      bubble.textContent = hoverLines[li++ % hoverLines.length];
+      bubble.classList.add('show');
+    });
+    buddy.addEventListener('mouseleave', () => bubble.classList.remove('show'));
+
+    // 3. React when the "Book a Lane" CTA scrolls into view
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          buddy.classList.add('excited');
+          bubble.textContent = 'Book here! →';
+          bubble.classList.add('show');
+          setTimeout(() => buddy.classList.remove('excited'), 1500);
+          setTimeout(() => bubble.classList.remove('show'), 3000);
+        }
+      });
+    }, { threshold: 0.9 });
+    io.observe(bookBtn);
+
+    // 4. Always dismissible (remembers for the session)
+    if (sessionStorage.getItem('buddyDismissed')) buddy.classList.add('dismissed');
+    closeBtn.addEventListener('click', (ev) => {
+      ev.stopPropagation();
+      buddy.classList.add('dismissed');
+      sessionStorage.setItem('buddyDismissed', '1');
+    });
+
+    // 5. Click buddy = jump to booking
+    buddy.addEventListener('click', () => {
+      document.getElementById('book').scrollIntoView({ behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>
