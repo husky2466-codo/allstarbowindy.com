@@ -1,0 +1,550 @@
+{
+  "summary": {
+    "total": 59,
+    "people": 50,
+    "incidental": 9,
+    "by_category": {
+      "cafe": 3,
+      "exterior": 3,
+      "lanes": 34,
+      "lounge": 1,
+      "misc": 3,
+      "party": 3,
+      "seating": 12
+    }
+  },
+  "note": "People-containing reference shots copied from public/uploads/gmaps-photos originals. 'people' = clear subjects; 'incidental' = tiny/distant figures. Renamed from original gmaps-manifest.json notes.",
+  "images": [
+    {
+      "file": "cafe/cafe-concourse-with-seated-customers-01.jpg",
+      "original": "asb-060.jpg",
+      "bucket": "people",
+      "category": "cafe",
+      "quality": "ok",
+      "people": "people",
+      "note": "wide concourse with seated customers"
+    },
+    {
+      "file": "cafe/cafe-girl-posing-at-table-02.jpg",
+      "original": "asb-080.jpg",
+      "bucket": "people",
+      "category": "cafe",
+      "quality": "poor",
+      "people": "people",
+      "note": "blurry girl posing at table"
+    },
+    {
+      "file": "cafe/cafe-group-selfie-at-table-03.jpg",
+      "original": "asb-089.jpg",
+      "bucket": "people",
+      "category": "cafe",
+      "quality": "poor",
+      "people": "people",
+      "note": "group selfie at table"
+    },
+    {
+      "file": "exterior/exterior-kids-posing-in-front-of-01.jpg",
+      "original": "asb-028.jpg",
+      "bucket": "people",
+      "category": "exterior",
+      "quality": "good",
+      "people": "people",
+      "note": "two kids posing in front of facade"
+    },
+    {
+      "file": "exterior/exterior-people-walking-to-entrance-02.jpg",
+      "original": "asb-061.jpg",
+      "bucket": "people",
+      "category": "exterior",
+      "quality": "ok",
+      "people": "people",
+      "note": "people walking to entrance"
+    },
+    {
+      "file": "incidental/exterior-facade-with-old-logo-person-01.jpg",
+      "original": "asb-066.jpg",
+      "bucket": "incidental",
+      "category": "exterior",
+      "quality": "ok",
+      "people": "incidental",
+      "note": "wide facade with old logo, distant person"
+    },
+    {
+      "file": "incidental/lanes-ball-returns-and-lanes-bowler-04.jpg",
+      "original": "asb-107.jpg",
+      "bucket": "incidental",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "incidental",
+      "note": "wide ball returns and lanes, distant bowler"
+    },
+    {
+      "file": "incidental/lanes-ball-returns-and-mural-figure-02.jpg",
+      "original": "asb-021.jpg",
+      "bucket": "incidental",
+      "category": "lanes",
+      "quality": "good",
+      "people": "incidental",
+      "note": "ball returns and mural, tiny figure"
+    },
+    {
+      "file": "incidental/lanes-cosmic-glow-lanes-silhouette-01.jpg",
+      "original": "asb-017.jpg",
+      "bucket": "incidental",
+      "category": "lanes",
+      "quality": "good",
+      "people": "incidental",
+      "note": "cosmic glow lanes, one silhouette"
+    },
+    {
+      "file": "incidental/lanes-lanes-and-seating-figure-03.jpg",
+      "original": "asb-030.jpg",
+      "bucket": "incidental",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "incidental",
+      "note": "wide lanes and seating, tiny figure"
+    },
+    {
+      "file": "incidental/lanes-long-row-of-empty-lanes-05.jpg",
+      "original": "asb-112.jpg",
+      "bucket": "incidental",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "incidental",
+      "note": "long row of empty lanes angled, distant person"
+    },
+    {
+      "file": "incidental/lounge-jet-pong-bar-lounge-person-01.jpg",
+      "original": "asb-070.jpg",
+      "bucket": "incidental",
+      "category": "lounge",
+      "quality": "ok",
+      "people": "incidental",
+      "note": "Jet Pong bar lounge, distant person"
+    },
+    {
+      "file": "incidental/seating-ball-returns-row-balls-foreground-02.jpg",
+      "original": "asb-086.jpg",
+      "bucket": "incidental",
+      "category": "seating",
+      "quality": "ok",
+      "people": "incidental",
+      "note": "ball returns row, balls foreground, distant person"
+    },
+    {
+      "file": "incidental/seating-concourse-ball-returns-bowlers-01.jpg",
+      "original": "asb-010.jpg",
+      "bucket": "incidental",
+      "category": "seating",
+      "quality": "ok",
+      "people": "incidental",
+      "note": "concourse ball returns, tiny distant bowlers"
+    },
+    {
+      "file": "lanes/lanes-bowler-mid-throw-17.jpg",
+      "original": "asb-106.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "poor",
+      "people": "people",
+      "note": "blurry bowler mid-throw"
+    },
+    {
+      "file": "lanes/lanes-bowlers-and-seating-at-lanes-13.jpg",
+      "original": "asb-101.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "people",
+      "note": "bowlers and seating at lanes"
+    },
+    {
+      "file": "lanes/lanes-bowlers-walking-on-approach-03.jpg",
+      "original": "asb-012.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "people",
+      "note": "bowlers walking on approach"
+    },
+    {
+      "file": "lanes/lanes-boy-watching-down-the-lane-29.jpg",
+      "original": "asb-127.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "people",
+      "note": "boy watching down the lane"
+    },
+    {
+      "file": "lanes/lanes-family-at-lanes-22.jpg",
+      "original": "asb-117.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "people",
+      "note": "family at lanes"
+    },
+    {
+      "file": "lanes/lanes-family-standing-at-ball-return-01.jpg",
+      "original": "asb-001.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "people",
+      "note": "family standing at ball return"
+    },
+    {
+      "file": "lanes/lanes-league-crowd-at-lanes-10.jpg",
+      "original": "asb-093.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "people",
+      "note": "league crowd at lanes"
+    },
+    {
+      "file": "lanes/lanes-man-and-person-at-lanes-21.jpg",
+      "original": "asb-115.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "people",
+      "note": "man and person at lanes"
+    },
+    {
+      "file": "lanes/lanes-man-and-toddler-at-lane-18.jpg",
+      "original": "asb-109.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "people",
+      "note": "man and toddler at lane"
+    },
+    {
+      "file": "lanes/lanes-man-at-lane-bowling-12.jpg",
+      "original": "asb-100.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "people",
+      "note": "one man at lane bowling"
+    },
+    {
+      "file": "lanes/lanes-man-bowling-24.jpg",
+      "original": "asb-121.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "poor",
+      "people": "people",
+      "note": "blurry man bowling"
+    },
+    {
+      "file": "lanes/lanes-man-bowling-27.jpg",
+      "original": "asb-125.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "poor",
+      "people": "people",
+      "note": "blurry man bowling"
+    },
+    {
+      "file": "lanes/lanes-man-bowling-with-onlookers-20.jpg",
+      "original": "asb-111.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "people",
+      "note": "man bowling with two onlookers"
+    },
+    {
+      "file": "lanes/lanes-man-bowling-with-pizza-in-07.jpg",
+      "original": "asb-068.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "people",
+      "note": "man bowling with pizza in foreground"
+    },
+    {
+      "file": "lanes/lanes-man-walking-on-approach-15.jpg",
+      "original": "asb-104.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "poor",
+      "people": "people",
+      "note": "blurry man walking on approach"
+    },
+    {
+      "file": "lanes/lanes-man-walking-on-approach-16.jpg",
+      "original": "asb-105.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "poor",
+      "people": "people",
+      "note": "blurry man walking on approach"
+    },
+    {
+      "file": "lanes/lanes-men-bowling-backs-to-camera-11.jpg",
+      "original": "asb-095.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "people",
+      "note": "two men bowling, backs to camera"
+    },
+    {
+      "file": "lanes/lanes-men-posing-group-at-lanes-23.jpg",
+      "original": "asb-120.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "people",
+      "note": "five men posing group at lanes"
+    },
+    {
+      "file": "lanes/lanes-seated-league-bowlers-06.jpg",
+      "original": "asb-026.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "poor",
+      "people": "people",
+      "note": "blurry seated league bowlers"
+    },
+    {
+      "file": "lanes/lanes-smiling-woman-in-foreground-at-04.jpg",
+      "original": "asb-020.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "people",
+      "note": "smiling woman in foreground at lanes"
+    },
+    {
+      "file": "lanes/lanes-teens-posing-at-lanes-08.jpg",
+      "original": "asb-077.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "people",
+      "note": "two teens posing at lanes"
+    },
+    {
+      "file": "lanes/lanes-woman-bowling-back-to-camera-02.jpg",
+      "original": "asb-011.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "people",
+      "note": "woman bowling, back to camera"
+    },
+    {
+      "file": "lanes/lanes-woman-bowling-back-to-camera-05.jpg",
+      "original": "asb-022.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "people",
+      "note": "woman bowling, back to camera"
+    },
+    {
+      "file": "lanes/lanes-woman-bowling-back-to-camera-09.jpg",
+      "original": "asb-092.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "people",
+      "note": "woman bowling, back to camera"
+    },
+    {
+      "file": "lanes/lanes-woman-bowling-back-to-camera-26.jpg",
+      "original": "asb-124.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "people",
+      "note": "woman bowling, back to camera"
+    },
+    {
+      "file": "lanes/lanes-woman-bowling-back-to-camera-28.jpg",
+      "original": "asb-126.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "people",
+      "note": "woman bowling, back to camera"
+    },
+    {
+      "file": "lanes/lanes-woman-seated-smiling-at-console-14.jpg",
+      "original": "asb-103.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "people",
+      "note": "woman seated smiling at console"
+    },
+    {
+      "file": "lanes/lanes-woman-standing-on-approach-25.jpg",
+      "original": "asb-122.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "people",
+      "note": "woman standing on approach"
+    },
+    {
+      "file": "lanes/lanes-women-socializing-at-lanes-19.jpg",
+      "original": "asb-110.jpg",
+      "bucket": "people",
+      "category": "lanes",
+      "quality": "ok",
+      "people": "people",
+      "note": "women socializing at lanes"
+    },
+    {
+      "file": "misc/history-photo-allstarbowl.jpg",
+      "original": "asb-036.jpg",
+      "bucket": "people",
+      "category": "misc",
+      "quality": "good",
+      "people": "people",
+      "note": "vintage black-and-white man bowling, historical All Star Bowl photo (renamed from misc-black-and-white-man-bowling)"
+    },
+    {
+      "file": "misc/misc-boy-selfie-near-lanes-01.jpg",
+      "original": "asb-014.jpg",
+      "bucket": "people",
+      "category": "misc",
+      "quality": "poor",
+      "people": "people",
+      "note": "blurry boy selfie near lanes"
+    },
+    {
+      "file": "misc/misc-girl-posing-with-gift-bag-03.jpg",
+      "original": "asb-053.jpg",
+      "bucket": "people",
+      "category": "misc",
+      "quality": "poor",
+      "people": "people",
+      "note": "girl posing with gift bag"
+    },
+    {
+      "file": "party/party-couple-at-vow-renewal-anniversary-01.jpg",
+      "original": "asb-090.jpg",
+      "bucket": "people",
+      "category": "party",
+      "quality": "ok",
+      "people": "people",
+      "note": "couple at vow renewal anniversary display"
+    },
+    {
+      "file": "party/party-kids-at-birthday-cake-02.jpg",
+      "original": "asb-091.jpg",
+      "bucket": "people",
+      "category": "party",
+      "quality": "poor",
+      "people": "people",
+      "note": "kids at birthday cake"
+    },
+    {
+      "file": "party/party-kids-bowling-birthday-cake-foreground-03.jpg",
+      "original": "asb-116.jpg",
+      "bucket": "people",
+      "category": "party",
+      "quality": "ok",
+      "people": "people",
+      "note": "kids bowling birthday, cake foreground"
+    },
+    {
+      "file": "seating/seating-boy-holding-bowling-ball-at-02.jpg",
+      "original": "asb-042.jpg",
+      "bucket": "people",
+      "category": "seating",
+      "quality": "ok",
+      "people": "people",
+      "note": "boy holding bowling ball at returns"
+    },
+    {
+      "file": "seating/seating-boys-and-girl-at-seating-07.jpg",
+      "original": "asb-088.jpg",
+      "bucket": "people",
+      "category": "seating",
+      "quality": "ok",
+      "people": "people",
+      "note": "two boys and girl at seating"
+    },
+    {
+      "file": "seating/seating-crowd-of-bowlers-in-concourse-03.jpg",
+      "original": "asb-052.jpg",
+      "bucket": "people",
+      "category": "seating",
+      "quality": "poor",
+      "people": "people",
+      "note": "crowd of bowlers in concourse"
+    },
+    {
+      "file": "seating/seating-family-and-girl-in-seating-09.jpg",
+      "original": "asb-108.jpg",
+      "bucket": "people",
+      "category": "seating",
+      "quality": "ok",
+      "people": "people",
+      "note": "family and girl in seating area with mural"
+    },
+    {
+      "file": "seating/seating-group-of-bowlers-01.jpg",
+      "original": "asb-024.jpg",
+      "bucket": "people",
+      "category": "seating",
+      "quality": "poor",
+      "people": "people",
+      "note": "blurry group of bowlers"
+    },
+    {
+      "file": "seating/seating-group-of-teens-seated-green-06.jpg",
+      "original": "asb-084.jpg",
+      "bucket": "people",
+      "category": "seating",
+      "quality": "ok",
+      "people": "people",
+      "note": "group of teens seated, green lighting"
+    },
+    {
+      "file": "seating/seating-group-seated-at-lanes-08.jpg",
+      "original": "asb-096.jpg",
+      "bucket": "people",
+      "category": "seating",
+      "quality": "ok",
+      "people": "people",
+      "note": "group seated at lanes"
+    },
+    {
+      "file": "seating/seating-seated-bowlers-at-returns-10.jpg",
+      "original": "asb-128.jpg",
+      "bucket": "people",
+      "category": "seating",
+      "quality": "ok",
+      "people": "people",
+      "note": "three seated bowlers at returns"
+    },
+    {
+      "file": "seating/seating-teens-seated-at-lanes-04.jpg",
+      "original": "asb-065.jpg",
+      "bucket": "people",
+      "category": "seating",
+      "quality": "ok",
+      "people": "people",
+      "note": "teens seated at lanes"
+    },
+    {
+      "file": "seating/seating-women-and-child-seated-in-05.jpg",
+      "original": "asb-081.jpg",
+      "bucket": "people",
+      "category": "seating",
+      "quality": "ok",
+      "people": "people",
+      "note": "women and child seated in seating area"
+    }
+  ]
+}
