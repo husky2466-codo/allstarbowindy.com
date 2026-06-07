@@ -1,0 +1,5 @@
+34. [GET] https://livescores.computerscore.com/wrapper.php?centre=112&seriesID=1329045&livecode=880073 => [200] 
+35. [GET] https://livescores.computerscore.com/wrapper.php?centre=112&seriesID=1329045&livecode=880073 => [200] 
+36. [GET] https://livescores.computerscore.com/wrapper.php?centre=112&seriesID=1329045&livecode=880073 => [200] 
+
+Note: 33 static requests not shown, run with "static" option to see them.

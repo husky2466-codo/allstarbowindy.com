@@ -235,6 +235,27 @@ Field notes:
 
 ---
 
+## 7a. Access asset on hand (noted 2026-06-07)
+
+We have a **working Computer Score / LiveScores login** (set up previously, tied to
+games played ~Feb 2025). This is an *access asset for the build phase*, not a
+route-changer — the recommended integration is still the no-auth public pages.
+What it confirms / enables:
+
+- **Historical data is retained.** Feb-2025 games still visible ~16 months later —
+  supports a future "season archive / past results" feature.
+- **An authenticated member view exists** alongside the public standings page, and
+  the owner has reported it appears to **live-feed** (updates without manual refresh).
+- **Use it WHEN WE BUILD, not now:** log in with DevTools → Network open to check
+  whether the authenticated view calls **clean JSON endpoints**. If it does, that
+  upgrades us from "scrape public HTML" (current plan) to "consume a structured
+  feed" — more reliable, less maintenance. This is the single most valuable thing
+  to verify at build time and partially answers open questions #1 and #3.
+- **Do NOT** wire the member login into the marketing site or broker these
+  credentials in the product (see #4). The login stays a personal diagnostic tool.
+
+---
+
 ## 8. Recommendation summary
 
 Ship **MVP 5a (branded deep-link page)** now-ish — it's free, unbreakable, and
