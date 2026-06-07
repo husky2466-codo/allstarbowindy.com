@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Logs / runtime
+*.log
+.cloudflared-local/
+
+# Node (in case a build step is added later)
+node_modules/
+dist/
+.cache/
+
+# MCP scratch
+.playwright-mcp/
+
+# Raw Google Maps scrape (source-of-truth kept locally, not in repo — 29MB, 50 people-shots + uncurated dupes)
+# Curated subset lives in public/img/reference/
+public/uploads/gmaps-photos/

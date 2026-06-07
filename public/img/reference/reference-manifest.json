@@ -1,0 +1,174 @@
+{
+  "source": "Google Maps listing (staging copies, manually curated)",
+  "criteria": "no-people venue shots; manually reviewed/reclassified; renamed <category>-NN.jpg per folder",
+  "total": 39,
+  "by_category": {
+    "arcade": 2,
+    "exterior": 4,
+    "food": 1,
+    "lanes": 18,
+    "lounge": 2,
+    "misc": 3,
+    "mural": 5,
+    "proshop": 3,
+    "scorer": 1
+  },
+  "images": [
+    {
+      "file": "arcade/arcade-01.jpg",
+      "category": "arcade"
+    },
+    {
+      "file": "arcade/arcade-02.jpg",
+      "category": "arcade"
+    },
+    {
+      "file": "exterior/exterior-01.jpg",
+      "category": "exterior"
+    },
+    {
+      "file": "exterior/exterior-02.jpg",
+      "category": "exterior"
+    },
+    {
+      "file": "exterior/exterior-03.jpg",
+      "category": "exterior"
+    },
+    {
+      "file": "exterior/exterior-04.jpg",
+      "category": "exterior"
+    },
+    {
+      "file": "food/food-01.jpg",
+      "category": "food"
+    },
+    {
+      "file": "lanes/lanes-01.jpg",
+      "category": "lanes"
+    },
+    {
+      "file": "lanes/lanes-02.jpg",
+      "category": "lanes"
+    },
+    {
+      "file": "lanes/lanes-03.jpg",
+      "category": "lanes"
+    },
+    {
+      "file": "lanes/lanes-04.jpg",
+      "category": "lanes"
+    },
+    {
+      "file": "lanes/lanes-05.jpg",
+      "category": "lanes"
+    },
+    {
+      "file": "lanes/lanes-06.jpg",
+      "category": "lanes"
+    },
+    {
+      "file": "lanes/lanes-07.jpg",
+      "category": "lanes"
+    },
+    {
+      "file": "lanes/lanes-08.jpg",
+      "category": "lanes"
+    },
+    {
+      "file": "lanes/lanes-09.jpg",
+      "category": "lanes"
+    },
+    {
+      "file": "lanes/lanes-10.jpg",
+      "category": "lanes"
+    },
+    {
+      "file": "lanes/lanes-11.jpg",
+      "category": "lanes"
+    },
+    {
+      "file": "lanes/lanes-12.jpg",
+      "category": "lanes"
+    },
+    {
+      "file": "lanes/lanes-13.jpg",
+      "category": "lanes"
+    },
+    {
+      "file": "lanes/lanes-14.jpg",
+      "category": "lanes"
+    },
+    {
+      "file": "lanes/lanes-15.jpg",
+      "category": "lanes"
+    },
+    {
+      "file": "lanes/lanes-16.jpg",
+      "category": "lanes"
+    },
+    {
+      "file": "lanes/lanes-17.jpg",
+      "category": "lanes"
+    },
+    {
+      "file": "lanes/lanes-18.jpg",
+      "category": "lanes"
+    },
+    {
+      "file": "lounge/lounge-01.jpg",
+      "category": "lounge"
+    },
+    {
+      "file": "lounge/lounge-02.jpg",
+      "category": "lounge"
+    },
+    {
+      "file": "misc/misc-01.jpg",
+      "category": "misc"
+    },
+    {
+      "file": "misc/misc-02.jpg",
+      "category": "misc"
+    },
+    {
+      "file": "misc/misc-03.jpg",
+      "category": "misc"
+    },
+    {
+      "file": "mural/mural-01.jpg",
+      "category": "mural"
+    },
+    {
+      "file": "mural/mural-02.jpg",
+      "category": "mural"
+    },
+    {
+      "file": "mural/mural-03.jpg",
+      "category": "mural"
+    },
+    {
+      "file": "mural/mural-04.jpg",
+      "category": "mural"
+    },
+    {
+      "file": "mural/mural-05.jpg",
+      "category": "mural"
+    },
+    {
+      "file": "proshop/proshop-01.jpg",
+      "category": "proshop"
+    },
+    {
+      "file": "proshop/proshop-02.jpg",
+      "category": "proshop"
+    },
+    {
+      "file": "proshop/proshop-03.jpg",
+      "category": "proshop"
+    },
+    {
+      "file": "scorer/scorer-01.jpg",
+      "category": "scorer"
+    }
+  ]
+}

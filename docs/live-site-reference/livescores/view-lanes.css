@@ -1,0 +1,84 @@
+/* ---------------------------------------------------------------------------------
+
+   Computer Score - Grid Master Stylesheet
+   Author: Pixel House
+   Website: www.pixel-house.com.au
+
+--------------------------------------------------------------------------------- */
+
+
+/* SWISS NORMAL for temporary purpose */
+
+@font-face {
+    font-family: 'Swis721LtBTLight';
+    src: url('../fonts/swz721l-webfont.eot');
+    src: url('../fonts/swz721l-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/swz721l-webfont.woff') format('woff'),
+         url('../fonts/swz721l-webfont.ttf') format('truetype'),
+         url('../fonts/swz721l-webfont.svg#Swis721LtBTLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Swis721CnBTRoman';
+    src: url('../fonts/swz721c-webfont.eot');
+    src: url('../fonts/swz721c-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/swz721c-webfont.woff') format('woff'),
+         url('../fonts/swz721c-webfont.ttf') format('truetype'),
+         url('../fonts/swz721c-webfont.svg#Swis721CnBTRoman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Swis721BTBold'; /* Normal */
+    src: url('../fonts/swz721b-webfont.eot');
+    src: url('../fonts/swz721b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/swz721b-webfont.woff') format('woff'),
+         url('../fonts/swz721b-webfont.ttf') format('truetype'),
+         url('../fonts/swz721b-webfont.svg#Swis721BTBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Swis721BlkBTBlack'; /* Heavy */
+    src: url('../fonts/swz721k-webfont.eot');
+    src: url('../fonts/swz721k-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/swz721k-webfont.woff') format('woff'),
+         url('../fonts/swz721k-webfont.ttf') format('truetype'),
+         url('../fonts/swz721k-webfont.svg#Swis721BlkBTBlack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body { margin: 0; padding: 0; font-family: 'Swis721BlkBTBlack', arial, sans-serif;   }
+h1, h2, h3, h4, h5, h6, p { margin: 0; }
+h1 { text-align: center; margin: 30px 0; font-size: 50px; }
+* { color: #fff; font-size: 30px; letter-spacing: -0.03em; text-shadow: #202020 1px 1px 2px; line-height: 30px; text-transform: capitalize; }
+* {font-size: 30px; }
+.outline { /* color: #000!important; */ opacity: .50; } 
+
+
+.bold { font-weight: bold; }
+.hide { display: none; }
+.show { display: block; }
+
+#view-lanes { float: left; width: 100%; border-collapse: collapse; margin: 0; }
+#view-lanes th { padding: 15px 20px 15px 20px; text-align: left; border-bottom: solid 2px #fff; }
+#view-lanes td { padding: 10px 20px 10px 20px; font-size: 20px; border-bottom: solid 1px #9cb2c0; }
+#view-lanes td.lane-num { white-space: nowrap; }
+#view-lanes td a { font-size: 20px; text-decoration: none; }
+#view-lanes .select a { float: right; border: solid 2px #fff; padding: 3px 15px; -moz-border-radius: 5px; border-radius: 5px; font-size: 13px; white-space: nowrap; }
+#view-lanes td.lane-names { font-weight: normal; font-family: arial, helvetica, sans-serif; }
+#view-lanes select { width: auto; font-size: 17px; text-shadow: none; color: #000!important; padding: 10px; width: 260px!important; }
+#view-lanes select * { font-size: 17px; color: #000; text-shadow: none; }
+#view-lanes finished { font-size: 20px; color: #0f0!important; text-shadow: none; }
+
+
+

@@ -1,0 +1,46 @@
+/* ---------------------------------------------------------------------------------
+
+    Administration: Bowler Login Stylesheet
+    Author: Pixel House
+
+--------------------------------------------------------------------------------- */
+
+* { font-size: 25px; }
+#wrapper { width: 90%!important; padding: 0 5%!important; margin: 0!important; }
+#black-header h1 { padding-top: 10px; }
+#black-header-inner { width: 90%!important; padding: 0 5% 0 5%!important; }
+#black-header-inner h1{ font-family: 'Arial', helvetica, sans-serif;   }
+#black-header-inner h1 span { font-family: 'Arial', helvetica, sans-serif; font-weight: normal; text-transform: uppercase; font-size: 17px; }
+#black-header #buttons { width: 100%; padding: 0; }
+#black-header #buttons .left { margin-right: 50px; padding-top: 10px; }
+#black-header #buttons h1 { float: left; padding-top: 25px; font-size: 30px; }
+form.form { float: left; width: 100%; }
+
+#login-box p.sm, #login-box .sm, #login-box .sm a, #login-box .sm strong { text-transform: none!important; font-size: 17px!important; font-family: 'Arial', helvetica, sans-serif; font-weight: normal; line-height: 24px; }
+#login-box .sm strong { font-weight: bold; }
+#login-box p.no-margin { margin-bottom: 0!important; }
+
+/* for 720px or less */
+@media screen and (max-width: 720px) {
+    * { font-size: 22px; }
+    #black-header-inner h1 { float: left; width: 90%; text-align: center; padding: 0px 5%; }
+    #black-header-inner .right img { display: none; }
+    #black-header-inner .login-logo { width: 100%; text-align: center; }
+    #black-header-inner .login-logo img { float: none; margin: 0; height: 30px; }
+    #black-header #buttons .left { margin: 0 auto; width: 100%; padding: 0; }
+    #black-header #buttons .left a { float: none; margin: 0 auto; font-size: 15px; padding: 10px 20px; }
+    #black-header .left { width: 100%; }
+    
+    #login-box { width: 90%; padding-left: 5%; padding-right: 5%; background-size: auto 200px; background-position: center 30px; padding-top: 250px; }
+    #login-box .error { font-size: 13px!important; }
+    .login-btn input { height: 36px; width: auto; }
+    
+    #view-lanes { padding: 0!important; margin: 0!important; }
+    #view-lanes label { padding: 0; margin: 0; }
+    #view-lanes td { padding: 10px; font-size: 15px!important; line-height: 22px!important; }
+    #view-lanes th { padding: 10px; }
+    #view-lanes td a { font-size: 15px!important; line-height: 22px!important; }
+
+    #mob-menu-btn { position: absolute; top: 10px; left: 20px; margin: 0;  }
+
+}

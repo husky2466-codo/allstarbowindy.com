@@ -1,0 +1,92 @@
+/*League Standings Module*/
+
+#dnnModuleDigitalAssetsSelectionToolbar {
+  min-height: 35px;
+}
+
+.LeaguesSignUp  {
+padding-left: 20px;
+padding-top: 10px;
+font-family: Oswald,sans-serif;
+color: #ffffff;
+background-color: #322679;
+}
+
+.LeaguesSignUp h2 {
+margin-bottom: 10px;
+font-family: Oswald,sans-serif;
+color: #ffffff !important;
+}
+
+
+.LeagueStandings  {
+/* margin-left: 20px;
+margin-right: 30px; */
+font-family: Oswald,sans-serif;
+color: #ffffff;
+background-color: #322679;
+}
+
+.Galore .LeagueStandings #dnn_ctr4494_View_SearchBoxPanel {
+    display: none;
+}
+
+.Galore .LeagueStandings #dnnModuleDigitalAssetsContentPane {
+    background-color: #322679;
+}
+
+.Galore .LeagueStandings #dnnModuleDigitalAssetsBreadcrumb li {
+    float: left;
+    overflow: hidden;
+	color: #666666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+    font-size: 30px;
+    color: #fff ;
+	font-family: Oswald,sans-serif;
+}
+
+.Galore .LeagueStandings #dnnModuleDigitalAssetsBreadcrumb {
+    border-left: none;
+    display: table-cell;
+    height: 42px;
+    padding-top: 4px;
+    vertical-align: middle;
+    padding-left: 6px;
+}
+
+.Galore .LeagueStandings #dnnModuleDigitalAssetsMainToolbarTitle span {
+    color: #fff;
+    font-size: 16px; 
+	font-family: Oswald,sans-serif;
+}
+
+.Galore .LeagueStandings #dnnModuleDigitalAssetsMainToolbar {
+    height: 34px;
+    padding: 0 0 5px 10px;
+    border-left: none;
+    position: relative;
+}
+
+.Galore .LeagueStandings #dnnModuleDigitalAssetsLeftPane {
+    display: none !important;
+}
+
+.Galore .LeagueStandings #dnnModuleDigitalAssetsContentPane {
+    margin-left: 0 !important;
+}
+.Galore .LeagueStandings .dnnModuleDigitalAssetItemNameTemplate {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 20px;
+}
+.Galore .LeagueStandings #dnnModuleDigitalAssetsMainToolbarTitle span {
+    display: none;
+}
+.Galore .LeagueStandings #dnnModuleDigitalAssetsMainToolbarTitle span {
+   margin-right: 110px;
+}
+/*End of League Standings Module*/

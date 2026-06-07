@@ -1,0 +1,146 @@
+/* ------------------------------------------------------------
+   LEAGUE OVERWRITE STYLES - Tweed Tenpin
+------------------------------------------------------------ */
+
+body { margin: 0; padding: 0; }
+* { font-size: 13px; line-height: 16px; letter-spacing: -0.03em; text-shadow: none!important; }
+
+#headerInner { background: none; }
+#left { width: 876px; }
+#right h3 { background: none; }
+
+#standings { float: left; width: 92%; padding: 20px 4% 50px 4%; }
+
+table { border:none; font-size: 13px; border-collapse: collapse; background: #faf0e4; color: #000; margin-top: 20px; }
+
+table td { border: solid 1px #6f94e0; padding: 5px; }
+table th { text-align: center; background: #6f94e0; padding: 5px 8px; color: #fff; /* border-top: solid 0px #423882; */ border: solid 1px #4f6dac; border-bottom: none; border-top: none; }
+table p { font-size: 1.05em; }
+
+
+#left img { margin: 0 0 15px 15px; padding: 0px; border: solid 0px #f8e0a7; }
+
+#black-header * { line-height: 30px; color: #fff; }
+#black-header h1 { text-align: left; } 
+#black-header h1 strong { font-size: 25px!important; }
+
+#black-header { float: left; width: 100%; background: #000; padding: 15px 0; z-index:1000; }
+#black-header-inner { width: 1346px; padding: 0 10px 0 30px; margin: 0 auto; }
+#black-header h1 { font-size: 45px; float: left; padding: 10px 0 0 0; margin: 0; }
+#black-header img { float: right; } 
+
+
+HR { border: none; border-top: dotted 2px #6f94e0; margin-top: 15px; }
+H1 {color: #ffffff;font-family: "Arial";text-align: center;margin-top: 0cm;margin-bottom: 20px;font-size: 20pt; }
+H2 {color: #ffffff;font-family: "Arial";margin-top: 0cm;margin-bottom: 0cm;font-size: 16pt;}
+H3 {color: #6f94e0;font-family: "Arial";margin-top: 0cm;margin-bottom: 0cm;font-size: 12pt;}
+H4 {color: #ffffff;font-family: "Arial";margin-top: 0cm;margin-bottom: 0cm;font-size: 9pt;}
+H5 {color: #ffffff;font-family: "Arial";margin-top: 0cm;margin-bottom: 0cm;font-size: 8pt;}
+H6 {color: #ffffff;font-family: "Arial";margin-top: 0cm;margin-bottom: 0cm;font-size: 8pt;}
+#standings {font-family: "Arial";  /* background: #2d2d2d; */ color: #eee; font-size: 12pt; }
+#standings p { text-align: center; }
+TABLE { font-family: "Arial"; border: none; color: #333; }
+TABLE TR th:nth-child(1) { font-size: 20px!important; line-height: 24px; }
+TABLE TH { padding: 8px 4px; text-transform: uppercase;  }
+TABLE TD { padding: 8px 4px; color=0; border: none;  border: solid 1px #6f94e0; }
+
+//caption { color: #fff; }
+
+
+A:link {text-decoration: none;font-weight: bold;color: #33F;}
+A:visited {text-decoration: none;font-weight: bold;color: #33F;}
+A:active {text-decoration: none;font-weight: bold;}
+A:hover {text-decoration: underline;color: #EC4D00;}
+A.offsite {text-decoration: none;font-weight: normal;}
+A { color: #666; }
+
+//P {font-size: 9pt;margin-top: 0cm;margin-bottom: 0cm;}
+//BR {font-size: 9pt;margin-top: 0cm;margin-bottom: 0cm;}
+
+TR.t1 {text-decoration: none;background-color: white;font-size: 9pt;}
+TR.t1e {text-decoration: none;background-color: #eff3fc;font-size: 9pt;}
+TR.t1f {text-decoration: none;background-color: #eff3fc;font-size: 9pt;}
+TR.t1h {font-family: "Arial";background-color: #eff3fc;font-size: 9pt;color: #F4F4F4;}
+TR.t2 {text-decoration: none;background-color: white;font-size: 9pt;}
+TR.t2e {text-decoration: none;background-color: #eff3fc;font-size: 9pt;}
+TR.t2f {text-decoration: none;background-color: #eff3fc;font-size: 9pt;}
+TR.t2h {font-family: "Arial";background-color: #eff3fc;font-size: 9pt;}
+TR.t3 {text-decoration: none;background-color: white;font-size: 9pt;}
+TR.t3e {text-decoration: none;background-color: #eff3fc;font-size: 9pt;}
+TR.t3f {text-decoration: none;background-color: #eff3fc;font-size: 9pt;}
+TR.t3h {font-family: "Arial";background-color: #eff3fc;font-size: 9pt;color: #F4F4F4;}
+TR.s1 {text-decoration: none;background-color: white;font-size: 8pt;}
+TR.s1e {text-decoration: none;background-color: #eff3fc;font-size: 8pt;}
+TR.s1f {text-decoration: none;background-color: #eff3fc;font-size: 8pt;}
+TR.s1h {font-family: "Arial";background-color: #eff3fc;font-size: 8pt;color: #F4F4F4;}
+TR.s2 {text-decoration: none;background-color: white;font-size: 8pt;}
+TR.s2e {text-decoration: none;background-color: #eff3fc;font-size: 8pt;}
+TR.s2f {text-decoration: none;background-color: #eff3fc;font-size: 8pt;}
+TR.s2h {font-family: "Arial";background-color: #eff3fc;font-size: 8pt;}
+TR.s3 {text-decoration: none;background-color: white;font-size: 8pt;}
+TR.s3e {text-decoration: none;background-color: #eff3fc;font-size: 8pt;}
+TR.s3f {text-decoration: none;background-color: #eff3fc;font-size: 8pt;}
+TR.s3h {font-family: "Arial";background-color: #eff3fc;font-size: 8pt;color: #F4F4F4;}
+TR.l1 {text-decoration: none;background-color: white;font-size: 12pt;}
+TR.l1e {text-decoration: none;background-color: #eff3fc;font-size: 12pt;}
+TR.l1f {text-decoration: none;background-color: #eff3fc;font-size: 12pt;}
+TR.l1h {font-family: "Arial";background-color: #D25F26;font-size: 12pt;color: #F4F4F4;}
+TR.l2 {text-decoration: none;background-color: white;font-size: 12pt;}
+TR.l2e {text-decoration: none;background-color: #FBF5DF;font-size: 12pt;}
+TR.l2f {text-decoration: none;background-color: #F8EFCD;font-size: 12pt;}
+TR.l2h {font-family: "Arial";background-color: #eff3fc;font-size: 12pt;}
+TR.l3 {text-decoration: none;background-color: white;font-size: 12pt;}
+TR.l3e {text-decoration: none;background-color: #D7FFD7;font-size: 12pt;}
+TR.l3f {text-decoration: none;background-color: #D7FFD7;font-size: 12pt;}
+TR.l3h {font-family: "Arial";background-color: #eff3fc;font-size: 12pt;color: #F4F4F4;}
+TR.v1 {text-decoration: none;background-color: white;font-size: 6pt;}
+TR.v1e {text-decoration: none;background-color: #eff3fc;font-size: 6pt;}
+TR.v1f {text-decoration: none;background-color: #eff3fc;font-size: 6pt;}
+TR.v1h {font-family: "Arial";background-color: #eff3fc;font-size: 6pt;color: #F4F4F4;}
+TR.v2 {text-decoration: none;background-color: white;font-size: 6pt;}
+TR.v2e {text-decoration: none;background-color: #eff3fc;font-size: 6pt;}
+TR.v2f {text-decoration: none;background-color: #eff3fc;font-size: 6pt;}
+TR.v2h {font-family: "Arial";background-color: #eff3fc;font-size: 6pt;}
+TR.v3 {text-decoration: none;background-color: white;font-size: 6pt;}
+TR.v3e {text-decoration: none;background-color: #eff3fc;font-size: 6pt;}
+TR.v3f {text-decoration: none;background-color: #eff3fc;font-size: 6pt;}
+TR.v3h {font-family: "Arial";background-color: #eff3fc;font-size: 6pt;color: #F4F4F4;}
+TR {text-decoration: none;text-align: center;}
+CAPTION {font-size: 9pt;margin-top: 0cm;margin-bottom: 0cm;}
+table td.LEAGUENAME { background: #b4c8ef!important; color: #000; }
+table td.LEAGUENAME a { color: #000; }
+
+TABLE {text-decoration: none;}
+
+IMG.t1graph {width: 500px; height: 250px;}
+IMG.b1graph {width: 350px; height: 175px;}
+IMG.b2graph {width: 350px; height: 175px;}
+
+/*
+#mainH1 { 
+	margin: 0 0 0.8em 0;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.65em; 
+	color: #201f1e; 
+	font-weight: normal; 
+	text-align: left;
+}
+*/
+
+
+@media screen and (max-width: 600px) {
+    #standings { float: left; width: 100%; padding: 20px 0 50px 0; }
+    #standings table td { font-size: 11px!important; line-height: 14px; }
+    #standings table th { font-size: 11px!important; }
+    #standings table TR th:nth-child(1) { font-size: 17px!important; line-height: 20px; }
+    #standings table tr th:last-child { /* word-break: break-all; */ }
+    #standings table .mob-hide { display: none; }
+}
+
+#buttons { width: 1356px; padding: 20px 10px 0 20px; margin: 0 auto; }
+#buttons .left { float: left; }
+#buttons .right { float: right; }
+#buttons .right a { margin: 0 0 0 10px; }
+
+#buttons a { float: left; font-family: 'Arial Black', helvetica, sans-serif; font-size: 24px; text-decoration: none; padding: 12px 30px; border: solid 2px #143373; background: #0a1631; -moz-border-radius: 10px; border-radius: 10px; }
+

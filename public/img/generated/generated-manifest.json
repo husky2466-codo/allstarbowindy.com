@@ -1,0 +1,182 @@
+[
+  {
+    "original": "Calzones.png",
+    "file": "menu/calzones.png",
+    "category": "menu",
+    "description": "Promo graphic for HUGE 10\" calzones showing a sliced calzone with marinara and lists of meat and veggie topping choices."
+  },
+  {
+    "original": "Cheesebreads.png",
+    "file": "menu/garlic-cheese-bread.png",
+    "category": "menu",
+    "description": "Garlic cheese bread promo showing Original, Pepperoni, and Bacon varieties on serving trays."
+  },
+  {
+    "original": "Chicken Wings TEST.png",
+    "file": "menu/chicken-wings.png",
+    "category": "menu",
+    "description": "New bone-in chicken wings promo with a plate of saucy wings and a cup of dipping sauce on a patriotic background."
+  },
+  {
+    "original": "Dessert Pizza TEST.png",
+    "file": "menu/dessert-pizza.png",
+    "category": "menu",
+    "description": "Peanut butter dessert pizzas menu showing a bacon dessert pizza, peanut butter base, and Reese's Pieces topping with prices."
+  },
+  {
+    "original": "Entree1.png",
+    "file": "menu/entree-and-side-items.png",
+    "category": "menu",
+    "description": "Menu board listing entree items (burgers, hot dogs, corn dogs) and side items (fries, nachos, mozzarella sticks) with prices, plus a basket of waffle fries."
+  },
+  {
+    "original": "GPTMegaPep.jpg",
+    "file": "menu/mega-pepperoni-pizza.jpg",
+    "category": "menu",
+    "description": "Mega Pepperoni Pizza promo, a double-decker pizza with 2 crusts, 2 layers of cheese, and 4 layers of pepperoni."
+  },
+  {
+    "original": "GPTMozzSticks.jpg",
+    "file": "menu/mozzarella-sticks.jpg",
+    "category": "menu",
+    "description": "New mozzarella sticks promo with a basket of breaded cheese sticks and marinara on a patriotic blue star background."
+  },
+  {
+    "original": "GPTNachoBaconCheesebread.jpg",
+    "file": "menu/nacho-bacon-cheesebread.jpg",
+    "category": "menu",
+    "description": "Nacho Bacon Cheesebread promo showing a round cut cheesebread loaded with nacho cheese and crispy bacon."
+  },
+  {
+    "original": "GPTPretzelBites.jpg",
+    "file": "menu/bacon-nacho-pretzel-bites.jpg",
+    "category": "menu",
+    "description": "Bacon Nacho Pretzel Bites promo, pretzel bites topped with nacho cheese and bacon, with an 'Add Jalapenos' callout."
+  },
+  {
+    "original": "GPTSpecPizzaMenu.jpg",
+    "file": "menu/specialty-pizzas-menu.jpg",
+    "category": "menu",
+    "description": "Specialty and premium specialty pizzas menu board with small/large prices and a photo of a topped pizza."
+  },
+  {
+    "original": "Waffle Sandwiches.png",
+    "file": "menu/maple-waffle-breakfast-sandwiches.png",
+    "category": "menu",
+    "description": "Maple waffle breakfast sandwiches promo showing bacon-egg-cheese and sausage-egg-cheese waffle sandwiches."
+  },
+  {
+    "original": "create your own pizza TEST.png",
+    "file": "menu/create-your-own-pizza.png",
+    "category": "menu",
+    "description": "Create Your Own Pizza menu board with pricing, topping lists, and calzone/breadstick options beside a pepperoni pizza."
+  },
+  {
+    "original": "donuts1.png",
+    "file": "menu/mini-donuts.png",
+    "category": "menu",
+    "description": "Mini Donuts promo showing fresh mini donuts with Apple Cider, Salted Caramel, and Cinnamon & Sugar flavors."
+  },
+  {
+    "original": "salads TEST.png",
+    "file": "menu/fresh-salads.png",
+    "category": "menu",
+    "description": "Fresh Salads promo featuring a Garden Salad and a Grilled Chicken Garden Salad, with a side salads note."
+  },
+  {
+    "original": "Birthday Flyer2025.png",
+    "file": "parties/birthday-party-flyer.png",
+    "category": "parties",
+    "description": "Birthday party package flyer detailing pricing, inclusions, and booking info for All Star Bowl and Beech Grove Bowl."
+  },
+  {
+    "original": "Birthday-bowling-alley.png",
+    "file": "parties/birthday-bowling-alley.png",
+    "category": "parties",
+    "description": "Photo of a birthday party scene in a bowling alley with balloons, kids, and a mother hugging her son."
+  },
+  {
+    "original": "birthdayimage1.png",
+    "file": "parties/birthday-mom-and-child.png",
+    "category": "parties",
+    "description": "Cropped birthday party photo of a mother in an orange top hugging her young son amid party balloons in the bowling alley."
+  },
+  {
+    "original": "Logo_ASB_3DS_png.png",
+    "file": "logos/logo-asb-3d.png",
+    "category": "logos",
+    "description": "Primary All Star Bowl 3DS brand logo: a red-white-and-blue shield with crossed bowling pins and a ball."
+  },
+  {
+    "original": "Birthday-logo-upscaled.png",
+    "file": "logos/beech-grove-bowl-logo-upscaled.png",
+    "category": "logos",
+    "description": "Upscaled colorful Beech Grove Bowl logo with 'Open 24 Hours' banner, music notes, and a bowling ball striking pins (filename says 'birthday' but content is the Beech Grove Bowl brand mark)."
+  },
+  {
+    "original": "birthdaylogo.png",
+    "file": "logos/beech-grove-bowl-logo.png",
+    "category": "logos",
+    "description": "Smaller version of the Beech Grove Bowl logo with music notes and bowling pins (filename says 'birthday' but content is the Beech Grove Bowl brand mark)."
+  },
+  {
+    "original": "ElevenLabs_image_nano-banana-pro_Create a fro..._2026-06-07T18_09_54.png",
+    "file": "logos/bowling-pin-mascot-poses.png",
+    "category": "logos",
+    "description": "Four-pose sheet of a cartoon bowling-pin mascot character (smiling/waving) on a transparent background; a brand mascot, not food."
+  },
+  {
+    "original": "ElevenLabs_image_nano-banana-pro_Upscale this..._2026-06-07T18_08_37.png",
+    "file": "logos/bowling-pin-mascot-waving.png",
+    "category": "logos",
+    "description": "Single upscaled cartoon bowling-pin mascot smiling and waving on a transparent background; a brand mascot, not food."
+  },
+  {
+    "original": "BAC_Rule20251.jpg",
+    "file": "info/bowlers-appreciation-club-rules.jpg",
+    "category": "info",
+    "description": "Bowlers' Appreciation Club (BAC) informational sheet with membership rates table and membership rules."
+  },
+  {
+    "original": "hours.jpg",
+    "file": "info/hours-of-operation.jpg",
+    "category": "info",
+    "description": "Hours of Operation sign listing daily open hours under the All Star Bowl logo."
+  },
+  {
+    "original": "youthbowling.jpg",
+    "file": "info/youth-bowling.jpg",
+    "category": "info",
+    "description": "Photo of young children bowling in the alley, used for youth bowling program promotion."
+  },
+  {
+    "original": "BallRack-lanes.png",
+    "file": "scenes/bowling-lanes-ball-rack.png",
+    "category": "scenes",
+    "description": "Wooden ball rack holding a row of colorful house bowling balls with the lanes and pins visible in the background."
+  },
+  {
+    "original": "Loung-Bar-Sideview.png",
+    "file": "scenes/lounge-bar-sideview.png",
+    "category": "scenes",
+    "description": "Side view of 'The Alley Lounge' bar interior with a graffiti-style mural, taps, liquor shelves, and a TV."
+  },
+  {
+    "original": "proshop-ballwall.png",
+    "file": "scenes/pro-shop-ball-wall.png",
+    "category": "scenes",
+    "description": "Pro shop display wall of bowling balls under 'New Arrivals' signage with a row of bowling bags below."
+  },
+  {
+    "original": "allstarbowl-front-building.png",
+    "file": "scenes/exterior-front-building.png",
+    "category": "scenes",
+    "description": "Exterior storefront of the building with the blue 'ALL STAR BOWL' sign and glass entrance doors at dusk."
+  },
+  {
+    "original": "ElevenLabs_image_nano-banana-pro_Fully recrea..._2026-06-07T18_55_56.png",
+    "file": "scenes/pro-shop-interior-panorama.png",
+    "category": "scenes",
+    "description": "Wide panoramic interior view of the pro shop showing the service counter, walls of bowling balls and bags, and the colorful patterned carpet."
+  }
+]
