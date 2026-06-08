@@ -116,7 +116,10 @@ function MobileCompanion() {
       <div className="halftone bowlhero-tex"></div>
       <div className="wrap mobile-grid">
         <div className="reveal mobile-copy">
-          <SectionHead light kicker="Check it on your phone" title="Know before you leave the house." sub="The same live board fits in your pocket. Glance at open lanes, tonight's wait and the day's specials — then reserve in a couple of taps before you head over." />
+          <span className="coming-soon-badge" style={{display:'inline-flex',alignItems:'center',gap:'6px',padding:'5px 12px',marginBottom:'14px',borderRadius:'999px',background:'rgba(255,184,0,.16)',border:'1px solid rgba(255,184,0,.55)',color:'#ffb800',fontFamily:'"Saira Condensed",sans-serif',fontWeight:700,fontSize:'13px',letterSpacing:'.08em',textTransform:'uppercase'}}>
+            <Icon name="info" size={14} /> Coming Soon — app in development
+          </span>
+          <SectionHead light kicker="Check it on your phone" title="Know before you leave the house." sub="The same live board is coming to your pocket. Soon you'll glance at open lanes, tonight's wait and the day's specials — then reserve in a couple of taps before you head over." />
           <ul className="mobile-list">
             <li><Icon name="check" size={18} /> Real-time open-lane count & wait</li>
             <li><Icon name="check" size={18} /> Today's specials and league takeovers</li>

@@ -1,0 +1,110 @@
+/* ============================================================
+   LOGIN PAGE (#/login) + BOWLING-BALL WIPE  (js/login.jsx)
+   ============================================================ */
+
+.login-page { background: var(--navy-900); }
+.login-split { display: grid; grid-template-columns: 1.05fr 1fr; min-height: calc(100vh - 76px); }
+
+/* ---- brand panel ---- */
+.login-brand { position: relative; overflow: hidden; background: var(--navy-900); display: flex; align-items: center; }
+.login-brand-photo { position: absolute; inset: 0; z-index: 0; pointer-events: none;
+  background:
+    linear-gradient(120deg, rgba(10,20,48,.94) 0%, rgba(10,20,48,.74) 55%, rgba(27,58,143,.55) 100%),
+    url(../img/allstar-mural.png) center / cover no-repeat; }
+.login-brand-tex { position: absolute; inset: 0; z-index: 1; opacity: .5; pointer-events: none; }
+.login-brand-in { position: relative; z-index: 2; padding: 64px clamp(36px, 6vw, 88px); max-width: 600px; }
+.login-brand-h { font-size: clamp(2.6rem, 4.6vw, 4rem); line-height: .92; color: var(--cream); margin: 30px 0 18px; }
+.login-brand-p { font-size: 1.08rem; line-height: 1.6; color: rgba(245,241,230,.86); max-width: 420px; margin-bottom: 26px; }
+.login-brand-list { display: flex; flex-direction: column; gap: 12px; }
+.login-brand-list li { display: flex; align-items: center; gap: 12px; font-family: var(--f-head); font-weight: 600; font-size: 1.02rem; color: var(--cream); }
+.login-brand-list svg { color: var(--blue-300); flex: none; }
+
+/* ---- form panel: graffiti wall (swap login-graffiti-bg.png for a hand-painted upgrade) ---- */
+.login-form-wrap { position: relative; display: grid; place-items: center; padding: 56px 24px;
+  background: linear-gradient(180deg, rgba(8,16,38,.30), rgba(8,16,38,.52)), url(../img/login-graffiti-bg.png) center / cover no-repeat, var(--navy-900); }
+/* faint sprayed divider where the two panels meet */
+.login-form-wrap::before { content: ""; position: absolute; top: 8%; bottom: 8%; left: 0; width: 2px; z-index: 1;
+  background: linear-gradient(180deg, transparent, rgba(245,180,35,.55), rgba(224,36,31,.55), transparent); }
+.login-card { position: relative; z-index: 2; width: min(424px, 100%); background: #fff; border: 2px solid rgba(245,241,230,.85);
+  border-radius: var(--r-xl); box-shadow: 0 40px 90px -30px rgba(0,0,0,.75), 0 0 0 6px rgba(10,20,48,.25); padding: 38px 34px; }
+.login-card-head { margin-bottom: 22px; }
+.login-card-h { position: relative; display: inline-block; font-family: var(--f-display); font-size: 2rem; line-height: 1; color: var(--navy-900); letter-spacing: .01em; margin-top: 4px; padding-bottom: 8px; }
+.login-card-h::after { content: ""; position: absolute; left: 1px; bottom: 0; width: 64%; height: 7px; border-radius: 6px;
+  background: var(--red-500); transform: skewX(-12deg) rotate(-1deg); opacity: .92; }
+
+.login-google { width: 100%; display: flex; align-items: center; justify-content: center; gap: 11px; height: 52px; border: 1.5px solid var(--line); border-radius: var(--r-md); background: #fff; font-family: var(--f-head); font-weight: 700; font-size: 1rem; color: var(--navy-900); transition: border-color .15s, background .15s; }
+.login-google:hover { border-color: var(--ink-mut); background: var(--paper); }
+.login-google:disabled { opacity: .7; }
+
+.login-or { display: flex; align-items: center; gap: 14px; margin: 20px 0; color: var(--ink-mut); }
+.login-or::before, .login-or::after { content: ""; height: 1px; background: var(--line); flex: 1; }
+.login-or span { font-family: var(--f-head); font-weight: 600; text-transform: uppercase; letter-spacing: .1em; font-size: .74rem; }
+
+.login-field { display: block; margin-bottom: 16px; }
+.login-label { display: block; font-family: var(--f-head); font-weight: 700; text-transform: uppercase; letter-spacing: .06em; font-size: .72rem; color: var(--ink-mut); margin-bottom: 7px; }
+.login-field input { width: 100%; height: 50px; border: 1.5px solid var(--line); border-radius: var(--r-md); padding: 0 15px; font-family: var(--f-body); font-size: 1rem; color: var(--ink); background: var(--paper); outline: none; transition: border-color .15s; }
+.login-field input:focus { border-color: var(--blue-500); background: #fff; }
+
+.login-submit { width: 100%; justify-content: center; }
+.login-submit.busy { opacity: .85; }
+.login-err { color: var(--red-600); font-family: var(--f-head); font-weight: 600; font-size: .86rem; margin: -4px 0 14px; }
+.login-fine { display: flex; align-items: flex-start; gap: 7px; font-size: .82rem; line-height: 1.5; color: var(--ink-mut); margin-top: 18px; }
+.login-fine svg { flex: none; margin-top: 2px; opacity: .7; }
+
+/* code step */
+.login-codetext { font-size: .96rem; line-height: 1.55; color: var(--ink-soft); margin-bottom: 18px; }
+.login-code { display: flex; gap: 9px; justify-content: space-between; margin-bottom: 12px; }
+.login-code-box { width: 100%; aspect-ratio: 1 / 1.15; max-width: 54px; text-align: center; font-family: var(--f-display); font-size: 1.7rem; color: var(--navy-900); border: 1.5px solid var(--line); border-radius: var(--r-md); background: var(--paper); outline: none; transition: border-color .15s, background .15s; }
+.login-code-box:focus { border-color: var(--blue-500); background: #fff; }
+.login-demohint { display: flex; align-items: center; gap: 6px; font-size: .8rem; color: var(--ink-mut); margin-bottom: 16px; }
+.login-back { display: inline-flex; align-items: center; gap: 6px; margin-top: 14px; font-family: var(--f-head); font-weight: 700; font-size: .88rem; color: var(--ink-soft); }
+.login-back:hover { color: var(--red-600); }
+
+.login-join { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line); text-align: center; font-size: .92rem; color: var(--ink-soft); }
+.login-join button { font-family: var(--f-head); font-weight: 800; color: var(--red-600); }
+.login-join button:hover { text-decoration: underline; }
+
+/* spinner (rAF-free; static ring, fine in preview) */
+.login-spin { width: 18px; height: 18px; border-radius: 50%; border: 2.5px solid rgba(10,20,48,.2); border-top-color: var(--navy-800); display: inline-block; }
+.login-spin.light { border-color: rgba(255,255,255,.4); border-top-color: #fff; }
+
+/* already-signed-in */
+.login-already { position: relative; min-height: calc(100vh - 76px); display: grid; place-content: center; justify-items: center; text-align: center; gap: 8px; padding: 60px 24px;
+  background: linear-gradient(180deg, rgba(8,16,38,.45), rgba(8,16,38,.66)), url(../img/login-graffiti-bg.png) center / cover no-repeat, var(--navy-900); }
+.login-already > * { position: relative; z-index: 1; }
+.login-already-h { font-size: clamp(2.2rem, 5vw, 3.2rem); color: var(--cream); margin-top: 14px; }
+.login-already-p { color: rgba(245,241,230,.82); font-size: 1.05rem; margin-bottom: 12px; }
+.login-already-cta { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+
+/* ============================================================
+   BOWLING-BALL WIPE OVERLAY
+   ============================================================ */
+.ballwipe { position: fixed; inset: 0; z-index: 4000; overflow: hidden; pointer-events: none; }
+.ballwipe-curtain { position: absolute; top: 0; bottom: 0; overflow: hidden;
+  background: linear-gradient(135deg, var(--navy-900), var(--blue-700) 70%, var(--blue-600)); }
+.ballwipe-tex { position: absolute; inset: 0; opacity: .35; }
+.ballwipe-stripes { position: absolute; inset: -6% -6%; opacity: .9; will-change: transform;
+  background: url(../img/wipe-confetti.png) center / cover no-repeat; }
+.ballwipe-word { position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%); text-align: center;
+  font-family: var(--f-display); font-size: clamp(1.8rem, 5vw, 3.4rem); letter-spacing: .04em; text-transform: uppercase;
+  color: var(--cream); text-shadow: 0 4px 24px rgba(0,0,0,.4); z-index: 2; }
+
+.ballwipe-ball { position: absolute; top: calc(50% - 62px); border-radius: 50%; z-index: 3;
+  background: radial-gradient(circle at 34% 28%, rgba(255,255,255,.6) 0 5%, rgba(255,255,255,0) 26%), radial-gradient(circle at 68% 74%, #0a1430 0 38%, #1b3a8f 78%, #2a5bd0 100%);
+  box-shadow: 0 18px 40px -10px rgba(0,0,0,.6), inset 0 -8px 18px rgba(0,0,0,.45); }
+.bw-ball-holes { position: absolute; inset: 0; border-radius: 50%; background:
+  radial-gradient(circle at 42% 30%, rgba(0,0,0,.6) 0 4%, transparent 4.6%),
+  radial-gradient(circle at 55% 29%, rgba(0,0,0,.6) 0 4%, transparent 4.6%),
+  radial-gradient(circle at 48% 40%, rgba(0,0,0,.6) 0 4.6%, transparent 5.2%); }
+.bw-ball-shine { position: absolute; top: 16%; left: 22%; width: 26%; height: 20%; border-radius: 50%; background: radial-gradient(circle, rgba(255,255,255,.7), rgba(255,255,255,0) 70%); }
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 900px) {
+  .login-split { grid-template-columns: 1fr; min-height: 0; }
+  .login-brand { min-height: 280px; }
+  .login-brand-in { padding: 40px clamp(28px, 6vw, 56px); }
+  .login-brand-list { display: none; }
+  .login-form-wrap { padding: 36px 20px 56px; }
+}

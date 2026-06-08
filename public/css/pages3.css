@@ -297,3 +297,51 @@
   .join-form { padding: 24px 20px; }
   .join-checks { flex-direction: column; gap: 12px; }
 }
+
+/* ============================================================
+   PARTY pricing tiers + seasonal events
+   ============================================================ */
+.ptier-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 30px; }
+.ptier-card { background: #fff; border: 1px solid var(--line); border-radius: var(--r-lg); padding: 26px 24px; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; }
+.ptier-card.featured { border-color: var(--red-500); box-shadow: 0 22px 54px -26px rgba(224,36,31,.45); position: relative; }
+.ptier-card.featured::before { content: "Most popular"; position: absolute; top: -11px; left: 24px; background: var(--red-500); color: #fff; font-family: var(--f-head); font-weight: 800; text-transform: uppercase; letter-spacing: .06em; font-size: .66rem; padding: 4px 12px; border-radius: 999px; }
+.ptier-when { font-family: var(--f-head); font-weight: 700; text-transform: uppercase; letter-spacing: .06em; font-size: .72rem; color: var(--red-600); }
+.ptier-name { font-family: var(--f-display); font-size: 1.85rem; line-height: 1; color: var(--navy-900); margin: 6px 0 18px; letter-spacing: .01em; }
+.ptier-rows { display: flex; flex-direction: column; gap: 10px; margin-top: auto; }
+.ptier-row { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 13px 15px; background: var(--paper); border-radius: var(--r-md); }
+.ptier-row span { font-family: var(--f-head); font-weight: 600; color: var(--ink-soft); font-size: 1rem; }
+.ptier-row strong { font-family: var(--f-display); font-size: 1.55rem; color: var(--navy-900); white-space: nowrap; }
+.ptier-row strong small { font-family: var(--f-head); font-weight: 600; font-size: .72rem; color: var(--ink-mut); margin-left: 3px; }
+.ptier-food { background: linear-gradient(160deg, var(--navy-800), var(--navy-900)); border-color: transparent; }
+.ptier-food .ptier-when { color: var(--gold); }
+.ptier-food .ptier-name { color: #fff; }
+.ptier-food .ptier-row { background: rgba(255,255,255,.08); }
+.ptier-food .ptier-row span { color: var(--cream); }
+.ptier-food .ptier-row strong { color: #fff; }
+.ptier-food .ptier-row strong small { color: rgba(245,241,230,.7); }
+
+.ptier-notes { display: flex; flex-wrap: wrap; gap: 12px 26px; justify-content: center; margin-top: 26px; }
+.ptier-note { display: inline-flex; align-items: center; gap: 8px; font-family: var(--f-head); font-weight: 600; font-size: .94rem; color: var(--ink-soft); }
+.ptier-note svg { color: var(--blue-600); }
+
+.ptier-corp { display: flex; align-items: center; justify-content: space-between; gap: 18px; flex-wrap: wrap; margin-top: 24px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--r-lg); padding: 22px 28px; }
+.ptier-corp strong { display: block; font-family: var(--f-head); font-weight: 700; font-size: 1.12rem; color: var(--navy-900); margin-bottom: 2px; }
+.ptier-corp span { font-size: .94rem; color: var(--ink-mut); max-width: 520px; display: block; }
+
+.pseason { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 30px; }
+.pseason-card { background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.13); border-radius: var(--r-lg); padding: 26px 24px; display: flex; flex-direction: column; }
+.pseason-ic { width: 48px; height: 48px; border-radius: 13px; display: grid; place-items: center; background: rgba(245,180,35,.16); color: var(--gold); margin-bottom: 16px; }
+.pseason-tag { font-family: var(--f-head); font-weight: 700; text-transform: uppercase; letter-spacing: .06em; font-size: .7rem; color: var(--blue-300); }
+.pseason-name { font-family: var(--f-display); font-size: 1.55rem; line-height: 1.02; color: var(--cream); margin: 4px 0 3px; }
+.pseason-when { font-family: var(--f-head); font-weight: 600; font-size: .86rem; color: rgba(245,241,230,.7); margin-bottom: 16px; }
+.pseason-price { font-size: 2.1rem; line-height: 1; color: #fff; margin-bottom: 18px; }
+.pseason-price small { font-family: var(--f-head); font-weight: 600; font-size: .8rem; color: rgba(245,241,230,.65); margin-left: 5px; }
+.pseason-pts { display: flex; flex-direction: column; gap: 9px; margin-top: auto; }
+.pseason-pt { display: flex; align-items: flex-start; gap: 8px; font-size: .92rem; color: rgba(245,241,230,.85); line-height: 1.4; }
+.pseason-pt svg { color: var(--open-bright); flex: none; margin-top: 2px; }
+
+@media (max-width: 880px) {
+  .ptier-grid { grid-template-columns: 1fr; }
+  .pseason { grid-template-columns: 1fr; }
+  .ptier-corp { flex-direction: column; align-items: flex-start; }
+}

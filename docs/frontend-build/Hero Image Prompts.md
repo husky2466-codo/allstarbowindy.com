@@ -1,7 +1,14 @@
 # Hero Banner — Image Generation Prompts
 
 Prompts for the page hero background images we still need. Written for an image
-generator (Nano Banana / Imagen / Midjourney / DALL·E — adapt phrasing as needed).
+generator (ElevenLabs image / Nano Banana / Imagen / Midjourney / DALL·E — adapt phrasing as needed).
+
+> **How these get into the site (the drop-in workflow):** generate the image (ElevenLabs is great
+> for this; or any tool/your own OpenAI·Google API), then **save it to the exact file path** named under
+> each prompt. The site references those paths already, so a generated file **overrides the current
+> art with zero code changes** — same pattern the member-zone backgrounds use below. (DesignClaude
+> can't call external image APIs from inside its build tools, so the handoff is: prompt → you generate
+> → drop the file at the named path.)
 
 ---
 
@@ -146,3 +153,42 @@ Then upscale the result to ≥2400px wide (any AI upscaler) so it's crisp full-b
 > All outputs: **8:3, 2400×900, no people, dark/clean left 45%, patriotic palette.**
 > Hand me the finished file(s) and I'll wire each into its hero with the navy-gradient
 > wash and `z-index:0` photo layer.
+
+---
+
+## 5. MEMBER ZONE — graffiti backgrounds (login page + sign-in wipe)
+
+The gated member zone is intentionally **graffiti-styled** to feel distinct from the cream/paper
+public pages. Two backgrounds power it. **Both already ship as bespoke generated textures** (made
+in-project with canvas) so the page looks finished today — these prompts are for an optional
+**hand-painted / AI upgrade**. Drop the new file at the same path and it replaces the texture
+automatically; **no code change.**
+
+### 5a. Login form-panel — graffiti wall  →  `assets/img/login-graffiti-bg.png`
+Used `background-size: cover` behind the right-hand sign-in card (and the "already signed in"
+screen). The card is a solid white panel, so the wall must stay **calmer / darker through the
+vertical center** for contrast and get busier toward the edges.
+```
+A dark navy graffiti wall, full-frame texture, no people, no readable words. Deep midnight-navy
+base (#0a1430 to #101f44). Across it: scattered spray-paint dots, bubbles and bursts, paint drips,
+bold outlined rings, and small five-point stars — in the venue's patriotic palette (red #e0241f,
+royal blue #1b3a8f, gold #f5b423, green #1f9d55, purple, orange, teal, with cream/white star
+accents). Energetic, hand-sprayed street-art feel, like the colorful dot halo around a bowling-
+alley graffiti mural. Keep a calmer, darker vertical band through the CENTER (negative space for a
+UI card); concentrate the paint toward the left and right edges. No text, no letters, no logos, no
+watermark. Square-ish, ~1500x1500 or larger, tileable-friendly, painterly but clean.
+```
+Square ~1500×1500 (crops gracefully to the tall desktop panel and the short mobile band).
+
+### 5b. Sign-in "roll" wipe — confetti  →  `assets/img/wipe-confetti.png`
+The bowling-ball wipe curtain (navy gradient) is overlaid with this. Optional to regenerate.
+```
+A wide field of colorful bowling-alley graffiti confetti on a TRANSPARENT background (PNG alpha) —
+multicolor spray-paint dots, bubbles, outlined rings and small five-point stars scattered edge to
+edge, in red, royal blue, gold, green, purple, orange, teal with cream/white star accents.
+Celebratory, hand-sprayed, evenly distributed, no large empty gaps, no text, no logos, no
+watermark. Ultra-wide, ~1680x1000, transparent background.
+```
+
+> If you'd rather keep the current in-project textures, no action needed — they're already live.
+> A generated upgrade just has to land at the path above.

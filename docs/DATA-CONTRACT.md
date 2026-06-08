@@ -16,7 +16,8 @@ Load order (in `All Star Bowl.html`): `data.js` → **`data-provider.js`** → c
 | Global | File | Powers | Status | How to make real |
 |---|---|---|---|---|
 | `window.ASB` | `js/data.js` | Hours, rates, lanes (48), leagues, BAC tiers, specials, holidays, BIZ, LiveScores endpoints, standings | **REAL** facts; **MODELLED** live occupancy (see §3) | Facts are correct. Replace the occupancy model only if a real lane feed exists. |
-| `window.ASB_DATA` | `js/data-provider.js` | **Member** + **Strike Jackpot pots** | **MOCK** (the deploy seam) | Override this one file / object. See §2. |
+| `window.ASB_DATA` | `js/data-provider.js` | **Member** (profile + captured games) + **My Bag** + **Strike Jackpot pots** | **MOCK** (the deploy seam) | Override this one file / object. See §2. |
+| `window.ASB_BALLS` | `js/ball-catalog.js` | 183-ball spec catalog (member "Browse equipment" + "My Bag" source) | **REAL** spec reference (scraped bowwwl.com, Dec 2025); specs only, no pricing | Static owned dataset. Refresh/extend from bowwwl.com later; pricing never lives here (Pro Shop owns price). |
 | `window.PROSHOP` | `js/proshop-data.js` | Pro-shop catalog (balls/bags/shoes/services) | Demo catalog | Replace with the real product dataset (same shape). |
 | `window.ASB_FIX` | `js/demo-fixtures.js` | Live Scores board + Lane-38 replay | **REAL** snapshot captured 2026-06-07 (static) | Swap for a backend that polls Computer Score `wrapper.php`/`view-lanes.php` (~5s) — same shape. See `docs/livescores-system-map.md`. |
 | `ASB.COSMIC` | `js/data.js` (`demo:true`) | Cosmic glow nights + pricing | **MOCK** (flagged) | Replace nights/prices with the owner's real values; drop `demo:true`. |
@@ -32,18 +33,33 @@ This file is 100% mock and exists to be replaced. At deploy, either replace the 
 ### 2a. `member` (member area · Tier A per `docs/MEMBER-AREA-SCOPING.md`)
 ```
 member: {
-  source: "demo",        // set "live" when a real record loads
-  name, first, id,       // (Tier A) profile
-  joined,                // (Tier A) profile
-  games,                 // (Tier A) ONLY real if captured in the ASB app
-  history: [{date,desc,games}],  // (Tier A) ONLY real if app-captured
-  tierKey: "GOLD"        // (Tier B) personal BAC tier — needs POS/loyalty; placeholder
+  source: "demo",         // set "live" when a real record loads
+  name, first, email, id, // (Tier A) profile — from Cloudflare Access in prod
+  joined,                 // (Tier A) profile  ("YYYY-MM")
+  usbcId,                 // optional; only pre-fills the bowl.com look-up, never stored
+  games: [                // (Tier A) FIRST-PARTY captured games — the headline metric source
+    { date:"YYYY-MM-DD", score, lane, league, leagueName }
+  ],
+  tierKey: "GOLD"         // (Tier B) personal BAC tier — needs POS/loyalty; placeholder only
 }
 ```
-- **`member === null` ⇒ the UI renders the EMPTY STATE** (`DashboardEmpty` in `account.jsx`) — "no games tracked yet", real Tier-A actions only, **never a fabricated number.** This is the required no-data behavior.
-- Real build: populate `member` after **Cloudflare Access** authenticates, from a **D1/KV** lookup keyed to the verified email.
-- **Do NOT ship Tier B as if real.** `tierKey` (and any points/visit/avg-trend) must be backed by the venue's systems or left out / labeled "Phase 2". The logged-out teaser (tier ladder, rate table) is generic education and stays.
-- Consumer: `js/account.jsx` `Dashboard` reads `getMember()`; renders `DashboardEmpty` if null.
+- **`member === null` OR `member.games === []` ⇒ the UI renders the EMPTY STATE** (`MemberStats` empty
+  card in `js/member-area.jsx`) — "No games tracked yet", real Tier-A actions only, **never a fabricated
+  number.** The signed-in demo toggle (`Demo data: On / Empty state`) flips `games` to `[]` to preview it.
+- All metrics (average, high game, high series, trend) are **DERIVED** from `games` in
+  `computeMetrics()` — there are no stored aggregate numbers to fake. Swap `games` for the real D1
+  capture feed and every metric recomputes.
+- Real build: populate `member` after **Cloudflare Access** authenticates (profile from the JWT email),
+  `games` from the **D1** metrics datastore the All Star Bowl phone app writes to.
+- **Do NOT ship Tier B as if real.** `tierKey` is shown only in the "Scores & More" tab as a clearly
+  **labeled "Phase 2 — pending data"** placeholder, never as the member's asserted status.
+- Consumers: `js/member-area.jsx` (`MemberStats` / `MemberArea`) read `getMember()`.
+
+### 2a-bis. `bag` (My Bag · Tier A, genuinely member-owned)
+- Accessors on `window.ASB_DATA`: `getBag()` → `[ballId,…]`, `addToBag(id)`, `removeFromBag(id)`, `inBag(id)`.
+- Ids reference `window.ASB_BALLS`. **Demo persists in `localStorage['asb_member_bag']`** (seeded once),
+  same pattern as the Pro Shop wish list; empty bag → its own honest empty state.
+- Real build: store in **Cloudflare D1/KV** keyed to the Access-verified email; keep the same 4-method API.
 
 ### 2b. `jackpot` (Strike Jackpot / Kegler's Cash pots)
 ```
@@ -66,8 +82,15 @@ jackpot: { red: 310, blue: 6916, source: "demo" }
 
 ## 4. Deploy checklist (mock → real)
 
-- [ ] Replace `window.ASB_DATA.member` with the post-Access D1 lookup; verify `null` → empty state renders (no fake stats).
-- [ ] Reframe/limit Tier B (`tierKey`, any points/visit/avg-trend) — real source or labeled Phase 2.
+- [ ] **Auth gate:** the demo `AuthStore` (`js/components.jsx`, localStorage flag) + the branded `#/login`
+      page (`js/login.jsx`) front sign-in for the mockup. In production put `/members/*` behind **Cloudflare
+      Access** (Google / email-OTP, no password); Access supplies the verified email. `AuthStore.isAuthed()`
+      ⇒ "Access authenticated" — swap it for the real gate; member DATA layer below is unchanged.
+- [ ] Replace `window.ASB_DATA.member` with the post-Access lookup: **profile** from the Access JWT,
+      **`games`** from the D1 capture feed (phone-app writes). Verify `games:[]` → empty state (no fake metrics).
+- [ ] Back **My Bag** (`getBag`/`addToBag`/`removeFromBag`/`inBag`) with D1/KV keyed to the verified email
+      (demo uses `localStorage`). Keep the 4-method API so `js/member-area.jsx` is untouched.
+- [ ] Keep Tier B (`tierKey`, any points/visit/avg-trend) labeled "Phase 2" until a real source exists.
 - [ ] Replace `window.ASB_DATA.jackpot` with the owner's real pot totals.
 - [ ] Confirm `ASB.COSMIC` glow nights + prices with the owner; drop `demo:true`.
 - [ ] Swap `window.ASB_FIX` for the live Computer Score poller (same shape) — or keep as the offline demo.
