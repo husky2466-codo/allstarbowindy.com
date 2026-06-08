@@ -135,9 +135,11 @@ function ProductDetail(props) {
               <h2 className="display ps-pdp-name">{p.name}</h2>
               <p className="ps-pdp-tag">{p.tagline}</p>
             </div>
-            {!isService ? <PriceBlock price={p.price} big /> : (
+            {isService ? (
               <div className="ps-svc-price">{p.price && p.price.sale ? <span><small className="ps-est">from est.</small> ${p.price.sale.toFixed(2)} <small>{p.price.unit}</small></span> : "Ask at the counter"}</div>
-            )}
+            ) : (p.askPrice || !(p.price && p.price.sale != null)) ? (
+              <div className="ps-ask-price">Ask at counter — confirmed on reservation</div>
+            ) : <PriceBlock price={p.price} big />}
             <p className="ps-pdp-blurb">{p.blurb}</p>
             {p.bestFor ? <p className="ps-pdp-best"><strong>Best for:</strong> {p.bestFor}</p> : null}
 
@@ -291,7 +293,41 @@ function ReserveSheet(props) {
             {err ? <p className="ps-err">{err}</p> : null}
             <div className="ps-reserve-actions">
               <button type="submit" className="btn btn-red btn-lg"><Icon name="mail" size={18} /> Send request</button>
+              {items.length ? (
+                <button type="button" className="btn btn-ghost btn-lg" style={{ color: "var(--navy-800)" }}
+                  onClick={function () { window.print(); }}><Icon name="info" size={17} /> Print reservation</button>
+              ) : null}
               <a className="btn btn-ghost btn-lg" style={{ color: "var(--navy-800)" }} href={ASB.BIZ.phoneHref}><Icon name="phone" size={17} /> Or call the shop</a>
+            </div>
+
+            {/* Print-only reservation sheet (hidden on screen; @media print reveals it) */}
+            <div className="ps-print-sheet" aria-hidden="true">
+              <div className="ps-print-head">
+                <strong>All Star Bowl — Pro Shop reservation</strong>
+                <span>{ASB.BIZ.address}</span>
+                <span>{ASB.BIZ.phone} · {ASB.BIZ.email}</span>
+              </div>
+              <p className="ps-print-note">This is a reservation request, not a purchase. Pricing and availability are confirmed at the counter.</p>
+              <table className="ps-print-list">
+                <thead><tr><th>Item</th><th>Brand</th><th>Specs</th><th>Price</th></tr></thead>
+                <tbody>
+                  {items.map(function (it) {
+                    var sp = it.specs || {};
+                    var specStr = [sp.Coverstock, sp.Core, sp.RG ? "RG " + sp.RG : null, sp.Differential ? "Diff " + sp.Differential : null]
+                      .filter(Boolean).join(" · ");
+                    var pr = it.price && it.price.sale != null ? "$" + it.price.sale.toFixed(2) + (it.price.estimate ? " est." : "") : "Ask at counter";
+                    return (
+                      <tr key={it.id}>
+                        <td>{it.name}</td>
+                        <td>{it.brand && it.brand !== "—" ? it.brand : ""}</td>
+                        <td>{specStr}</td>
+                        <td>{pr}</td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+              <p className="ps-print-foot">Name: {name || "____________"} · Phone: {phone || "____________"}{email ? " · " + email : ""}</p>
             </div>
           </form>
         )}
@@ -319,7 +355,9 @@ function ProductCard(props) {
         <div className="ps-card-foot">
           {p.category === "services"
             ? <span className="ps-card-svc">{p.price && p.price.sale ? "from est. $" + p.price.sale.toFixed(0) : "Ask us"}</span>
-            : <PriceBlock price={p.price} />}
+            : (p.askPrice || !(p.price && p.price.sale != null))
+              ? <span className="ps-card-ask">Ask at counter</span>
+              : <PriceBlock price={p.price} />}
           <button className={"ps-add" + (inList ? " on" : "")} aria-label={inList ? "On your list" : "Add to list"}
             onClick={function (e) { e.stopPropagation(); wish.toggle(p.id); }}>
             <Icon name={inList ? "check" : "plus"} size={17} />

@@ -1,0 +1,22 @@
+{
+  "_note": "Per-node PSV marker positions for the pro-shop 360 walk-in. yaw/pitch are in RADIANS (PSV markers-plugin position:{yaw,pitch}). Each ball-wall productId is a real id in proshop-catalog.json (389 spec'd balls); counter/entry items reference curated ids in proshop-data.js. Positions are an even fan across each pano's horizontal field and are TUNABLE — a human browser pass is needed to seat each marker on the actual wall fixture. See proshop-walkin.jsx.",
+  "ball-wall": [
+    { "id": "wall-1", "productId": "storm-physix-genesis", "yaw": -1.18, "pitch": 0.06 },
+    { "id": "wall-2", "productId": "hammer-spawn", "yaw": -0.84, "pitch": -0.04 },
+    { "id": "wall-3", "productId": "roto-grip-gremlin-tour-x", "yaw": -0.5, "pitch": 0.08 },
+    { "id": "wall-4", "productId": "brunswick-infinity-quest-pearl", "yaw": -0.16, "pitch": -0.02 },
+    { "id": "wall-5", "productId": "storm-code-crush", "yaw": 0.18, "pitch": 0.07 },
+    { "id": "wall-6", "productId": "hammer-black-widow-toxin-pearl", "yaw": 0.52, "pitch": -0.03 },
+    { "id": "wall-7", "productId": "motiv-venom-hysteria", "yaw": 0.86, "pitch": 0.05 },
+    { "id": "wall-8", "productId": "dv8-heckler-taunt", "yaw": 1.2, "pitch": -0.01 }
+  ],
+  "counter": [
+    { "id": "counter-1", "productId": "service-drill-fit", "yaw": -0.3, "pitch": -0.02 },
+    { "id": "counter-2", "productId": "service-resurface", "yaw": 0.34, "pitch": -0.05 },
+    { "id": "counter-3", "productId": "reacta-clean-8oz", "yaw": 0.95, "pitch": 0.04 }
+  ],
+  "entry": [
+    { "id": "entry-1", "productId": "vise-tote-3ball", "yaw": 0.7, "pitch": -0.06 },
+    { "id": "entry-2", "productId": "dexter-sst8-boa", "yaw": -0.65, "pitch": -0.04 }
+  ]
+}

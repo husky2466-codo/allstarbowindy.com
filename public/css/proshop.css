@@ -511,3 +511,161 @@
 @media (prefers-reduced-motion: reduce) {
   .ps-modal, .ps-modal-card { animation: none; }
 }
+
+/* ============================================================
+   PRO SHOP — Real-photo 360 walk-in (Photo Sphere Viewer v5)
+   Reuses the carpet palette + chrome tokens from the top of this
+   file. Replaces the legacy stylized .wk-* scene tour.
+   ============================================================ */
+.wk360 {
+  background: linear-gradient(180deg, #0b1226, #070d1d);
+  border-radius: var(--r-xl);
+  box-shadow: inset 0 0 0 1px rgba(245,241,230,.1), 0 24px 60px -30px rgba(0,0,0,.7);
+  overflow: hidden;
+}
+
+/* top bar */
+.wk360-top {
+  display: flex; align-items: center; gap: 16px;
+  padding: 16px 18px; border-bottom: 1px solid rgba(245,241,230,.1);
+  background: rgba(7,13,29,.6);
+}
+.wk360-zone { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
+.wk360-zone-n { font-family: var(--f-head); font-weight: 700; text-transform: uppercase; letter-spacing: .12em; font-size: .68rem; color: var(--blue-300); }
+.wk360-zone-name { font-family: var(--f-display); text-transform: uppercase; font-size: 1.2rem; letter-spacing: .01em; line-height: 1; color: var(--cream); }
+.wk360-zone-sub { font-size: .8rem; color: rgba(245,241,230,.6); }
+
+.wk360-strip { display: flex; gap: 8px; margin-left: auto; flex-wrap: wrap; }
+.wk360-chip {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 8px 13px; border-radius: 999px;
+  background: rgba(245,241,230,.07); color: rgba(245,241,230,.8);
+  font-family: var(--f-head); font-weight: 700; text-transform: uppercase; letter-spacing: .05em; font-size: .76rem;
+  box-shadow: inset 0 0 0 1px rgba(245,241,230,.12);
+  transition: transform .15s var(--ease-back), background .2s, color .2s, box-shadow .2s;
+}
+.wk360-chip-n {
+  display: inline-grid; place-items: center; width: 18px; height: 18px; border-radius: 50%;
+  background: rgba(245,241,230,.16); font-size: .72rem;
+}
+.wk360-chip:hover { transform: translateY(-2px); color: var(--cream); }
+.wk360-chip.done { background: rgba(40,196,106,.16); color: var(--open-bright, #38d97a); box-shadow: inset 0 0 0 1px rgba(40,196,106,.45); }
+.wk360-chip.active { background: linear-gradient(135deg, var(--carpet-pink), var(--carpet-purple)); color: #fff; box-shadow: 0 6px 18px -6px var(--carpet-pink); }
+.wk360-chip.active .wk360-chip-n { background: rgba(255,255,255,.28); }
+
+.wk360-exit {
+  display: inline-flex; align-items: center; gap: 8px; padding: 9px 15px; border-radius: 999px;
+  background: rgba(255,255,255,.1); color: var(--cream);
+  font-family: var(--f-head); font-weight: 700; text-transform: uppercase; letter-spacing: .05em; font-size: .76rem;
+  transition: background .2s; white-space: nowrap;
+}
+.wk360-exit:hover { background: rgba(255,255,255,.2); }
+
+/* stage + canvas */
+.wk360-stage { position: relative; height: min(70vh, 640px); background: #05080f; }
+.wk360-canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+.wk360-canvas .psv-container { background: #05080f; }
+
+/* PSV markers — glowing pin on the wall */
+.wk-pin { position: relative; display: block; width: 30px; height: 30px; cursor: pointer; }
+.wk-pin-dot {
+  position: absolute; top: 50%; left: 50%; width: 14px; height: 14px; transform: translate(-50%,-50%);
+  border-radius: 50%; background: var(--carpet-pink, #ff4fa3);
+  box-shadow: 0 0 0 3px rgba(255,255,255,.85), 0 0 16px 3px rgba(255,79,163,.8);
+}
+.wk-pin-ring {
+  position: absolute; top: 50%; left: 50%; width: 30px; height: 30px; transform: translate(-50%,-50%);
+  border-radius: 50%; border: 2px solid rgba(255,79,163,.7);
+  animation: wkPinPulse 1.8s ease-out infinite;
+}
+@keyframes wkPinPulse {
+  0% { transform: translate(-50%,-50%) scale(.6); opacity: .9; }
+  100% { transform: translate(-50%,-50%) scale(1.7); opacity: 0; }
+}
+
+/* overlays (loading / fail) */
+.wk360-overlay {
+  position: absolute; inset: 0; z-index: 4; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 16px; text-align: center; padding: 30px;
+  background: radial-gradient(circle at 50% 40%, rgba(11,18,38,.6), rgba(5,8,15,.95));
+  color: var(--cream);
+}
+.wk360-overlay p { max-width: 30ch; color: rgba(245,241,230,.85); }
+.wk360-spinner {
+  width: 42px; height: 42px; border-radius: 50%;
+  border: 3px solid rgba(245,241,230,.2); border-top-color: var(--carpet-pink, #ff4fa3);
+  animation: wkSpin .9s linear infinite;
+}
+@keyframes wkSpin { to { transform: rotate(360deg); } }
+.wk360-fail-ic { display: inline-grid; place-items: center; width: 52px; height: 52px; border-radius: 50%; background: rgba(255,79,163,.16); color: var(--carpet-pink, #ff4fa3); }
+
+/* caption pill */
+.wk360-caption {
+  position: absolute; left: 50%; bottom: 16px; transform: translateX(-50%); z-index: 5;
+  display: inline-flex; align-items: center; gap: 9px; max-width: min(92%, 640px);
+  padding: 10px 16px; border-radius: 999px;
+  background: rgba(7,13,29,.78); color: rgba(245,241,230,.92); font-size: .86rem;
+  box-shadow: inset 0 0 0 1px rgba(245,241,230,.14); backdrop-filter: blur(6px);
+}
+.wk360-caption svg { color: var(--carpet-cyan, #28d3e0); flex: none; }
+
+/* prev / next node nav */
+.wk360-nav {
+  position: absolute; top: 50%; transform: translateY(-50%); z-index: 5;
+  width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center;
+  background: rgba(7,13,29,.7); color: var(--cream); box-shadow: inset 0 0 0 1px rgba(245,241,230,.2);
+  transition: transform .15s var(--ease-back), background .2s;
+}
+.wk360-nav--prev { left: 14px; }
+.wk360-nav--next { right: 14px; }
+.wk360-nav:hover:not(:disabled) { transform: translateY(-50%) scale(1.1); background: rgba(7,13,29,.92); }
+.wk360-nav:disabled { opacity: 0; pointer-events: none; }
+
+/* footer: disclaimer + cart/reserve */
+.wk360-foot {
+  display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+  padding: 16px 18px; border-top: 1px solid rgba(245,241,230,.1); background: rgba(7,13,29,.6);
+}
+.wk360-disclaimer { display: inline-flex; align-items: center; gap: 8px; margin: 0; font-size: .82rem; color: rgba(245,241,230,.68); flex: 1 1 280px; }
+.wk360-disclaimer svg { color: var(--carpet-cyan, #28d3e0); flex: none; }
+.wk360-foot-actions { display: inline-flex; gap: 10px; margin-left: auto; }
+
+/* "Ask at counter" price (catalog balls carry no invented price) */
+.ps-ask-price { font-family: var(--f-head); font-weight: 700; text-transform: uppercase; letter-spacing: .04em; font-size: .92rem; color: var(--navy-800); }
+.ps-card-ask { font-family: var(--f-head); font-weight: 700; text-transform: uppercase; letter-spacing: .03em; font-size: .76rem; color: var(--navy-600, #3a4a72); }
+
+@media (max-width: 720px) {
+  .wk360-top { flex-wrap: wrap; gap: 12px; }
+  .wk360-exit { order: 3; }
+  .wk360-strip { margin-left: 0; width: 100%; }
+  .wk360-chip-name { display: none; }
+  .wk360-stage { height: min(64vh, 520px); }
+  .wk360-foot-actions { margin-left: 0; width: 100%; }
+  .wk360-foot-actions .btn { flex: 1; justify-content: center; }
+}
+
+/* ---------- Print: reservation sheet ---------- */
+.ps-print-sheet { display: none; }
+@media print {
+  body * { visibility: hidden; }
+  .ps-modal, .ps-modal-card, .ps-reserve { position: static !important; background: #fff !important; box-shadow: none !important; }
+  .ps-print-sheet, .ps-print-sheet * { visibility: visible; }
+  .ps-print-sheet {
+    display: block; position: absolute; left: 0; top: 0; width: 100%;
+    color: #111; font-size: 12pt; padding: 24px;
+  }
+  .ps-print-head { display: flex; flex-direction: column; gap: 2px; margin-bottom: 10px; }
+  .ps-print-head strong { font-size: 16pt; }
+  .ps-print-note { font-style: italic; margin: 6px 0 14px; }
+  .ps-print-list { width: 100%; border-collapse: collapse; }
+  .ps-print-list th, .ps-print-list td { border: 1px solid #999; padding: 6px 8px; text-align: left; vertical-align: top; }
+  .ps-print-list th { background: #eee; }
+  .ps-print-foot { margin-top: 14px; }
+  /* hide interactive chrome */
+  .ps-modal-x, .ps-reserve-actions, .ps-reserve-form > .kicker, .ps-reserve-title, .ps-reserve-lead, .ps-field, .ps-field-row, .ps-reserve-items, .ps-reserve-empty, .ps-err { display: none !important; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wk-pin-ring { animation: none; }
+  .wk360-spinner { animation-duration: 1.6s; }
+}
