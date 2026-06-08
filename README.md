@@ -8,8 +8,14 @@ Real business content + full audit of the existing site:
 
 ## Status
 
-Receiving an externally-built static mockup. No build step — the mockup is plain
-HTML/CSS + in-browser JSX (React via CDN/Babel), served as static files.
+**Frontend integrated.** The DesignClaude build is in `public/` and serves as the live demo
+(static, no build step — plain HTML/CSS + in-browser JSX via React/Babel CDN). ~14 pages
+(Home, Bowl, Cosmic, Leagues, Live Scores, Eat, Specials, Parties, Rewards, Pro Shop, Join,
+Win Cash, Contact, Legal) plus a time-aware live-status engine and a no-backend LiveScores demo.
+
+Deploy seam: dynamic/member data flows through `public/js/data-provider.js` (`window.ASB_DATA`) —
+swap mock → real in one file, never in components. Full map: [`docs/DATA-CONTRACT.md`](docs/DATA-CONTRACT.md).
+Build provenance (DC's handoff, CLAUDE.md, prompts): [`docs/frontend-build/`](docs/frontend-build/).
 
 ## Folder structure
 
