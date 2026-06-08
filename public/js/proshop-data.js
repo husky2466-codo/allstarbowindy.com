@@ -339,7 +339,10 @@
      We do NOT have the real 360 panos (gitignored), so this is an
      honest STYLIZED walk-in: discrete scene nodes you "walk" between,
      built from the real zone map in proshop-spec/01 §8. Each node lists
-     which product ids surface as wall hotspots (a curated subset). */
+     which product ids surface as wall hotspots (a curated subset).
+     NOTE: the PSV 360 walk-in (proshop-walkin.jsx) sources its markers
+     from public/data/proshop-hotspots.json, not from TOUR. TOUR is kept
+     here for the legacy stylized-tour data shape and as a fallback. */
   var TOUR = [
     {
       id: "door", name: "Front Door", sub: "Step inside off the concourse",
@@ -363,8 +366,51 @@
     }
   ];
 
-  var byId = {};
-  PRODUCTS.forEach(function (p) { byId[p.id] = p; });
+  /* ---- New Arrivals wall: slot -> productId references ----
+     The 360 walk-in's ball wall sources REAL spec'd balls from the
+     enriched catalog (public/data/proshop-catalog.json) by id. Swapping
+     a productId here (and in proshop-hotspots.json) re-stocks a wall slot
+     with no geometry edits. Every id below is verified to resolve against
+     the enriched catalog (see scripts/verify-proshop-ids.* check). */
+  var WALL = [
+    { slotId: "wall-1", productId: "storm-physix-genesis" },
+    { slotId: "wall-2", productId: "hammer-spawn" },
+    { slotId: "wall-3", productId: "roto-grip-gremlin-tour-x" },
+    { slotId: "wall-4", productId: "brunswick-infinity-quest-pearl" },
+    { slotId: "wall-5", productId: "storm-code-crush" },
+    { slotId: "wall-6", productId: "hammer-black-widow-toxin-pearl" },
+    { slotId: "wall-7", productId: "motiv-venom-hysteria" },
+    { slotId: "wall-8", productId: "dv8-heckler-taunt" }
+  ];
+
+  /* Tag every curated record with a `kind` so the cart / card know how to
+     render it (balls vs. flat goods vs. service). Catalog balls already
+     carry kind:"ball" from proshop-catalog.js. */
+  PRODUCTS.forEach(function (p) {
+    if (!p.kind) {
+      p.kind = p.category === "balls" ? "ball"
+        : p.category === "services" ? "service"
+          : "good";
+    }
+  });
+
+  /* Curated (non-catalog) items keyed by id for fast lookup. */
+  var curatedById = {};
+  PRODUCTS.forEach(function (p) { curatedById[p.id] = p; });
+
+  /* byId resolves BOTH the curated hardcoded items AND the enriched
+     catalog balls. Curated wins on id collision (hand-authored copy).
+     For a catalog ball we delegate to ProShopCatalog (loaded as a plain
+     <script> before this file's consumers run). If the catalog hasn't
+     resolved yet, this returns null for that id until ProShopCatalog.ready
+     fires — walk-in waits on that promise before rendering markers. */
+  function byId(id) {
+    if (curatedById[id]) return curatedById[id];
+    if (window.ProShopCatalog && typeof window.ProShopCatalog.byId === "function") {
+      return window.ProShopCatalog.byId(id);
+    }
+    return null;
+  }
 
   window.PROSHOP = {
     HOURS: HOURS,
@@ -373,7 +419,8 @@
     CATEGORIES: CATEGORIES,
     BALL_FILTERS: BALL_FILTERS,
     TOUR: TOUR,
-    byId: function (id) { return byId[id]; },
+    WALL: WALL,
+    byId: byId,
     disclaimer: "Representative pricing for demo — not live inventory. Only Vise is a confirmed in-store brand; all other brands, models and prices are examples. This is a wish list, not a store: come see us to buy."
   };
 })();

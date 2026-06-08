@@ -26,6 +26,27 @@
   <link rel="stylesheet" href="css/cosmic.css" />
   <link rel="stylesheet" href="css/mascot.css" />
 
+  <!-- Photo Sphere Viewer v5 (pro-shop 360 walk-in). ESM-only, so we
+       bridge it to the Babel-standalone site: an importmap + a module
+       script import PSV and stash the classes on window.__PSV, then
+       dispatch 'psv-ready'. proshop-walkin.jsx reads window.__PSV at
+       runtime (awaiting the event if the module hasn't resolved yet). -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core@5.14.1/index.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/markers-plugin@5.14.1/index.min.css" />
+  <script type="importmap">
+  { "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.179.0/build/three.module.js",
+    "@photo-sphere-viewer/core": "https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core@5.14.1/index.module.js",
+    "@photo-sphere-viewer/markers-plugin": "https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/markers-plugin@5.14.1/index.module.js"
+  }}
+  </script>
+  <script type="module">
+    import { Viewer } from '@photo-sphere-viewer/core';
+    import { MarkersPlugin } from '@photo-sphere-viewer/markers-plugin';
+    window.__PSV = { Viewer, MarkersPlugin };
+    window.dispatchEvent(new Event('psv-ready'));
+  </script>
+
   <style>
     #root { min-height: 100vh; }
     .page-anim { animation: pageIn .45s var(--ease); }
@@ -44,6 +65,7 @@
 
   <script src="js/data.js"></script>
   <script src="js/data-provider.js"></script>
+  <script src="js/proshop-catalog.js"></script>
   <script src="js/proshop-data.js"></script>
   <script src="js/ball-catalog.js"></script>
   <script src="js/image-slot.js"></script>
