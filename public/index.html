@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Star Bowl — Indianapolis</title>
+  <meta name="description" content="All Star Bowl — 48-lane family bowling center on the east side of Indianapolis. Bowling, sports bar, cafe, pro shop, parties, leagues." />
+
+  <!-- Stylesheets (load order: base -> components -> page styles) -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="stylesheet" href="css/pages.css" />
+
+  <!-- React + Babel via CDN (no build step — JSX is transpiled in-browser).
+       Pinned to React 18 UMD + Babel standalone. For a real build later,
+       swap these for a Vite/npm setup. -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+  <div id="root">
+    <!-- React mounts here. This fallback shows if JS is disabled or fails. -->
+    <noscript>All Star Bowl — please enable JavaScript to view this site. Call (317) 352-1848.</noscript>
+  </div>
+
+  <!-- App data first, then shared components, then per-page views, then the app entry.
+       type="text/babel" tells Babel-standalone to transpile the JSX at runtime.
+       data-presets ensures React preset is applied. -->
+  <script src="js/data.js"></script>
+  <script type="text/babel" data-presets="react" src="js/components.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/home.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/bowl.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/eat.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/leagues.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/parties.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/account.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/status.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/app.jsx"></script>
+</body>
+</html>
