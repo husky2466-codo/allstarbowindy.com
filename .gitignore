@@ -22,3 +22,6 @@ dist/
 # Raw Google Maps scrape (source-of-truth kept locally, not in repo — 29MB, 50 people-shots + uncurated dupes)
 # Curated subset lives in public/img/reference/
 public/uploads/gmaps-photos/
+
+# Generated 3D models (regenerable intermediates, kept local — large binaries)
+public/uploads/3d/
