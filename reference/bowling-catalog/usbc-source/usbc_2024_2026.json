@@ -1,0 +1,3976 @@
+{
+  "source": "USBC Approved Ball List",
+  "sourceUrl": "https://bowl.com/getmedia/8b570e80-761c-4486-8628-9d50d718dd60/approved_balllist_CURRENT.pdf",
+  "listDate": "2026-06-02",
+  "window": "2024-2026",
+  "note": "name+brand+approval date only; specs (RG/diff/core) to be enriched separately",
+  "count": 661,
+  "balls": [
+    {
+      "brand": "900 Global",
+      "name": "Alibi",
+      "dateApproved": "2025-11",
+      "year": 2025
+    },
+    {
+      "brand": "900 Global",
+      "name": "Auto Gear Matic",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "900 Global",
+      "name": "Cove",
+      "dateApproved": "2025-07",
+      "year": 2025
+    },
+    {
+      "brand": "900 Global",
+      "name": "Cruise Control",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "900 Global",
+      "name": "Cruise GPT",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "900 Global",
+      "name": "Cruise (PC) Purple/Copper",
+      "dateApproved": "2026-06",
+      "year": 2026
+    },
+    {
+      "brand": "900 Global",
+      "name": "Duty Majesty",
+      "dateApproved": "2024-11",
+      "year": 2024
+    },
+    {
+      "brand": "900 Global",
+      "name": "Ember",
+      "dateApproved": "2025-07",
+      "year": 2025
+    },
+    {
+      "brand": "900 Global",
+      "name": "Eternity Fusion",
+      "dateApproved": "2024-08",
+      "year": 2024
+    },
+    {
+      "brand": "900 Global",
+      "name": "Gear 300 Formula",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "900 Global",
+      "name": "Gear Mark",
+      "dateApproved": "2026-04",
+      "year": 2026
+    },
+    {
+      "brand": "900 Global",
+      "name": "Global Onyx Clear",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "900 Global",
+      "name": "Harsh Reality",
+      "dateApproved": "2024-01",
+      "year": 2024
+    },
+    {
+      "brand": "900 Global",
+      "name": "Harsh Reality Pearl",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "900 Global",
+      "name": "HB (Honey Badger) BE (Black Edition)",
+      "dateApproved": "2025-07",
+      "year": 2025
+    },
+    {
+      "brand": "900 Global",
+      "name": "HB (Honey Badger) Blameless",
+      "dateApproved": "2024-12",
+      "year": 2024
+    },
+    {
+      "brand": "900 Global",
+      "name": "HB (Honey Badger) Renewal",
+      "dateApproved": "2024-07",
+      "year": 2024
+    },
+    {
+      "brand": "900 Global",
+      "name": "HB (Honey Badger) Ruddy",
+      "dateApproved": "2024-10",
+      "year": 2024
+    },
+    {
+      "brand": "900 Global",
+      "name": "HB (Honey Badger) Wine Pearl",
+      "dateApproved": "2026-04",
+      "year": 2026
+    },
+    {
+      "brand": "900 Global",
+      "name": "Honey Badger Black U78",
+      "dateApproved": "2025-12",
+      "year": 2025
+    },
+    {
+      "brand": "900 Global",
+      "name": "Honey Badger II Urethane",
+      "dateApproved": "2025-12",
+      "year": 2025
+    },
+    {
+      "brand": "900 Global",
+      "name": "Lumen",
+      "dateApproved": "2025-11",
+      "year": 2025
+    },
+    {
+      "brand": "900 Global",
+      "name": "Mach Cruise",
+      "dateApproved": "2025-07",
+      "year": 2025
+    },
+    {
+      "brand": "900 Global",
+      "name": "Origin",
+      "dateApproved": "2024-10",
+      "year": 2024
+    },
+    {
+      "brand": "900 Global",
+      "name": "Origin Black Pearl",
+      "dateApproved": "2026-04",
+      "year": 2026
+    },
+    {
+      "brand": "900 Global",
+      "name": "Origin EX",
+      "dateApproved": "2025-03",
+      "year": 2025
+    },
+    {
+      "brand": "900 Global",
+      "name": "Perfect Reality",
+      "dateApproved": "2026-05",
+      "year": 2026
+    },
+    {
+      "brand": "900 Global",
+      "name": "Phantom Cruise",
+      "dateApproved": "2025-12",
+      "year": 2025
+    },
+    {
+      "brand": "900 Global",
+      "name": "Reality Incursion",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "900 Global",
+      "name": "Remaster HB (Honey Badger)",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "900 Global",
+      "name": "Rev Matrix",
+      "dateApproved": "2025-01",
+      "year": 2025
+    },
+    {
+      "brand": "900 Global",
+      "name": "Rev Matrix II",
+      "dateApproved": "2025-11",
+      "year": 2025
+    },
+    {
+      "brand": "900 Global",
+      "name": "Sublime Focus",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "900 Global",
+      "name": "Vengeance",
+      "dateApproved": "2025-12",
+      "year": 2025
+    },
+    {
+      "brand": "900 Global",
+      "name": "Vengeance Returns",
+      "dateApproved": "2026-06",
+      "year": 2026
+    },
+    {
+      "brand": "900 Global",
+      "name": "Viking",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "900 Global",
+      "name": "Viking Conquest",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "900 Global",
+      "name": "Vintage Gem",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "900 Global",
+      "name": "Wolverine Wrath",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "900 Global",
+      "name": "Zen 25",
+      "dateApproved": "2024-12",
+      "year": 2024
+    },
+    {
+      "brand": "900 Global",
+      "name": "Zen Re-Loaded",
+      "dateApproved": "2024-03",
+      "year": 2024
+    },
+    {
+      "brand": "ABS",
+      "name": "ABS 60th Anniversary",
+      "dateApproved": "2024-07",
+      "year": 2024
+    },
+    {
+      "brand": "ABS",
+      "name": "ABS 60th Anniversary (Tricolor)",
+      "dateApproved": "2024-12",
+      "year": 2024
+    },
+    {
+      "brand": "ABS",
+      "name": "BARBAPAPA (All Colors)",
+      "dateApproved": "2026-05",
+      "year": 2026
+    },
+    {
+      "brand": "ABS",
+      "name": "Godzilla Minus One",
+      "dateApproved": "2025-01",
+      "year": 2025
+    },
+    {
+      "brand": "ABS",
+      "name": "Heki Channel",
+      "dateApproved": "2025-12",
+      "year": 2025
+    },
+    {
+      "brand": "ABS",
+      "name": "Nanodesu Accu-Drive IV",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "ABS",
+      "name": "Nanodesu Accu-Drive V",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "ABS",
+      "name": "Nanodesu Accu-Drive VI",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "ABS",
+      "name": "Nanodesu Accu-Line Tour Premium U (78) Pearl",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "ABS",
+      "name": "Nanodesu Accu-Line Tour Premium U (78) Solid",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "ABS",
+      "name": "Nanodesu Accu-Line Tour Premium VIII",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "ABS",
+      "name": "Nanodesu Accu-Line Tour Premium IX",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "ABS",
+      "name": "Nanodesu Accu-Line Tour Premium Intel II",
+      "dateApproved": "2025-07",
+      "year": 2025
+    },
+    {
+      "brand": "ABS",
+      "name": "Nanodesu Max Grasp",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "ABS",
+      "name": "PRO-am Elite Performer",
+      "dateApproved": "2025-03",
+      "year": 2025
+    },
+    {
+      "brand": "ABS",
+      "name": "PRO-am Elite Performer Hybrid",
+      "dateApproved": "2025-08",
+      "year": 2025
+    },
+    {
+      "brand": "ABS",
+      "name": "PRO-am Flex Zone",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "ABS",
+      "name": "PRO-am Flex Zone Solid",
+      "dateApproved": "2025-08",
+      "year": 2025
+    },
+    {
+      "brand": "ABS",
+      "name": "PRO-am Majority Ace",
+      "dateApproved": "2024-07",
+      "year": 2024
+    },
+    {
+      "brand": "ABS",
+      "name": "PRO-am Speed Striker",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "ABS",
+      "name": "PRO-am Speed Striker Pearl",
+      "dateApproved": "2025-07",
+      "year": 2025
+    },
+    {
+      "brand": "ABS",
+      "name": "Turkey",
+      "dateApproved": "2025-07",
+      "year": 2025
+    },
+    {
+      "brand": "ABS",
+      "name": "Ultra Bend LV 4.0",
+      "dateApproved": "2024-10",
+      "year": 2024
+    },
+    {
+      "brand": "ABS",
+      "name": "Ultra Bend LV 6.0",
+      "dateApproved": "2024-10",
+      "year": 2024
+    },
+    {
+      "brand": "Bowl",
+      "name": "Star                          Bowl Star",
+      "dateApproved": "2025-01",
+      "year": 2025
+    },
+    {
+      "brand": "Bowling",
+      "name": "Mania           Bowling Mania (Spare) (All Colors)",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Bowling",
+      "name": "Mania             Thumbless Spare (All Colors)",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Bowling",
+      "name": "Mania              Two Hand Spare (All Colors)",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Alert",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Attitude Control Black",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Beyond Infinity",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Black Titan Nirvana",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Combat",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Combat Hybrid",
+      "dateApproved": "2026-02",
+      "year": 2026
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Crimson Rhino Pro",
+      "dateApproved": "2025-12",
+      "year": 2025
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Crown 78U",
+      "dateApproved": "2025-12",
+      "year": 2025
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Crown Victory",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Crown Victory Pearl",
+      "dateApproved": "2026-02",
+      "year": 2026
+    },
+    {
+      "brand": "Brunswick",
+      "name": "(Danger) Zone",
+      "dateApproved": "2025-12",
+      "year": 2025
+    },
+    {
+      "brand": "Brunswick",
+      "name": "(Danger) Zone Purple Ice",
+      "dateApproved": "2025-12",
+      "year": 2025
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Endeavor",
+      "dateApproved": "2024-02",
+      "year": 2024
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Energize",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Ethos Hybrid",
+      "dateApproved": "2024-10",
+      "year": 2024
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Ethos Penetrate",
+      "dateApproved": "2024-10",
+      "year": 2024
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Ethos Solid",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Hypnotize",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Infinity Quest",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Infinity Quest Pearl",
+      "dateApproved": "2026-06",
+      "year": 2026
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Intense Mindset",
+      "dateApproved": "2024-05",
+      "year": 2024
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Johnny Petraglia BVL Purple Pearl",
+      "dateApproved": "2024-12",
+      "year": 2024
+    },
+    {
+      "brand": "Brunswick",
+      "name": "LT-48 Pro Ruby",
+      "dateApproved": "2026-04",
+      "year": 2026
+    },
+    {
+      "brand": "Brunswick",
+      "name": "LT-48 Pro Sapphire",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Melee Jab Aqua",
+      "dateApproved": "2024-01",
+      "year": 2024
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Melee Jab HK22",
+      "dateApproved": "2024-10",
+      "year": 2024
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Melee Jab Lunatic Purple",
+      "dateApproved": "2024-10",
+      "year": 2024
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Melee Jab Void Black",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Melee (Redaholic-X)",
+      "dateApproved": "2026-05",
+      "year": 2026
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Mesmerize",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Onyx Soul Nirvana",
+      "dateApproved": "2025-07",
+      "year": 2025
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Purple Titan Nirvana",
+      "dateApproved": "2026-05",
+      "year": 2026
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Rhino Carbon-Lime-Silver",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Rhino Blue/Cadet/Grey/Silver",
+      "dateApproved": "2026-04",
+      "year": 2026
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Rhino Purple/Black",
+      "dateApproved": "2025-03",
+      "year": 2025
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Rhino Purple/Pink/Berry",
+      "dateApproved": "2026-04",
+      "year": 2026
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Rhino Pro Black (2024)",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Rhino Pro Ivory",
+      "dateApproved": "2024-10",
+      "year": 2024
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Strategy",
+      "dateApproved": "2026-04",
+      "year": 2026
+    },
+    {
+      "brand": "Brunswick",
+      "name": "The House Viz-A-Ball",
+      "dateApproved": "2024-10",
+      "year": 2024
+    },
+    {
+      "brand": "Brunswick",
+      "name": "The House Viz-A-Ball Yellow",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Twist Pink-Black",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Ultimate Defender",
+      "dateApproved": "2024-02",
+      "year": 2024
+    },
+    {
+      "brand": "Brunswick",
+      "name": "V-Mesmerize",
+      "dateApproved": "2026-05",
+      "year": 2026
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Vapor Zone Red",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Vaporize",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "Brunswick",
+      "name": "Vaporize S.E.",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Brunswick",
+      "name": "(X-Mas Vintage) Rhino Pro",
+      "dateApproved": "2025-11",
+      "year": 2025
+    },
+    {
+      "brand": "Columbia 300",
+      "name": "Atlas Hybrid",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "Columbia 300",
+      "name": "Kaboom",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Columbia 300",
+      "name": "Messenger PowerCOR Pearl Black-Gold",
+      "dateApproved": "2024-05",
+      "year": 2024
+    },
+    {
+      "brand": "Columbia 300",
+      "name": "Piranha PowerCOR Pearl",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Columbia 300",
+      "name": "Piranha Solid",
+      "dateApproved": "2026-02",
+      "year": 2026
+    },
+    {
+      "brand": "Columbia 300",
+      "name": "Pulse (2025)",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Columbia 300",
+      "name": "Pulse Hybrid",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Columbia 300",
+      "name": "Pure Madness",
+      "dateApproved": "2024-02",
+      "year": 2024
+    },
+    {
+      "brand": "Columbia 300",
+      "name": "Rally",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Columbia 300",
+      "name": "Ricochet Pearl",
+      "dateApproved": "2024-11",
+      "year": 2024
+    },
+    {
+      "brand": "Columbia 300",
+      "name": "Ricochet Return",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Columbia 300",
+      "name": "Street Rally",
+      "dateApproved": "2025-12",
+      "year": 2025
+    },
+    {
+      "brand": "Columbia 300",
+      "name": "Super Cuda PowerCOR Pearl",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Dexter",
+      "name": "Dexter Clear (Black Cube)",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "DV8",
+      "name": "Chill Pearl",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "DV8",
+      "name": "Collision Disastrous",
+      "dateApproved": "2024-10",
+      "year": 2024
+    },
+    {
+      "brand": "DV8",
+      "name": "Dark Side",
+      "dateApproved": "2025-03",
+      "year": 2025
+    },
+    {
+      "brand": "DV8",
+      "name": "Dark Side Curse",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "DV8",
+      "name": "Double Trouble",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "DV8",
+      "name": "Hater",
+      "dateApproved": "2024-03",
+      "year": 2024
+    },
+    {
+      "brand": "DV8",
+      "name": "Hater Pearl",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "DV8",
+      "name": "Heckler",
+      "dateApproved": "2024-11",
+      "year": 2024
+    },
+    {
+      "brand": "DV8",
+      "name": "Heckler Hybrid",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "DV8",
+      "name": "Heckler Taunt",
+      "dateApproved": "2026-06",
+      "year": 2026
+    },
+    {
+      "brand": "DV8",
+      "name": "Mantra",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "DV8",
+      "name": "Mantra Solid",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "DV8",
+      "name": "Primitiv8",
+      "dateApproved": "2024-01",
+      "year": 2024
+    },
+    {
+      "brand": "DV8",
+      "name": "Severe Collision",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "DV8",
+      "name": "Trouble Maker Pearl",
+      "dateApproved": "2024-01",
+      "year": 2024
+    },
+    {
+      "brand": "DV8",
+      "name": "Trouble Maker Solid",
+      "dateApproved": "2025-01",
+      "year": 2025
+    },
+    {
+      "brand": "DV8",
+      "name": "Wicked Collision",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Blood Angular One",
+      "dateApproved": "2024-03",
+      "year": 2024
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Crush Navy Urethane",
+      "dateApproved": "2024-12",
+      "year": 2024
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Crush Red Urethane",
+      "dateApproved": "2024-08",
+      "year": 2024
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Crusher",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Crusher Hybrid",
+      "dateApproved": "2025-01",
+      "year": 2025
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Emerge Hybrid",
+      "dateApproved": "2024-01",
+      "year": 2024
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Entity",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Entity Pearl",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Extreme Angular One Black-Blue-Light Blue",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Fireball Purple/Gold",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Flare Angular One",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Ebonite",
+      "name": "GB5 (Game Breaker 5)",
+      "dateApproved": "2024-03",
+      "year": 2024
+    },
+    {
+      "brand": "Ebonite",
+      "name": "GB5 (Game Breaker 5) Hybrid",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Ebonite",
+      "name": "GB5 (Game Breaker 5) Pearl",
+      "dateApproved": "2025-03",
+      "year": 2025
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Iron Angular One",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Maxim Purple Haze",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Mission 1.0",
+      "dateApproved": "2026-05",
+      "year": 2026
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Mission Possible",
+      "dateApproved": "2025-07",
+      "year": 2025
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Mission Reload Red-Black-White",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Mission Signal",
+      "dateApproved": "2024-10",
+      "year": 2024
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Pivot Black Ice",
+      "dateApproved": "2025-07",
+      "year": 2025
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Pivot Dark",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Pivot Rotation",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Pivot Vortex",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Prime Angular One",
+      "dateApproved": "2026-04",
+      "year": 2026
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Real Time",
+      "dateApproved": "2024-11",
+      "year": 2024
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Spartan",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Spartan (Melas)",
+      "dateApproved": "2026-04",
+      "year": 2026
+    },
+    {
+      "brand": "Ebonite",
+      "name": "The One Deep Marine",
+      "dateApproved": "2024-12",
+      "year": 2024
+    },
+    {
+      "brand": "Ebonite",
+      "name": "The One Giant",
+      "dateApproved": "2025-11",
+      "year": 2025
+    },
+    {
+      "brand": "Ebonite",
+      "name": "The One (Optimus)",
+      "dateApproved": "2024-11",
+      "year": 2024
+    },
+    {
+      "brand": "Ebonite",
+      "name": "The One Ovation",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Ebonite",
+      "name": "The One Pluto",
+      "dateApproved": "2024-03",
+      "year": 2024
+    },
+    {
+      "brand": "Ebonite",
+      "name": "The One Reverb",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Ebonite",
+      "name": "The One Urethane 78D",
+      "dateApproved": "2024-12",
+      "year": 2024
+    },
+    {
+      "brand": "Ebonite",
+      "name": "The One (Vector)",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Thunderbolt Urethane Blue",
+      "dateApproved": "2025-07",
+      "year": 2025
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Titan Angular One",
+      "dateApproved": "2025-12",
+      "year": 2025
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Turbo-R Black/Purple",
+      "dateApproved": "2025-01",
+      "year": 2025
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Turbo-R Purple-Pink (13 Lb & Under)",
+      "dateApproved": "2025-07",
+      "year": 2025
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Turbo-R Ruby",
+      "dateApproved": "2025-01",
+      "year": 2025
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Turbo X",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Turbo X NU",
+      "dateApproved": "2026-05",
+      "year": 2026
+    },
+    {
+      "brand": "Ebonite",
+      "name": "Wolf Blaze",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "Elite",
+      "name": "(Bowlers Paradise)     Alien Impact Black/Silver",
+      "dateApproved": "2024-05",
+      "year": 2024
+    },
+    {
+      "brand": "Elite",
+      "name": "(Bowlers Paradise)                Excalibur",
+      "dateApproved": "2024-11",
+      "year": 2024
+    },
+    {
+      "brand": "Elite",
+      "name": "(Bowlers Paradise)              Golden Alien",
+      "dateApproved": "2024-08",
+      "year": 2024
+    },
+    {
+      "brand": "Elite",
+      "name": "(Bowlers Paradise)                          Panther",
+      "dateApproved": "2024-05",
+      "year": 2024
+    },
+    {
+      "brand": "Elite",
+      "name": "(Bowlers Paradise)                   Panther Black Solid",
+      "dateApproved": "2024-11",
+      "year": 2024
+    },
+    {
+      "brand": "Elite",
+      "name": "(Bowlers Paradise)             Panther Scarlet-Orchid-Black",
+      "dateApproved": "2024-11",
+      "year": 2024
+    },
+    {
+      "brand": "Epic",
+      "name": "Bowling                        Be Epic (All Colors)",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Epic",
+      "name": "Bowling              Curve Black-Blue-Purple (Darkness)",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Epic",
+      "name": "Bowling               Curve Blue-Pink-White (Candy Ice)",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Epic",
+      "name": "Bowling               Curve Blue-Teal-White (Polar Ice)",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Epic",
+      "name": "Bowling         Curve Red-Black Gold (Midnight-Apple-Gold)",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Epic",
+      "name": "Bowling        Ignite Black-Blue-Pink (Ocean-Candy-Metallic)",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Epic",
+      "name": "Bowling          Ignite Black-White-Pink (Arctic-Pearl-Rose)",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Epic",
+      "name": "Bowling                    Ignite Emerald-Teal-Purple",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Epic",
+      "name": "Bowling             Ignite Orange-Black (Orange-Smoke)",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Epic",
+      "name": "Bowling                      Ignite Red-White-Black",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Epic",
+      "name": "Bowling                         Unruly (All Colors)",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "3D Offset Assault",
+      "dateApproved": "2025-01",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Anger Black-Red-Caramel",
+      "dateApproved": "2024-11",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Anger Solid",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Arctic Vibe",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Axe Green-Smoke",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Axe Purple-Pink",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Black Widow 2.0 La Raza",
+      "dateApproved": "2024-08",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Black Widow (3.0)",
+      "dateApproved": "2024-01",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Black Widow 3.0 Black-Sapphire",
+      "dateApproved": "2024-02",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Black Widow (3.0 Dynasty)",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "Hammer",
+      "name": "Black Widow 3.0 Platinum",
+      "dateApproved": "2024-05",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Black Widow 3.0 Poison",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Black Widow 3.0 Poison Black",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Black Widow 3.0 Silver Pearl",
+      "dateApproved": "2024-02",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Black Widow Clear (12-Hedron) All Colors",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Black Widow (Mania)",
+      "dateApproved": "2025-01",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Black Widow (Mania) Hybrid",
+      "dateApproved": "2025-07",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Black Widow (Mania) Solid",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Black Widow Night Breaker",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Black Widow Night Breaker Hybrid",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "(Black Widow) Nightmare",
+      "dateApproved": "2024-11",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "(Black Widow) Tour V1",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Black Widow Toxin Hybrid",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Black Widow Toxin Pearl",
+      "dateApproved": "2026-04",
+      "year": 2026
+    },
+    {
+      "brand": "Hammer",
+      "name": "Black Widow Urethane Black Pearl",
+      "dateApproved": "2024-07",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Black Widow Urethane Blue (2024)",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Black Widow Urethane Grey Solid",
+      "dateApproved": "2024-07",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Black Widow Urethane Mint Solid",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Black Widow Urethane Orange Solid",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Black Widow Urethane Purple Solid",
+      "dateApproved": "2024-07",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Blue Solid Urethane Hammer",
+      "dateApproved": "2025-12",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Bubblegum Vibe",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Effect",
+      "dateApproved": "2024-03",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Effect Black",
+      "dateApproved": "2024-12",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Effect Black Solid Urethane",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Effect Limited",
+      "dateApproved": "2024-07",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Effect Purple Pearl Urethane",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Effect Tour",
+      "dateApproved": "2024-11",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Envy Revolution",
+      "dateApproved": "2024-02",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Extreme Envy Gold Pearl",
+      "dateApproved": "2024-07",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Extreme Envy Hybrid",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Full Effect",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Hammer",
+      "name": "Gauntlet Black Solid",
+      "dateApproved": "2025-11",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Gauntlet Hybrid",
+      "dateApproved": "2025-11",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Gauntlet Knight Hybrid",
+      "dateApproved": "2026-06",
+      "year": 2026
+    },
+    {
+      "brand": "Hammer",
+      "name": "Gauntlet Knight Solid",
+      "dateApproved": "2026-06",
+      "year": 2026
+    },
+    {
+      "brand": "Hammer",
+      "name": "Hammerhead",
+      "dateApproved": "2025-03",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Hammerhead Pearl",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "Hammer",
+      "name": "Hazmat Pearl",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Hazmat Solid",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Magenta Solid Urethane Hammer",
+      "dateApproved": "2024-02",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Maximum Effect",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "NU 2.0",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Pure Envy",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Purple Pearl Urethane 78D",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Hammer",
+      "name": "Purple Pearl Urethane Hammer (Korea)",
+      "dateApproved": "2024-08",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Raw Hammer Black/Blue/Orange",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Raw Hammer Black/Grey",
+      "dateApproved": "2026-05",
+      "year": 2026
+    },
+    {
+      "brand": "Hammer",
+      "name": "Raw Hammer Black/Purple/Teal",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Raw Hammer Red/White/Purple",
+      "dateApproved": "2026-05",
+      "year": 2026
+    },
+    {
+      "brand": "Hammer",
+      "name": "Raw Hammer Smoke-Blue-Gold",
+      "dateApproved": "2025-03",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Scorpion Low Flare",
+      "dateApproved": "2024-01",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Scorpion Strike",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "Spawn",
+      "dateApproved": "2026-05",
+      "year": 2026
+    },
+    {
+      "brand": "Hammer",
+      "name": "Special Effect",
+      "dateApproved": "2025-03",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Violent Effect",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "X Twelve Black",
+      "dateApproved": "2024-12",
+      "year": 2024
+    },
+    {
+      "brand": "Hammer",
+      "name": "X Twelve Pearl",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "X Twelve Pink Solid",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Zero Mercy Black Solid",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Hammer",
+      "name": "Zero Mercy (Ghost) Pearl",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Hammer",
+      "name": "Zero Mercy Pearl",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Zero Mercy Solid",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Hammer",
+      "name": "Zero Mercy Solid Black/Red",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Hero",
+      "name": "Looney Tunes (All Colors)",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Hero",
+      "name": "HB Black-Green-Purple (Clown Prince of Crime)",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Hero",
+      "name": "HB Blue-Pink-Black (Mistress of Mayhem)",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Hero",
+      "name": "HB Black-Gold (The Dark Champion)",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Hero",
+      "name": "HB Black-Silver (The Dark Knight)",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Hero",
+      "name": "HB Blue-Black-Silver (The Man of Steel)",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Hero",
+      "name": "HB Green-Gold-Black (The Ocean Master)",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Hero",
+      "name": "HB Pink-Blue-Gold (The Warrior Princess)",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "High-Sports",
+      "name": "Up Beat Pearl SE",
+      "dateApproved": "2024-08",
+      "year": 2024
+    },
+    {
+      "brand": "High-Sports",
+      "name": "Up Beat Pearl SE White",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "HIH",
+      "name": "Bowling                        Logo",
+      "dateApproved": "2025-12",
+      "year": 2025
+    },
+    {
+      "brand": "HIH",
+      "name": "Bowling                    Revelated",
+      "dateApproved": "2025-01",
+      "year": 2025
+    },
+    {
+      "brand": "KRSF",
+      "name": "Strikeforce Poly (All Colors)",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Lane Masters",
+      "name": "Terminator Reboot",
+      "dateApproved": "2025-12",
+      "year": 2025
+    },
+    {
+      "brand": "Legends",
+      "name": "Iron Diamond (78D)",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Legends",
+      "name": "Jade Diamond",
+      "dateApproved": "2024-11",
+      "year": 2024
+    },
+    {
+      "brand": "Legends",
+      "name": "Sapphire Diamond",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Legends",
+      "name": "The Black Pearl Death",
+      "dateApproved": "2025-07",
+      "year": 2025
+    },
+    {
+      "brand": "Leyon",
+      "name": "J4U",
+      "dateApproved": "2024-07",
+      "year": 2024
+    },
+    {
+      "brand": "Lord Field",
+      "name": "(Smile) Lordfield",
+      "dateApproved": "2024-03",
+      "year": 2024
+    },
+    {
+      "brand": "Milo",
+      "name": "Champions (All Colors)",
+      "dateApproved": "2024-05",
+      "year": 2024
+    },
+    {
+      "brand": "Motiv",
+      "name": "(Apex) Jackal",
+      "dateApproved": "2025-12",
+      "year": 2025
+    },
+    {
+      "brand": "Motiv",
+      "name": "Ascend Black/Green/Teal",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Motiv",
+      "name": "Ascend Dark Purple/Purple/Blue",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Motiv",
+      "name": "Ascend Navy/Teal/Yellow",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Motiv",
+      "name": "Ascend Red/Black/Tangerine",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Motiv",
+      "name": "(Covert) VIP ExJ",
+      "dateApproved": "2026-04",
+      "year": 2026
+    },
+    {
+      "brand": "Motiv",
+      "name": "Evoke",
+      "dateApproved": "2024-01",
+      "year": 2024
+    },
+    {
+      "brand": "Motiv",
+      "name": "Evoke (Hysteria)",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Motiv",
+      "name": "Evoke (Mayhem)",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "Motiv",
+      "name": "Frenzy Blue/Navy/Teal",
+      "dateApproved": "2025-11",
+      "year": 2025
+    },
+    {
+      "brand": "Motiv",
+      "name": "Frenzy Red/Dark Red/Black",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "Motiv",
+      "name": "(Hyper) Venom",
+      "dateApproved": "2024-02",
+      "year": 2024
+    },
+    {
+      "brand": "Motiv",
+      "name": "Jackal ExJ",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Motiv",
+      "name": "Jackal (Howl)",
+      "dateApproved": "2024-12",
+      "year": 2024
+    },
+    {
+      "brand": "Motiv",
+      "name": "Jackal (Onyx)",
+      "dateApproved": "2024-12",
+      "year": 2024
+    },
+    {
+      "brand": "Motiv",
+      "name": "(King) Venom",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Motiv",
+      "name": "(Lethal) Venom",
+      "dateApproved": "2025-01",
+      "year": 2025
+    },
+    {
+      "brand": "Motiv",
+      "name": "(Max) Thrill Hybrid",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Motiv",
+      "name": "(Max) Thrill Pearl",
+      "dateApproved": "2024-05",
+      "year": 2024
+    },
+    {
+      "brand": "Motiv",
+      "name": "(Max) Thrill Pearl Lime/Orange",
+      "dateApproved": "2026-04",
+      "year": 2026
+    },
+    {
+      "brand": "Motiv",
+      "name": "(Max) Thrill Solid",
+      "dateApproved": "2024-05",
+      "year": 2024
+    },
+    {
+      "brand": "Motiv",
+      "name": "Nebula",
+      "dateApproved": "2025-11",
+      "year": 2025
+    },
+    {
+      "brand": "Motiv",
+      "name": "Pride (Liberty)",
+      "dateApproved": "2024-07",
+      "year": 2024
+    },
+    {
+      "brand": "Motiv",
+      "name": "Primal (Ghost)",
+      "dateApproved": "2025-08",
+      "year": 2025
+    },
+    {
+      "brand": "Motiv",
+      "name": "Primal (Rage Evolution)",
+      "dateApproved": "2024-10",
+      "year": 2024
+    },
+    {
+      "brand": "Motiv",
+      "name": "Propel (All Colors)",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Motiv",
+      "name": "Raptor (Reign)",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Motiv",
+      "name": "Raptor (Rush)",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Motiv",
+      "name": "(Rising) Venom",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Motiv",
+      "name": "(Shadow) Tank",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Motiv",
+      "name": "Silver Sniper",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Motiv",
+      "name": "(Steel) Forge",
+      "dateApproved": "2025-07",
+      "year": 2025
+    },
+    {
+      "brand": "Motiv",
+      "name": "(Subzero) Forge",
+      "dateApproved": "2024-08",
+      "year": 2024
+    },
+    {
+      "brand": "Motiv",
+      "name": "Supra (Clutch)",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Motiv",
+      "name": "Supra (GT)",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "Motiv",
+      "name": "Supra (Sport)",
+      "dateApproved": "2026-02",
+      "year": 2026
+    },
+    {
+      "brand": "Motiv",
+      "name": "Tank (Rampage) Pearl",
+      "dateApproved": "2024-01",
+      "year": 2024
+    },
+    {
+      "brand": "Motiv",
+      "name": "Venom ExJ",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Motiv",
+      "name": "Venom (Hysteria)",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Motiv",
+      "name": "Venom Spare (All Colors)",
+      "dateApproved": "2024-12",
+      "year": 2024
+    },
+    {
+      "brand": "NL-Bowling",
+      "name": "Star                Depart (All Colors)",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "PBS",
+      "name": "\u4e7e\u5764 \u706b (Qiankun Fire)",
+      "dateApproved": "2024-12",
+      "year": 2024
+    },
+    {
+      "brand": "PBS",
+      "name": "\u4e7e\u5764 \u6c34 (Qiankun Water)",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Pro",
+      "name": "Bowl                Frosted Power",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Pro",
+      "name": "Bowl       Under Cover Black-Yellow-Pink Pearl",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Pro",
+      "name": "Bowl      Under Cover Dark Blue-Light Blue Pearl",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Pro",
+      "name": "Bowl      Under Cover Emerald-Black-Silver Pearl",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Pro",
+      "name": "Bowl        Under Cover Red-White-Blue Pearl",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Pyramid",
+      "name": "Bowling             Blood Moon Evolve",
+      "dateApproved": "2025-01",
+      "year": 2025
+    },
+    {
+      "brand": "Pyramid",
+      "name": "Bowling   Enchanted Path Purple-Black-Silver",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Pyramid",
+      "name": "Bowling           Force Purple-Black",
+      "dateApproved": "2024-05",
+      "year": 2024
+    },
+    {
+      "brand": "Pyramid",
+      "name": "Bowling           Fortress Endgame",
+      "dateApproved": "2025-01",
+      "year": 2025
+    },
+    {
+      "brand": "Pyramid",
+      "name": "Bowling       Guardian Pink-Black-White",
+      "dateApproved": "2024-05",
+      "year": 2024
+    },
+    {
+      "brand": "Pyramid",
+      "name": "Bowling             Pathogen Asym",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Pyramid",
+      "name": "Bowling          Prime Pearl",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Pyramid",
+      "name": "Bowling          Prime Solid",
+      "dateApproved": "2025-11",
+      "year": 2025
+    },
+    {
+      "brand": "Pyramid",
+      "name": "Bowling       Supermoon Pearl",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "Radical",
+      "name": "Break Away",
+      "dateApproved": "2024-01",
+      "year": 2024
+    },
+    {
+      "brand": "Radical",
+      "name": "Deep Impact",
+      "dateApproved": "2026-02",
+      "year": 2026
+    },
+    {
+      "brand": "Radical",
+      "name": "Evil Eye",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Radical",
+      "name": "Guru Oracle",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Radical",
+      "name": "Guru Oracle Pearl",
+      "dateApproved": "2026-06",
+      "year": 2026
+    },
+    {
+      "brand": "Radical",
+      "name": "Intel Recon",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Radical",
+      "name": "Max Bias",
+      "dateApproved": "2024-05",
+      "year": 2024
+    },
+    {
+      "brand": "Radical",
+      "name": "No Doubt",
+      "dateApproved": "2024-10",
+      "year": 2024
+    },
+    {
+      "brand": "Radical",
+      "name": "No Doubt Solid",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Radical",
+      "name": "Outer Limits Black Hole",
+      "dateApproved": "2025-12",
+      "year": 2025
+    },
+    {
+      "brand": "Radical",
+      "name": "Outer Limits Pearl",
+      "dateApproved": "2024-03",
+      "year": 2024
+    },
+    {
+      "brand": "Radical",
+      "name": "Outer Limits Solid",
+      "dateApproved": "2025-01",
+      "year": 2025
+    },
+    {
+      "brand": "Radical",
+      "name": "Power Hitter",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Radical",
+      "name": "(Prime) Power Hitter",
+      "dateApproved": "2026-04",
+      "year": 2026
+    },
+    {
+      "brand": "Radical",
+      "name": "Radical Conspiracy",
+      "dateApproved": "2024-03",
+      "year": 2024
+    },
+    {
+      "brand": "Radical",
+      "name": "Rattler Big Bite",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "Radical",
+      "name": "Rattler NU",
+      "dateApproved": "2024-05",
+      "year": 2024
+    },
+    {
+      "brand": "Radical",
+      "name": "Revenge Pearl",
+      "dateApproved": "2026-04",
+      "year": 2026
+    },
+    {
+      "brand": "Radical",
+      "name": "Revenge Solid",
+      "dateApproved": "2026-04",
+      "year": 2026
+    },
+    {
+      "brand": "Radical",
+      "name": "RS-67 Evolution HK22",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Radical",
+      "name": "RS-79",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Radical",
+      "name": "Snapshot",
+      "dateApproved": "2025-01",
+      "year": 2025
+    },
+    {
+      "brand": "Radical",
+      "name": "Snap Shot Hybrid",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Radical",
+      "name": "Sneak Attack HK22 Hybrid",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Radical",
+      "name": "Sneak Attack HK22 Pearl",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Radical",
+      "name": "Sneak Attack V.S.A.",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Radical",
+      "name": "The Hitter Pearl",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "Radical",
+      "name": "Torpedo",
+      "dateApproved": "2025-03",
+      "year": 2025
+    },
+    {
+      "brand": "Radical",
+      "name": "Torpedo Direct Hit",
+      "dateApproved": "2025-03",
+      "year": 2025
+    },
+    {
+      "brand": "Radical",
+      "name": "Vexed",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Radical",
+      "name": "Zig Zag Solid",
+      "dateApproved": "2024-10",
+      "year": 2024
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Attention 78/U",
+      "dateApproved": "2026-05",
+      "year": 2026
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Attention (BP) Black/Pink",
+      "dateApproved": "2026-06",
+      "year": 2026
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Attention Edge",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Attention Line",
+      "dateApproved": "2024-07",
+      "year": 2024
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Attention Power",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Attention Sign",
+      "dateApproved": "2025-12",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Attention Spot",
+      "dateApproved": "2024-02",
+      "year": 2024
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Attention Star S2",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Cosmos (All Colors)",
+      "dateApproved": "2025-07",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Exit",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Exit Red",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Exit Rush",
+      "dateApproved": "2025-11",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Gem Black Diamond",
+      "dateApproved": "2025-01",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Gem Blue Sapphire",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Gem Garnet",
+      "dateApproved": "2024-03",
+      "year": 2024
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Gremlin",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Gremlin Tour-X",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Hustle (BP) Black/Pink",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Hustle (BRY) Burgundy/Red/Yale Blue",
+      "dateApproved": "2024-01",
+      "year": 2024
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Hustle Black Sky",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Hustle (Earth) Blue-Gold-Green",
+      "dateApproved": "2025-03",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Hustle ETF (Electric Blue-Teal-Fuchsia)",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Hustle (Glow) Mint-Fuchsia-Lemon",
+      "dateApproved": "2025-03",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Hustle (PAR) Purple-Azure-Ruby",
+      "dateApproved": "2024-12",
+      "year": 2024
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Hustle (SOS) Soot/Onyx/Sky",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Hustle (SPP) Sky-Pink-Purple",
+      "dateApproved": "2024-01",
+      "year": 2024
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Hustle Teal-Black",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Hustle (VP) Vanilla/Popsicle",
+      "dateApproved": "2026-04",
+      "year": 2026
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Hustle (WM) White/Magenta",
+      "dateApproved": "2024-01",
+      "year": 2024
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Hustle X-Ray",
+      "dateApproved": "2024-01",
+      "year": 2024
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Hustler Black",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Hustler Red",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Hyped Super Pearl",
+      "dateApproved": "2024-05",
+      "year": 2024
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Hyped Super Pearl II",
+      "dateApproved": "2025-07",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Hyped Up!",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Jester Clear Polyester",
+      "dateApproved": "2024-05",
+      "year": 2024
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Megastar",
+      "dateApproved": "2026-04",
+      "year": 2026
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Optimum Idol",
+      "dateApproved": "2024-01",
+      "year": 2024
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Optimum Idol Glow",
+      "dateApproved": "2024-11",
+      "year": 2024
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Optimum Idol Pearl",
+      "dateApproved": "2024-07",
+      "year": 2024
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Optimum Idol Solid",
+      "dateApproved": "2025-08",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Rockstar",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Rockstar Amped",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Rockstar Hero",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "RST Black",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "RST Crash",
+      "dateApproved": "2024-08",
+      "year": 2024
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "RST Evolution",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "RST Hyperdrive",
+      "dateApproved": "2024-11",
+      "year": 2024
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "RST Hyperdrive Pearl",
+      "dateApproved": "2025-08",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "RST X-4 S",
+      "dateApproved": "2024-01",
+      "year": 2024
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Transform Pearl",
+      "dateApproved": "2026-05",
+      "year": 2026
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Transformer",
+      "dateApproved": "2025-12",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Ultimate Wrecker",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "Wild Wrecker",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "X-Cell",
+      "dateApproved": "2024-03",
+      "year": 2024
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "X-Cell Master",
+      "dateApproved": "2025-03",
+      "year": 2025
+    },
+    {
+      "brand": "Roto Grip",
+      "name": "X-Cell Tour",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Skill",
+      "name": "Bowling                   Skill 3.02",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Strikeforce",
+      "name": "Rise Black-Purple Solid",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Strikeforce",
+      "name": "Rise Black-Silver Pearl",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Strikeforce",
+      "name": "Rise Blue-Teal Pearl",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Strikeforce",
+      "name": "Rise Red-Black Pearl",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Strikeforce",
+      "name": "Rise Red-Black-Gold Pearl",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "25th Strike Out Breast Cancer",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Absolute Paint The Lanes Pink",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Absolute Reign",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "Storm",
+      "name": "Alpha Crux (2025)",
+      "dateApproved": "2026-02",
+      "year": 2026
+    },
+    {
+      "brand": "Storm",
+      "name": "Astro PhysiX II",
+      "dateApproved": "2024-01",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Bionic",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "Storm",
+      "name": "Bite Panic AI",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Bite Panic X",
+      "dateApproved": "2024-02",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Blaze DNA",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Blue !Q",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Clear Storm Black-Gold Belmo",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Clear Storm Crystal KR",
+      "dateApproved": "2024-08",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Clear Storm Teal",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Clear Storm White",
+      "dateApproved": "2024-02",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Code Crush",
+      "dateApproved": "2026-04",
+      "year": 2026
+    },
+    {
+      "brand": "Storm",
+      "name": "Code Honor",
+      "dateApproved": "2025-11",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Code Impact",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Concept",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "Storm",
+      "name": "Concept Purple",
+      "dateApproved": "2026-05",
+      "year": 2026
+    },
+    {
+      "brand": "Storm",
+      "name": "Dark Knight",
+      "dateApproved": "2025-11",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "DNA Coil II",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "DNA Strand",
+      "dateApproved": "2024-08",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Domination FP",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Epic Summit",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Equinox",
+      "dateApproved": "2025-01",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Equinox Solid",
+      "dateApproved": "2025-08",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Gate Way",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Genius Solution",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Ghost Lock II",
+      "dateApproved": "2024-12",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Ghost Lock Deftero",
+      "dateApproved": "2024-08",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Ghost Lock SE",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Storm",
+      "name": "Grand Gate",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Hyper Motor",
+      "dateApproved": "2025-01",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Hy-Road 40",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Hy-Road Black",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Hy-Road Boost",
+      "dateApproved": "2025-12",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Hy-Road Punch",
+      "dateApproved": "2024-03",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Ice 30 (All Colors)",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Iconic Code",
+      "dateApproved": "2024-07",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "IDentity",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "IDentity (B-C-P)",
+      "dateApproved": "2025-07",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Ion Max",
+      "dateApproved": "2024-07",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Ion Max Pearl",
+      "dateApproved": "2025-08",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Ion Pro",
+      "dateApproved": "2024-05",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Ion Pro Solid",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Ion Pro Solid (R-W-B)",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "!Q Focus",
+      "dateApproved": "2025-12",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "!Q Spear",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "!Q Super G",
+      "dateApproved": "2024-05",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "!Q Tour A.I.",
+      "dateApproved": "2024-12",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "!Q Tour Winner",
+      "dateApproved": "2024-03",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "JOPO Grips Clear Poly (All Colors)",
+      "dateApproved": "2024-07",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Level",
+      "dateApproved": "2024-12",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Level Up",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Storm",
+      "name": "Lightning Blackout",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Lock It",
+      "dateApproved": "2024-01",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Lock-On",
+      "dateApproved": "2025-08",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Lockout",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "Storm",
+      "name": "Marvel Flame",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Marvel Maxx Silver",
+      "dateApproved": "2025-08",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Marvel Pearl A.I.",
+      "dateApproved": "2024-10",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Marvel Scale",
+      "dateApproved": "2025-11",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Marvel Smash",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Monsoon",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "Storm",
+      "name": "Motor",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Motor 30",
+      "dateApproved": "2025-07",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Motor Rev",
+      "dateApproved": "2025-12",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Mt. Fuji Clear",
+      "dateApproved": "2025-01",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Next Factor",
+      "dateApproved": "2025-11",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Orbit 180 (Under 13 Lb.)",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Orbit SE (Special Edition) (Under 13 Lb.)",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "Storm",
+      "name": "Orbit TP (Under 13 Lb.)",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Orbit Zero (Under 13 Lb.)",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Storm",
+      "name": "Phaze II Pearl",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Phaze A.I.",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Phaze Crimson",
+      "dateApproved": "2026-06",
+      "year": 2026
+    },
+    {
+      "brand": "Storm",
+      "name": "Phaze Shift",
+      "dateApproved": "2024-01",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Phaze Shift (P-B-W)",
+      "dateApproved": "2024-02",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Phaze Target",
+      "dateApproved": "2025-01",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "PhysiX Blackout",
+      "dateApproved": "2024-11",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "PhysiX Burst",
+      "dateApproved": "2026-06",
+      "year": 2026
+    },
+    {
+      "brand": "Storm",
+      "name": "PhysiX Era",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "PhysiX Genesis",
+      "dateApproved": "2026-05",
+      "year": 2026
+    },
+    {
+      "brand": "Storm",
+      "name": "PhysiX Grandeur",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "PhysiX Inspire",
+      "dateApproved": "2024-03",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "PhysiX Power Elite IV",
+      "dateApproved": "2024-10",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "PhysiX Raze",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "PhysiX Solid",
+      "dateApproved": "2024-10",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Pitch Black 78-U",
+      "dateApproved": "2026-04",
+      "year": 2026
+    },
+    {
+      "brand": "Storm",
+      "name": "Pitch Black (Blue Pin)",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "Storm",
+      "name": "Platinum Ford Blue Cube",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Prime Gate",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Raging Bite",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Storm",
+      "name": "Road Warrior",
+      "dateApproved": "2024-10",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Rocket A.I.",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Storm",
+      "name": "Shadow Lock Red",
+      "dateApproved": "2024-02",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Smart Solution",
+      "dateApproved": "2025-11",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "SPI Cube (All Colors)",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Storm",
+      "name": "Star Gate",
+      "dateApproved": "2024-10",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Summit Ascent",
+      "dateApproved": "2024-07",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Summit Knight",
+      "dateApproved": "2024-12",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Summit Tune",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Summit World",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "The Code II",
+      "dateApproved": "2024-12",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "The Joker",
+      "dateApproved": "2025-11",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "The Road",
+      "dateApproved": "2024-01",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "The Road Hybrid",
+      "dateApproved": "2025-07",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "The Road S",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "The Road X",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Tropical Surge Black-Blue-Pink",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Tropical Surge Midnight",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Tropical Surge Gold/Bronze/Medallion",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "Storm",
+      "name": "Tropical Surge Kiwi/Apple/Avocado",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "Storm",
+      "name": "Tropical Surge Onyx/Mercury/Graphite",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Storm",
+      "name": "Tropical Surge Purple/Navy",
+      "dateApproved": "2024-03",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Tropical Surge Red/White/Purple",
+      "dateApproved": "2025-03",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Tropical Surge Silver-Purple",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Typhoon",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Virtual Gravity Destino",
+      "dateApproved": "2025-11",
+      "year": 2025
+    },
+    {
+      "brand": "Storm",
+      "name": "Virtual Gravity Pro X3",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "Storm",
+      "name": "Wild Absolute",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Sunbridge",
+      "name": "Co., Ltd.          Just A Way Black Pearl-Red",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Sunbridge",
+      "name": "Co., Ltd.        Just A Way Blue-Dark Blue Pearl",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Sunbridge",
+      "name": "Co., Ltd.          Just A Way Blue-Pink-White",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Sunbridge",
+      "name": "Co., Ltd.       Just A Way Purple-Steel Blue Pearl",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Sunbridge",
+      "name": "Co., Ltd.        Just A Way Red-White-Blue Pearl",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Swag",
+      "name": "5 Board",
+      "dateApproved": "2026-04",
+      "year": 2026
+    },
+    {
+      "brand": "Swag",
+      "name": "Ace",
+      "dateApproved": "2024-03",
+      "year": 2024
+    },
+    {
+      "brand": "Swag",
+      "name": "Apex Pearl",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Swag",
+      "name": "Apex Solid",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Swag",
+      "name": "Archive 2.0",
+      "dateApproved": "2025-07",
+      "year": 2025
+    },
+    {
+      "brand": "Swag",
+      "name": "Archive Unlimited",
+      "dateApproved": "2024-08",
+      "year": 2024
+    },
+    {
+      "brand": "Swag",
+      "name": "Assassin",
+      "dateApproved": "2025-11",
+      "year": 2025
+    },
+    {
+      "brand": "Swag",
+      "name": "Big Bro Assemble",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "Swag",
+      "name": "(Black) Dragon",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Swag",
+      "name": "(Black) Dragon Hybrid",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Swag",
+      "name": "(Black) Dragon Pearl",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Swag",
+      "name": "Blizzard Glacier",
+      "dateApproved": "2024-05",
+      "year": 2024
+    },
+    {
+      "brand": "Swag",
+      "name": "Buzzer Beater Purple",
+      "dateApproved": "2025-03",
+      "year": 2025
+    },
+    {
+      "brand": "Swag",
+      "name": "Buzzer Beater Red",
+      "dateApproved": "2024-02",
+      "year": 2024
+    },
+    {
+      "brand": "Swag",
+      "name": "Craze Hybrid",
+      "dateApproved": "2025-03",
+      "year": 2025
+    },
+    {
+      "brand": "Swag",
+      "name": "Craze Pearl",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Swag",
+      "name": "Craze Solid",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Swag",
+      "name": "Craze Tour Pearl",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Swag",
+      "name": "Craze Tour Solid",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Swag",
+      "name": "Dragon Poly Cotton Candy",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Swag",
+      "name": "Dragon Poly Midnight",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Swag",
+      "name": "Dragon Poly Stained Glass",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Swag",
+      "name": "Dynamite War",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Swag",
+      "name": "Executioner",
+      "dateApproved": "2026-04",
+      "year": 2026
+    },
+    {
+      "brand": "Swag",
+      "name": "Fantasy Moonlight",
+      "dateApproved": "2024-12",
+      "year": 2024
+    },
+    {
+      "brand": "Swag",
+      "name": "Fusion",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Swag",
+      "name": "Fusion Hybrid",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Swag",
+      "name": "Fusion Pearl",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Swag",
+      "name": "Goat",
+      "dateApproved": "2024-05",
+      "year": 2024
+    },
+    {
+      "brand": "Swag",
+      "name": "Graffiti King",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Swag",
+      "name": "Graffiti Vandal",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "Swag",
+      "name": "Hidden Joker",
+      "dateApproved": "2025-01",
+      "year": 2025
+    },
+    {
+      "brand": "Swag",
+      "name": "Hype",
+      "dateApproved": "2024-07",
+      "year": 2024
+    },
+    {
+      "brand": "Swag",
+      "name": "Incredible! Boom",
+      "dateApproved": "2026-05",
+      "year": 2026
+    },
+    {
+      "brand": "Swag",
+      "name": "Incredible! Sweet!",
+      "dateApproved": "2024-08",
+      "year": 2024
+    },
+    {
+      "brand": "Swag",
+      "name": "Insanity Hybrid",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Swag",
+      "name": "Insanity Pearl",
+      "dateApproved": "2026-04",
+      "year": 2026
+    },
+    {
+      "brand": "Swag",
+      "name": "Judge",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Swag",
+      "name": "Judge Pearl",
+      "dateApproved": "2025-03",
+      "year": 2025
+    },
+    {
+      "brand": "Swag",
+      "name": "Judgement Hybrid",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Swag",
+      "name": "Serpent Hybrid",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Swag",
+      "name": "Show Me the Money Black/Purple/White",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "Swag",
+      "name": "Unknown Solid",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Swag",
+      "name": "Unreal",
+      "dateApproved": "2024-09",
+      "year": 2024
+    },
+    {
+      "brand": "Swag",
+      "name": "Unreal Solid",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Swag",
+      "name": "Vulcan",
+      "dateApproved": "2026-03",
+      "year": 2026
+    },
+    {
+      "brand": "Sweetrade",
+      "name": "Sweet Blood",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Archetype Hybrid",
+      "dateApproved": "2024-02",
+      "year": 2024
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Archetype Rose/Sea",
+      "dateApproved": "2024-10",
+      "year": 2024
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Criterion",
+      "dateApproved": "2024-10",
+      "year": 2024
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Criterion Hybrid",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Criterion Inverse",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Cypher",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Cypher Pearl",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Kinetic Sapphire Ice",
+      "dateApproved": "2026-04",
+      "year": 2026
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Paragon (Battle)",
+      "dateApproved": "2024-08",
+      "year": 2024
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Paragon Black Pearl",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Paragon (Charger)",
+      "dateApproved": "2026-01",
+      "year": 2026
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Paragon (Fire)",
+      "dateApproved": "2026-06",
+      "year": 2026
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Paragon (Impact)",
+      "dateApproved": "2025-07",
+      "year": 2025
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Paragon (Shadow)",
+      "dateApproved": "2025-05",
+      "year": 2025
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Stealth (Armor)",
+      "dateApproved": "2025-09",
+      "year": 2025
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Stealth Hybrid",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Stealth Mode",
+      "dateApproved": "2025-02",
+      "year": 2025
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Stealth Mode Hybrid",
+      "dateApproved": "2026-02",
+      "year": 2026
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Stealth Scarlet",
+      "dateApproved": "2024-06",
+      "year": 2024
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Synthesis",
+      "dateApproved": "2026-02",
+      "year": 2026
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Theorem 78D Urethane",
+      "dateApproved": "2026-05",
+      "year": 2026
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Theorem Black Pearl",
+      "dateApproved": "2025-10",
+      "year": 2025
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Theorem Black Pearl Urethane",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Theorem Black Urethane",
+      "dateApproved": "2024-12",
+      "year": 2024
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Theorem Black/Smoke",
+      "dateApproved": "2024-04",
+      "year": 2024
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Theorem Pearl",
+      "dateApproved": "2024-11",
+      "year": 2024
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Theorem Purple-Black",
+      "dateApproved": "2024-08",
+      "year": 2024
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Theorem Red Pearl",
+      "dateApproved": "2025-01",
+      "year": 2025
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Theorem Solid",
+      "dateApproved": "2025-06",
+      "year": 2025
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Theorem Violet",
+      "dateApproved": "2026-05",
+      "year": 2026
+    },
+    {
+      "brand": "Track Inc.",
+      "name": "Tundra Blue Fire",
+      "dateApproved": "2024-05",
+      "year": 2024
+    },
+    {
+      "brand": "X-ATK",
+      "name": "Demon No. 1",
+      "dateApproved": "2025-04",
+      "year": 2025
+    },
+    {
+      "brand": "X-ATK",
+      "name": "UX Urethane",
+      "dateApproved": "2025-08",
+      "year": 2025
+    }
+  ]
+}
