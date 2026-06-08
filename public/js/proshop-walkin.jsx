@@ -37,14 +37,14 @@ var WK_NODES = [
     key: "ballWall", hotspotKey: "ball-wall",
     name: "New Arrivals wall", sub: "Fresh reactive balls on the chrome slatwall",
     pano: "img/proshop/pano/ball-wall-360.webp",
-    defaultYaw: 0, defaultPitch: 0.02,
+    defaultYaw: 1.70, defaultPitch: 0.05,
     caption: "Tap any glowing marker for full specs, then add it to your reservation."
   },
   {
     key: "counter", hotspotKey: "counter",
     name: "The counter", sub: "Where we measure, fit and drill",
     pano: "img/proshop/pano/counter-360.webp",
-    defaultYaw: 0, defaultPitch: 0,
+    defaultYaw: 0.2, defaultPitch: -0.05,
     caption: "This is where it comes together — fitting, drilling and gear set aside."
   }
 ];
