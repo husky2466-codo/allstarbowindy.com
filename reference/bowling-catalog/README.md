@@ -1,0 +1,41 @@
+# Bowling Catalog Reference Data
+
+Reusable bowling reference data salvaged from the retired **BowlerTrax-V1** iOS app
+(`husky2466-codo/BowlerTrax-V1`). Pulled here so it survives — the source repo's default
+branch was wiped down to a README, and this data otherwise lived only at a git tag and
+inside a compiled iOS simulator bundle. Both are fragile.
+
+**This data is preserved reference material. It is NOT wired into the site.** Use it as the
+source for a future Pro Shop / equipment-browsing page or member "my equipment" feature.
+
+## Provenance
+
+- **Source repo:** `husky2466-codo/BowlerTrax-V1`
+- **Source ref:** git tag `pre-wipe-final` (the default branch no longer contains these files)
+- **Original scrape source:** `bowwwl.com`, per the dataset's own `dataSource` field
+- **Data captured:** Dec 2025 (BallDatabase `lastUpdated: 2025-12-31`)
+- **Imported to this repo:** 2026-06-08
+
+If you ever need the full original app source (Swift models, services, the source PDF
+`Analysis/approved_balllist-12-30-2025.pdf`), it is all at the `pre-wipe-final` tag of the
+BowlerTrax-V1 repo. Only the three most reusable files were brought over here.
+
+## Files
+
+| File | Contents |
+|---|---|
+| `BallDatabase.json` | **195 bowling balls** across 15 brands. Per-ball spec fields: `id, name, brand, coverstock, coverstockType, coreName, coreType, rg, differential, massBiasDiff, releaseDate, colors[]`. Top-level key: `balls`. |
+| `OilPatterns.json` | **22 lane oil patterns** (PBA Animal series, etc.). Fields: `id, name, category, lengthFeet, volumeML, ratio, difficulty, description, isPreset`. Top-level key: `patterns`. |
+| `Bowling-Info-Ref.md` | ~28 KB hand-written reference: rev-rate formulas, casual + PBA/USBC rules, scoring. Prose, not structured data. |
+
+Brands in `BallDatabase.json`: 900 Global, Brunswick, Columbia 300, DV8, Ebonite, Hammer,
+HIH Bowling, KR Strikeforce, Motiv, Pyramid, Radical, Roto Grip, Storm, SWAG, Track.
+
+## Caveats before publishing any of this on the live site
+
+- **Scale:** 195 balls is a curated catalog, not an exhaustive inventory. It's a strong
+  starting set, not "every ball All Star Bowl stocks."
+- **Freshness:** specs date to Dec 2025 and were scraped from `bowwwl.com`. Re-verify
+  current models/prices before presenting as in-stock pro-shop inventory.
+- **No pricing:** the dataset has specs, not retail prices. Pro-shop pricing would need to
+  come from the business.
