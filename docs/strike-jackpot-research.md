@@ -1,5 +1,7 @@
 # Strike Jackpot / Mystery Strike Games — Research Brief
 
+> **UPDATE 2026-06-07: ANSWERED.** The All Star Bowl strike jackpot is **"Kegler's Cash"** — a branded vendor game. Buy in $0.25-$5.00/game (player's choice), win 10x your buy-in up to $150, qualify by getting the correct marks/strikes **based on your group average**, sign up before the 3rd frame of game 1. So it's AVERAGE-BASED (this brief's "Architecture B"), NOT a red-pin or consecutive-strike game. Full confirmed rules in [`promotions-games-and-menu.md`](promotions-games-and-menu.md). This brief is retained for the generic background + the parts of the callback checklist still worth confirming (exact average brackets, current pot, whether all buy-in levels run).
+
 **Purpose:** Prep for the All Star Bowl owner callback. The owner described a ~5-tier strike jackpot tracked on hand-drawn wall boards (frame grid, red X marks, running dollar "JACKPOT TOTAL" ~$83, qualifier labeled "red"). The phone walkthrough wasn't recorded, so this is the generic framework to re-interview from. Fill in the real specifics after the callback.
 
 **Research date:** 2026-06-07. Confidence flags inline.
