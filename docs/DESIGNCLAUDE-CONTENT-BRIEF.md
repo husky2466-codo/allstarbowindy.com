@@ -1,19 +1,20 @@
 # All Star Bowl — Content Build Brief (for DesignClaude)
 
-> **What this is:** the single, self-contained source of everything that needs to go on the
-> All Star Bowl site. DesignClaude works in the claude.ai web app and **cannot open other files
-> or see the reference images**, so every fact, price, and rule is written out inline here, and
-> images are described in words. Paste this whole doc — or one `##` section at a time — into the
-> design chat.
+> **What this is:** the single source of everything that needs to go on the All Star Bowl site.
+> Every fact, price, and rule is written out inline here as a convenience, and the reference
+> images are listed below. Paste this whole doc — or one `##` section at a time — into the design chat.
 >
-> **How to use it:** each page section below is a checklist. Items marked **[BUILT]** are reportedly
-> already done; **[MISSING]** is what still needs adding (the gambling, deals, and capabilities the
-> owner flagged). Build the MISSING items from the facts given here. Don't invent prices or rules —
-> if something says *(confirm w/ owner)* it's not nailed down yet, so render it softly or omit.
+> **You can pull the repo (read-only)** and open the reference images. **The image always wins:**
+> the facts in this doc were transcribed (some via OCR) from those flyers, so when a price or rule
+> here disagrees with the flyer, trust the flyer and flag the discrepancy. Open the images to verify
+> prices and rules, and to view the real logo and interior photos before building.
 >
-> **You can pull the repo (read-only).** So you can open the reference images below to verify prices
-> and rules against the actual flyers, and to view the real logo and interior photos. The facts in
-> this doc were transcribed from those images — when in doubt, the image wins.
+> **How to use it:** each page section below is a checklist. **Nothing is built yet** — every page
+> in `public/js/*.jsx` is currently an empty stub, so treat every item as **[MISSING]** and build it
+> from scratch into the existing scaffold. Don't invent prices or rules — if something says
+> *(confirm w/ owner)* it's not nailed down yet, so render it softly or omit. Where a price is marked
+> as OCR'd, **verify it against the flyer image before publishing it as final** — this is a real
+> business's live site and a wrong price ships real harm.
 
 ---
 
@@ -26,8 +27,10 @@
 - **Interior look-and-feel:** `public/img/reference/bar-lounge/flat-crops/` (sports bar, mascot mural, booths), `public/img/reference/proshop/flat-crops/`, plus `public/img/reference/behind-the-scenes/` and `public/img/reference/lounge/`. Use for color palette, vibe, and real photos.
 - **Mascot art:** `public/img/generated/mascot/` (chroma-keyed transparent PNGs) — the corner-buddy mascot.
 >
-> **Status legend:** [BUILT] done · [PARTIAL] started, gaps remain · [MISSING] not started
-> (Mark these accurately as you go — current marks are best-guess from the user, verify against your build.)
+> **Status legend:** [MISSING] not started · [PARTIAL] started, gaps remain · [BUILT] done
+> **Ground truth as of this revision: nothing is built.** Every `public/js/*.jsx` page is an empty
+> stub in the repo. The per-section marks below (some say [BUILT]/[PARTIAL] from an earlier guess)
+> are wrong — treat them all as [MISSING]. Update each mark to reflect reality as you actually build.
 
 ---
 
@@ -60,7 +63,7 @@ Americana / all-star sports feel: red, white, navy blue.
 
 ---
 
-## 1. Bowling rates  — page: Bowl / Hours & Rates  — [MISSING/PARTIAL]
+## 1. Bowling rates  — page: Bowl / Hours & Rates  — [MISSING]
 
 - **Before 5 PM:** $5.00/person/game (adults) · $4.25 (seniors 55+ & juniors ≤9) · $35/hr/lane (up to 5 people)
 - **After 5 PM:** $6.25/person/game (all ages) · $45/hr/lane
@@ -92,7 +95,7 @@ A branded vendor game. A wall board with a frame grid tracks player marks/strike
 
 ---
 
-## 3. Bowling experiences  — page: Bowl  — [PARTIAL: cosmic reportedly built]
+## 3. Bowling experiences  — page: Bowl  — [MISSING]
 
 - **Cosmic Bowling** — CONFIRMED real (was previously only a hidden meta keyword on the old site; deserves a real section). Glow/blacklight environment. NYE reference price: $25/person.
 - **Interactive Bowling** — "Multiple Lane Graphics with Matching Audio." **Exclusive to All Star Bowl + Beech Grove Bowl.** Premium; "Ask for Details on Pricing." NYE reference price: $30/person.
@@ -108,7 +111,7 @@ A branded vendor game. A wall board with a frame grid tracks player marks/strike
 
 ---
 
-## 5. Parties / events  — page: Parties  — [MISSING/PARTIAL]
+## 5. Parties / events  — page: Parties  — [MISSING]
 
 ### Birthday Parties
 1.5 hrs bowling, shoes & balls, 1 large 1-topping pizza per 5 bowlers, 1 small drink per bowler — **from $17/person.** Extra 1-topping pizzas $9 + tax. Cake/cupcakes only (no outside beverages). 48-hr notice; **$25 non-refundable deposit.**
@@ -151,7 +154,7 @@ Full bar, sports watching. Needs real copy + photos. Mascot mural lives in this 
 
 ---
 
-## 7. Leagues  — page: Leagues  — [PARTIAL]
+## 7. Leagues  — page: Leagues  — [MISSING]
 
 Contacts: **Doug, Faith, Nikki — 317-352-1848.** Standings live externally at livescores.computerscore.com (centre=112) — there's a separate LiveScores demo in the works.
 
@@ -162,8 +165,8 @@ Mon Ladies Trio 7 PM · Tue Ted Gaizet Men's 11 AM · Tue Golden Ager Ladies 12 
 
 ---
 
-## 8. Pro Shop  — page: Pro Shop  — [BUILT]
-Balls, bags, shoes, accessories, professional drilling. Hours: Mon 4–8, Tue 11–8, Wed 4–9, Thu 12–7, Fri 5–8, Sat 9:30–2, Sun closed. *(Reportedly already built — verify it includes these hours.)*
+## 8. Pro Shop  — page: Pro Shop  — [MISSING]
+Balls, bags, shoes, accessories, professional drilling. Hours: Mon 4–8, Tue 11–8, Wed 4–9, Thu 12–7, Fri 5–8, Sat 9:30–2, Sun closed. *(An earlier draft of this brief said this page was already built — it is not; the page is an empty stub. Build it, and include these hours.)*
 
 ---
 
