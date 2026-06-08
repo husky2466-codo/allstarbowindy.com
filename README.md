@@ -47,16 +47,26 @@ to `public/` (e.g. `css/styles.css`, `js/app.jsx`). Fix paths there, not by movi
 Static files — any static server works from the `public/` dir, e.g.:
 
 ```
-cd public && python3 -m http.server 8080
+cd public && python3 -m http.server 8090 --bind 127.0.0.1
 ```
 
-(open http://localhost:8080)
+(open http://localhost:8090)
+
+Port 8090 is used because 8080 is occupied by another local project on this
+machine. On the dev Mac the server runs persistently via a launchd agent
+(`~/Library/LaunchAgents/com.allstarbowl.httpd.plist`) so the demo survives
+reboot/logout.
 
 ## Remote demo
 
 The local server is exposed over the internet via a Cloudflare tunnel through
-`myroproductions.com` so the design can be shown on-site and shared. Tunnel setup
-is documented separately once configured.
+`myroproductions.com` so the design can be shown on-site and shared:
+
+- **Public URL:** https://allstarbowlindy.myroproductions.com
+- **Tunnel:** `myroproductions` (`80721cb3-…`), ingress
+  `allstarbowlindy.myroproductions.com → http://localhost:8090`
+- **Config:** `~/.cloudflared/partiesbykels.yml`
+- Tunnel runs persistently via launchd alongside the static server.
 
 ## Business facts
 
