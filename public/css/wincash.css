@@ -1,0 +1,178 @@
+/* ============================================================
+   WIN CASH — Specials page cash-games section
+   (Kegler's Cash board + tabs · Casino Bowling slot machine)
+   ============================================================ */
+
+.wincash-sec { background: var(--paper); }
+
+/* ---- Section header ---- */
+.wc-head { max-width: 760px; margin-bottom: 6px; }
+.wc-title { font-size: clamp(2.1rem, 5vw, 3.4rem); margin: 8px 0 14px; }
+.wc-lead { font-size: 1.05rem; line-height: 1.6; color: var(--ink-mut); }
+.wc-lead strong { color: var(--ink); }
+.wc-jump { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 22px; }
+.wc-chip {
+  display: inline-flex; align-items: center; gap: 9px;
+  font-family: var(--f-head); font-weight: 700; font-size: .92rem;
+  color: #fff; background: var(--blue-600);
+  border: none; border-radius: 999px; padding: 11px 18px; cursor: pointer;
+  box-shadow: var(--shadow-sm); transition: transform .16s ease, box-shadow .16s ease;
+}
+.wc-chip em { font-style: normal; font-weight: 500; opacity: .8; }
+.wc-chip--gold { background: var(--gold); color: var(--navy-900); }
+.wc-chip:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+
+/* ---- Shared game card ---- */
+.wc-game {
+  position: relative; overflow: hidden;
+  border-radius: var(--r-xl); padding: clamp(26px, 4vw, 44px);
+  box-shadow: var(--shadow-md); margin-top: 30px; color: var(--cream);
+  scroll-margin-top: 90px;
+}
+.wc-keglers { background: linear-gradient(135deg, var(--navy-900) 0%, var(--blue-700) 100%); }
+.wc-casino { background: radial-gradient(130% 150% at 82% -10%, #1a2552 0%, var(--navy-900) 58%); border: 1px solid rgba(245,180,35,.2); }
+
+.wc-game-head { max-width: 640px; }
+.wc-badge {
+  display: inline-flex; align-items: center; font-family: var(--f-head);
+  font-weight: 700; text-transform: uppercase; letter-spacing: .1em; font-size: .76rem;
+  color: #fff; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.22);
+  border-radius: 999px; padding: 7px 14px;
+}
+.wc-badge--gold { background: var(--gold); color: var(--navy-900); border-color: transparent; }
+.wc-game-title { font-size: clamp(2rem, 4.6vw, 3.2rem); margin: 14px 0 12px; color: #fff; }
+.wc-game-tag { font-size: 1.04rem; line-height: 1.55; color: var(--cream); }
+.wc-game-tag strong { color: var(--gold); }
+
+/* ---- Kegler's: board + headline stats ---- */
+.wc-keglers-main {
+  display: grid; grid-template-columns: 1.08fr .92fr; gap: 38px;
+  align-items: center; margin-top: 28px;
+}
+.wc-board-wrap { display: flex; justify-content: center; }
+.wc-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.wc-stat {
+  display: flex; flex-direction: column; gap: 3px;
+  background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.15);
+  border-radius: var(--r-md); padding: 16px 18px;
+}
+.wc-stat-l { font-family: var(--f-head); font-weight: 600; text-transform: uppercase; letter-spacing: .1em; font-size: .72rem; color: var(--blue-300); }
+.wc-stat-v { font-family: var(--f-display); font-size: 2.1rem; line-height: 1; color: #fff; }
+.wc-stat-s { font-size: .84rem; color: rgba(245,241,230,.78); }
+
+/* ---- Kegler's: tabbed explainer (details ≥ 12px) ---- */
+.wc-explainer { margin-top: 32px; border-top: 1px solid rgba(255,255,255,.16); padding-top: 26px; }
+.wc-tabs { display: flex; flex-wrap: wrap; gap: 10px; }
+.wc-tab {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-family: var(--f-head); font-weight: 600; font-size: .95rem; /* ~15px */
+  color: var(--cream); background: rgba(255,255,255,.07);
+  border: 1px solid rgba(255,255,255,.18); border-radius: 999px;
+  padding: 10px 17px; cursor: pointer; transition: background .15s ease, color .15s ease, border-color .15s ease;
+}
+.wc-tab:hover { background: rgba(255,255,255,.14); }
+.wc-tab.is-on { background: var(--gold); color: var(--navy-900); border-color: var(--gold); box-shadow: 0 6px 16px -6px rgba(245,180,35,.6); }
+
+.wc-tabpanel { margin-top: 22px; max-width: 760px; }
+.wc-tp-title { font-family: var(--f-head); font-weight: 700; font-size: 1.22rem; color: #fff; margin-bottom: 9px; }
+.wc-tp-body { font-size: 1rem; /* 16px */ line-height: 1.62; color: var(--cream); }
+.wc-tp-foot {
+  margin-top: 14px; font-size: .95rem; /* ~15px */ line-height: 1.5;
+  color: #fff; border-left: 3px solid var(--gold); padding-left: 14px;
+}
+.wc-ladder {
+  list-style: none; padding: 0; margin: 16px 0 2px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 10px; max-width: 460px;
+}
+.wc-ladder-row {
+  display: flex; align-items: center; gap: 10px;
+  background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.14);
+  border-radius: var(--r-md); padding: 11px 15px;
+}
+.wc-ladder-in { font-family: var(--f-head); font-weight: 800; font-size: 1.02rem; color: var(--gold); }
+.wc-ladder-arrow { color: rgba(245,241,230,.5); display: inline-flex; }
+.wc-ladder-arrow svg { transform: rotate(0deg); }
+.wc-ladder-out { font-family: var(--f-head); font-weight: 700; font-size: 1rem; color: #fff; }
+
+/* ---- Casino Bowling ---- */
+.wc-casino-grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 44px; align-items: center; }
+.wc-game-title--light { color: #fff; }
+.wc-casino-lead { font-size: 1.05rem; line-height: 1.6; color: var(--cream); margin-top: 14px; }
+.wc-casino-lead strong { color: var(--gold); }
+.wc-casino-meta { display: flex; gap: 30px; flex-wrap: wrap; margin: 22px 0; }
+.wc-cm-item { display: flex; flex-direction: column; gap: 3px; }
+.wc-cm-l { font-family: var(--f-head); font-weight: 600; text-transform: uppercase; letter-spacing: .12em; font-size: .72rem; color: var(--blue-300); }
+.wc-cm-item strong { font-size: 1.06rem; color: #fff; }
+.wc-casino-note { display: flex; align-items: center; gap: 9px; font-size: .92rem; line-height: 1.45; color: rgba(245,241,230,.86); }
+.wc-casino-note svg { color: var(--gold); flex: none; }
+.wc-casino-cta { display: flex; flex-wrap: wrap; gap: 13px; margin-top: 24px; }
+
+/* ---- Slot machine ---- */
+.wc-casino-machine { display: flex; justify-content: center; }
+.slot {
+  width: 100%; max-width: 360px;
+  background: linear-gradient(180deg, #232c54 0%, #0b1330 100%);
+  border: 3px solid var(--gold); border-radius: 22px; padding: 18px 18px 16px;
+  box-shadow: 0 22px 48px -18px rgba(0,0,0,.7), inset 0 0 0 2px rgba(245,180,35,.22);
+  transition: box-shadow .3s ease;
+}
+.slot.is-win { box-shadow: 0 22px 54px -16px rgba(245,180,35,.6), inset 0 0 0 2px rgba(245,180,35,.5); }
+.slot-top { display: flex; flex-direction: column; align-items: center; gap: 3px; margin-bottom: 13px; }
+.slot-eyebrow { font-family: var(--f-head); font-weight: 700; text-transform: uppercase; letter-spacing: .22em; font-size: .62rem; color: var(--gold); }
+.slot-marquee { font-family: var(--f-display); font-size: 1.3rem; line-height: 1; letter-spacing: .03em; color: #fff; white-space: nowrap; text-shadow: 0 2px 0 rgba(0,0,0,.4); }
+
+.slot-window {
+  position: relative; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
+  background: #060d1c; border: 2px solid rgba(245,180,35,.32); border-radius: 14px;
+  padding: 10px;
+}
+.slot-payline {
+  position: absolute; left: 6px; right: 6px; top: 50%; height: 62px;
+  transform: translateY(-50%); border-top: 2px solid rgba(224,36,31,.55);
+  border-bottom: 2px solid rgba(224,36,31,.55); pointer-events: none; z-index: 3;
+  transition: border-color .3s ease;
+}
+.slot.is-win .slot-payline { border-color: var(--gold); }
+.slot-reel {
+  position: relative; height: 186px; overflow: hidden; border-radius: 9px;
+  background: linear-gradient(180deg, #fffdf6 0%, #efe6d0 100%);
+  box-shadow: inset 0 0 16px rgba(0,0,0,.28);
+}
+.slot-reel::before, .slot-reel::after {
+  content: ""; position: absolute; left: 0; right: 0; height: 56px; z-index: 2; pointer-events: none;
+}
+.slot-reel::before { top: 0; background: linear-gradient(180deg, rgba(20,20,30,.5), transparent); }
+.slot-reel::after { bottom: 0; background: linear-gradient(0deg, rgba(20,20,30,.5), transparent); }
+.slot-reel-inner { position: absolute; left: 0; right: 0; top: 0; will-change: transform; }
+.slot-cell {
+  display: grid; place-items: center;
+  font-family: var(--f-display); font-size: 2.3rem; line-height: 1;
+}
+
+.slot-foot { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 13px; }
+.slot-msg { font-family: var(--f-head); font-weight: 600; font-size: .9rem; color: rgba(245,241,230,.8); }
+.slot-msg--idle { color: rgba(245,241,230,.7); }
+.slot-msg--win { color: var(--gold); display: inline-flex; align-items: center; gap: 7px; }
+.slot-lever {
+  display: inline-flex; align-items: center; gap: 7px;
+  font-family: var(--f-head); font-weight: 800; font-size: .9rem; text-transform: uppercase; letter-spacing: .05em;
+  color: var(--navy-900); background: var(--gold); border: none; border-radius: 999px;
+  padding: 9px 18px; cursor: pointer; box-shadow: 0 5px 14px -5px rgba(245,180,35,.7);
+  transition: transform .14s ease, filter .14s ease;
+}
+.slot-lever:hover:not(:disabled) { transform: translateY(-1px); filter: brightness(1.05); }
+.slot-lever:disabled { opacity: .6; cursor: default; }
+
+.wc-disclaimer { margin-top: 26px; font-size: .82rem; line-height: 1.5; color: var(--ink-mut); max-width: 760px; }
+
+/* ---- Responsive ---- */
+@media (max-width: 880px) {
+  .wc-keglers-main { grid-template-columns: 1fr; gap: 28px; }
+  .wc-casino-grid { grid-template-columns: 1fr; gap: 30px; }
+  .wc-casino-machine { order: -1; }
+}
+@media (max-width: 520px) {
+  .wc-stats { grid-template-columns: 1fr; }
+  .wc-ladder { grid-template-columns: 1fr; }
+  .slot-cell { font-size: 2rem; }
+}

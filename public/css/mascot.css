@@ -1,0 +1,110 @@
+/* ============================================================
+   CORNER BUDDY — site-wide mascot
+   Animation (idle bob / wave / excite / entrance) is driven by
+   requestAnimationFrame in js/mascot.jsx, NOT CSS keyframes,
+   because the preview iframe freezes CSS animation clocks.
+   This file only holds static layout + chrome.
+   ============================================================ */
+
+.buddy {
+  position: fixed;
+  right: clamp(12px, 3vw, 30px);
+  bottom: clamp(14px, 3vw, 26px);
+  width: clamp(94px, 11vw, 130px);
+  z-index: 50;
+  cursor: pointer;
+  /* starts off-screen; rAF takes over on first frame */
+  transform: translateY(150%);
+  opacity: 0;
+  filter: drop-shadow(0 16px 22px rgba(10, 20, 48, .42));
+  -webkit-tap-highlight-color: transparent;
+  transform-origin: 50% 100%;     /* pivot at the base for a predictable head-up tuck */
+}
+.buddy--nested { cursor: pointer; }
+.buddy:focus-visible { outline: none; }
+.buddy:focus-visible .buddy-imgwrap img {
+  filter: drop-shadow(0 0 0 3px var(--blue-400));
+  border-radius: 12px;
+}
+
+.buddy-imgwrap {
+  transform-origin: 50% 90%;     /* pivots near the base, like it's standing */
+  will-change: transform;
+}
+.buddy-imgwrap img {
+  width: 100%;
+  display: block;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* ---- Speech bubble ---- */
+.buddy-bubble {
+  position: absolute;
+  bottom: 90%;
+  right: 24%;
+  background: var(--cream);
+  color: var(--navy-900);
+  font-family: var(--f-head);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  font-size: clamp(.72rem, 1.35vw, .86rem);
+  line-height: 1.05;
+  padding: .5rem .8rem;
+  border-radius: 13px 13px 3px 13px;
+  white-space: nowrap;
+  width: max-content;
+  max-width: min(62vw, 240px);
+  box-shadow: 0 12px 24px -8px rgba(10, 20, 48, .5);
+  border: 2px solid var(--navy-900);
+  transform-origin: bottom right;
+  opacity: 0;                    /* rAF drives opacity + transform */
+  pointer-events: none;
+  z-index: 5;                    /* sits in front of the mascot */
+}
+.buddy-bubble::after {
+  content: "";
+  position: absolute;
+  right: 16px;
+  bottom: -8px;
+  width: 13px;
+  height: 13px;
+  background: var(--cream);
+  border-right: 2px solid var(--navy-900);
+  border-bottom: 2px solid var(--navy-900);
+  transform: rotate(45deg);
+}
+
+/* ---- Dismiss button (mascot is always dismissible) ---- */
+.buddy-close {
+  position: absolute;
+  top: 0;
+  left: -4px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--navy-900);
+  color: var(--cream);
+  display: grid;
+  place-items: center;
+  font-size: 14px;
+  line-height: 1;
+  box-shadow: 0 4px 10px rgba(10, 20, 48, .4);
+  opacity: 0;
+  transform: scale(.7);
+  transition: opacity .2s ease, transform .2s ease;
+  z-index: 3;
+}
+.buddy:hover .buddy-close,
+.buddy:focus-within .buddy-close {
+  opacity: 1;
+  transform: scale(1);
+}
+.buddy-close:hover { background: var(--red-600); }
+
+@media (max-width: 560px) {
+  .buddy { width: clamp(78px, 22vw, 104px); }
+  .buddy-bubble { font-size: .72rem; }
+}

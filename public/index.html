@@ -1,42 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>All Star Bowl — Indianapolis</title>
-  <meta name="description" content="All Star Bowl — 48-lane family bowling center on the east side of Indianapolis. Bowling, sports bar, cafe, pro shop, parties, leagues." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>All Star Bowl · East Indianapolis</title>
+  <meta name="description" content="All Star Bowl — East Indianapolis bowling, sports bar, Alley Cafe and pro shop. Live lane availability, hours, rates, leagues and online reservations." />
+  <link rel="icon" href="img/logo.png" type="image/png" />
 
-  <!-- Stylesheets (load order: base -> components -> page styles) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Saira+Condensed:wght@400;500;600;700;800&family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Permanent+Marker&display=swap" rel="stylesheet" />
+
   <link rel="stylesheet" href="css/styles.css" />
   <link rel="stylesheet" href="css/components.css" />
   <link rel="stylesheet" href="css/home.css" />
   <link rel="stylesheet" href="css/pages.css" />
+  <link rel="stylesheet" href="css/pages2.css" />
+  <link rel="stylesheet" href="css/pages3.css" />
+  <link rel="stylesheet" href="css/pages4.css" />
+  <link rel="stylesheet" href="css/wincash.css" />
+  <link rel="stylesheet" href="css/scores.css" />
+  <link rel="stylesheet" href="css/proshop.css" />
+  <link rel="stylesheet" href="css/cosmic.css" />
+  <link rel="stylesheet" href="css/mascot.css" />
 
-  <!-- React + Babel via CDN (no build step — JSX is transpiled in-browser).
-       Pinned to React 18 UMD + Babel standalone. For a real build later,
-       swap these for a Vite/npm setup. -->
-  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <style>
+    #root { min-height: 100vh; }
+    .page-anim { animation: pageIn .45s var(--ease); }
+    @keyframes pageIn { from { transform: translateY(10px); } to { transform: none; } }
+    .boot { min-height: 100vh; display: grid; place-items: center; background: var(--navy-900); }
+    .boot img { width: 90px; animation: bootPulse 1.3s ease-in-out infinite; }
+    @keyframes bootPulse { 0%,100% { transform: scale(.92); opacity: .7; } 50% { transform: scale(1.04); opacity: 1; } }
+  </style>
 </head>
 <body>
-  <div id="root">
-    <!-- React mounts here. This fallback shows if JS is disabled or fails. -->
-    <noscript>All Star Bowl — please enable JavaScript to view this site. Call (317) 352-1848.</noscript>
-  </div>
+  <div id="root"><div class="boot"><img src="img/logo.png" alt="Loading All Star Bowl" /></div></div>
 
-  <!-- App data first, then shared components, then per-page views, then the app entry.
-       type="text/babel" tells Babel-standalone to transpile the JSX at runtime.
-       data-presets ensures React preset is applied. -->
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
   <script src="js/data.js"></script>
-  <script type="text/babel" data-presets="react" src="js/components.jsx"></script>
-  <script type="text/babel" data-presets="react" src="js/home.jsx"></script>
-  <script type="text/babel" data-presets="react" src="js/bowl.jsx"></script>
-  <script type="text/babel" data-presets="react" src="js/eat.jsx"></script>
-  <script type="text/babel" data-presets="react" src="js/leagues.jsx"></script>
-  <script type="text/babel" data-presets="react" src="js/parties.jsx"></script>
-  <script type="text/babel" data-presets="react" src="js/account.jsx"></script>
-  <script type="text/babel" data-presets="react" src="js/status.jsx"></script>
-  <script type="text/babel" data-presets="react" src="js/app.jsx"></script>
+  <script src="js/data-provider.js"></script>
+  <script src="js/proshop-data.js"></script>
+  <script src="js/image-slot.js"></script>
+  <script src="js/lane-engine.js"></script>
+  <script type="text/babel" src="js/components.jsx"></script>
+  <script type="text/babel" src="js/status.jsx"></script>
+  <script type="text/babel" src="js/ios-frame.jsx"></script>
+  <script type="text/babel" src="js/mobile.jsx"></script>
+  <script type="text/babel" src="js/home.jsx"></script>
+  <script type="text/babel" src="js/bowl.jsx"></script>
+  <script type="text/babel" src="js/leagues.jsx"></script>
+  <script src="js/demo-fixtures.js"></script>
+  <script type="text/babel" src="js/scores.jsx"></script>
+  <script type="text/babel" src="js/eat.jsx"></script>
+  <script type="text/babel" src="js/parties.jsx"></script>
+  <script type="text/babel" src="js/account.jsx"></script>
+  <script type="text/babel" src="js/proshop.jsx"></script>
+  <script type="text/babel" src="js/proshop-walkin.jsx"></script>
+  <script type="text/babel" src="js/cosmic.jsx"></script>
+  <script type="text/babel" src="js/join.jsx"></script>
+  <script type="text/babel" src="js/jackpot.jsx"></script>
+  <script type="text/babel" src="js/wincash.jsx"></script>
+  <script type="text/babel" src="js/specials.jsx"></script>
+  <script type="text/babel" src="js/contact.jsx"></script>
+  <script type="text/babel" src="js/legal.jsx"></script>
+  <script type="text/babel" src="js/mascot.jsx"></script>
+  <script type="text/babel" src="js/app.jsx"></script>
 </body>
 </html>
