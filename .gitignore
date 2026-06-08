@@ -29,3 +29,9 @@ public/uploads/3d/
 
 # Session handoff docs — local-only, never committed (kept on disk for the next session)
 docs/handoffs/
+
+# Email drafts — local-only, never committed (working drafts, not project artifacts)
+docs/Email Drafts/
+
+# Claude Code local config + session state (lock files, etc.) — local-only
+.claude/
