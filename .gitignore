@@ -35,3 +35,7 @@ docs/Email Drafts/
 
 # Claude Code local config + session state (lock files, etc.) — local-only
 .claude/
+
+# Sensitive/local artifacts moved OUT of the served public/ root (scraped photos,
+# code-graph output, livescores screenshots+token). Never served, never committed.
+_local-artifacts/
