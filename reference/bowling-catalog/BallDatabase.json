@@ -12,7 +12,10 @@
       "differential": 0.051,
       "massBiasDiff": 0.014,
       "releaseDate": "2026-01",
-      "colors": ["black", "purple"]
+      "colors": [
+        "black",
+        "purple"
+      ]
     },
     {
       "id": "b002-apex-jackal",
@@ -22,11 +25,14 @@
       "coverstockType": "pearl",
       "coreName": "Apex Predator",
       "coreType": "asymmetric",
-      "rg": 2.520,
+      "rg": 2.52,
       "differential": 0.055,
-      "massBiasDiff": 0.020,
+      "massBiasDiff": 0.02,
       "releaseDate": "2026-01",
-      "colors": ["red", "black"]
+      "colors": [
+        "red",
+        "black"
+      ]
     },
     {
       "id": "b003-clear-storm-teal",
@@ -36,11 +42,14 @@
       "coverstockType": "polyester",
       "coreName": "Hex",
       "coreType": "symmetric",
-      "rg": 2.660,
+      "rg": 2.66,
       "differential": 0.018,
       "massBiasDiff": null,
       "releaseDate": "2026-01",
-      "colors": ["teal", "clear"]
+      "colors": [
+        "teal",
+        "clear"
+      ]
     },
     {
       "id": "b004-next-factor",
@@ -50,11 +59,14 @@
       "coverstockType": "pearl",
       "coreName": "RAD-TQ",
       "coreType": "asymmetric",
-      "rg": 2.560,
+      "rg": 2.56,
       "differential": 0.051,
       "massBiasDiff": 0.017,
       "releaseDate": "2025-12",
-      "colors": ["blue", "purple"]
+      "colors": [
+        "blue",
+        "purple"
+      ]
     },
     {
       "id": "b005-crown-78u",
@@ -68,7 +80,10 @@
       "differential": 0.046,
       "massBiasDiff": null,
       "releaseDate": "2025-12",
-      "colors": ["purple", "gold"]
+      "colors": [
+        "purple",
+        "gold"
+      ]
     },
     {
       "id": "b006-danger-zone",
@@ -82,7 +97,10 @@
       "differential": 0.048,
       "massBiasDiff": null,
       "releaseDate": "2025-12",
-      "colors": ["red", "black"]
+      "colors": [
+        "red",
+        "black"
+      ]
     },
     {
       "id": "b007-danger-zone-purple-ice",
@@ -96,7 +114,10 @@
       "differential": 0.048,
       "massBiasDiff": null,
       "releaseDate": "2025-12",
-      "colors": ["purple", "white"]
+      "colors": [
+        "purple",
+        "white"
+      ]
     },
     {
       "id": "b008-street-rally",
@@ -107,10 +128,13 @@
       "coreName": "Shifter",
       "coreType": "asymmetric",
       "rg": 2.478,
-      "differential": 0.050,
+      "differential": 0.05,
       "massBiasDiff": 0.015,
       "releaseDate": "2025-12",
-      "colors": ["orange", "black"]
+      "colors": [
+        "orange",
+        "black"
+      ]
     },
     {
       "id": "b009-nebula",
@@ -120,11 +144,14 @@
       "coverstockType": "pearl",
       "coreName": "Hadron",
       "coreType": "symmetric",
-      "rg": 2.500,
+      "rg": 2.5,
       "differential": 0.045,
       "massBiasDiff": null,
       "releaseDate": "2025-11",
-      "colors": ["purple", "blue"]
+      "colors": [
+        "purple",
+        "blue"
+      ]
     },
     {
       "id": "b010-viking",
@@ -134,11 +161,14 @@
       "coverstockType": "hybrid",
       "coreName": "Strobe A.I.",
       "coreType": "asymmetric",
-      "rg": 2.510,
+      "rg": 2.51,
       "differential": 0.052,
       "massBiasDiff": 0.016,
       "releaseDate": "2025-11",
-      "colors": ["blue", "silver"]
+      "colors": [
+        "blue",
+        "silver"
+      ]
     },
     {
       "id": "b011-heckler-hybrid",
@@ -150,9 +180,12 @@
       "coreType": "asymmetric",
       "rg": 2.504,
       "differential": 0.051,
-      "massBiasDiff": 0.010,
+      "massBiasDiff": 0.01,
       "releaseDate": "2025-11",
-      "colors": ["green", "black"]
+      "colors": [
+        "green",
+        "black"
+      ]
     },
     {
       "id": "b012-entity-pearl",
@@ -164,9 +197,12 @@
       "coreType": "asymmetric",
       "rg": 2.515,
       "differential": 0.052,
-      "massBiasDiff": 0.020,
+      "massBiasDiff": 0.02,
       "releaseDate": "2025-11",
-      "colors": ["blue", "white"]
+      "colors": [
+        "blue",
+        "white"
+      ]
     },
     {
       "id": "b013-nu-2",
@@ -180,7 +216,10 @@
       "differential": 0.027,
       "massBiasDiff": null,
       "releaseDate": "2025-11",
-      "colors": ["black", "red"]
+      "colors": [
+        "black",
+        "red"
+      ]
     },
     {
       "id": "b014-zero-mercy-pearl",
@@ -192,9 +231,12 @@
       "coreType": "asymmetric",
       "rg": 2.524,
       "differential": 0.053,
-      "massBiasDiff": 0.020,
+      "massBiasDiff": 0.02,
       "releaseDate": "2025-11",
-      "colors": ["blue", "silver"]
+      "colors": [
+        "blue",
+        "silver"
+      ]
     },
     {
       "id": "b015-zero-mercy-solid",
@@ -206,9 +248,12 @@
       "coreType": "asymmetric",
       "rg": 2.524,
       "differential": 0.053,
-      "massBiasDiff": 0.020,
+      "massBiasDiff": 0.02,
       "releaseDate": "2025-11",
-      "colors": ["red", "black"]
+      "colors": [
+        "red",
+        "black"
+      ]
     },
     {
       "id": "b016-phaze-ii-pearl",
@@ -218,11 +263,14 @@
       "coverstockType": "pearl",
       "coreName": "Velocity",
       "coreType": "symmetric",
-      "rg": 2.480,
+      "rg": 2.48,
       "differential": 0.051,
       "massBiasDiff": null,
       "releaseDate": "2025-11",
-      "colors": ["purple", "blue"]
+      "colors": [
+        "purple",
+        "blue"
+      ]
     },
     {
       "id": "b017-rockstar-amped",
@@ -232,11 +280,14 @@
       "coverstockType": "pearl",
       "coreName": "Rocker A.I.",
       "coreType": "symmetric",
-      "rg": 2.480,
-      "differential": 0.050,
+      "rg": 2.48,
+      "differential": 0.05,
       "massBiasDiff": null,
       "releaseDate": "2025-10",
-      "colors": ["gold", "black"]
+      "colors": [
+        "gold",
+        "black"
+      ]
     },
     {
       "id": "b018-alert",
@@ -250,7 +301,10 @@
       "differential": 0.037,
       "massBiasDiff": null,
       "releaseDate": "2025-10",
-      "colors": ["orange", "blue"]
+      "colors": [
+        "orange",
+        "blue"
+      ]
     },
     {
       "id": "b019-energize",
@@ -264,7 +318,10 @@
       "differential": 0.048,
       "massBiasDiff": 0.017,
       "releaseDate": "2025-10",
-      "colors": ["green", "blue"]
+      "colors": [
+        "green",
+        "blue"
+      ]
     },
     {
       "id": "b020-ricochet-return",
@@ -278,7 +335,10 @@
       "differential": 0.054,
       "massBiasDiff": null,
       "releaseDate": "2025-10",
-      "colors": ["purple", "pink"]
+      "colors": [
+        "purple",
+        "pink"
+      ]
     },
     {
       "id": "b021-intel-recon",
@@ -292,7 +352,10 @@
       "differential": 0.032,
       "massBiasDiff": null,
       "releaseDate": "2025-10",
-      "colors": ["blue", "silver"]
+      "colors": [
+        "blue",
+        "silver"
+      ]
     },
     {
       "id": "b022-evil-eye",
@@ -306,7 +369,10 @@
       "differential": 0.046,
       "massBiasDiff": null,
       "releaseDate": "2025-10",
-      "colors": ["red", "black"]
+      "colors": [
+        "red",
+        "black"
+      ]
     },
     {
       "id": "b023-criterion-inverse",
@@ -320,7 +386,10 @@
       "differential": 0.047,
       "massBiasDiff": 0.016,
       "releaseDate": "2025-10",
-      "colors": ["black", "gold"]
+      "colors": [
+        "black",
+        "gold"
+      ]
     },
     {
       "id": "b024-shadow-tank",
@@ -330,11 +399,14 @@
       "coverstockType": "pearl",
       "coreName": "Flux",
       "coreType": "symmetric",
-      "rg": 2.570,
+      "rg": 2.57,
       "differential": 0.015,
       "massBiasDiff": null,
       "releaseDate": "2025-10",
-      "colors": ["black", "gray"]
+      "colors": [
+        "black",
+        "gray"
+      ]
     },
     {
       "id": "b025-raptor-reign",
@@ -344,11 +416,14 @@
       "coverstockType": "solid",
       "coreName": "Affliction V2",
       "coreType": "symmetric",
-      "rg": 2.480,
+      "rg": 2.48,
       "differential": 0.055,
       "massBiasDiff": null,
       "releaseDate": "2025-10",
-      "colors": ["red", "black"]
+      "colors": [
+        "red",
+        "black"
+      ]
     },
     {
       "id": "b026-equinox-solid",
@@ -358,11 +433,14 @@
       "coverstockType": "solid",
       "coreName": "Solarion A.I.",
       "coreType": "asymmetric",
-      "rg": 2.480,
+      "rg": 2.48,
       "differential": 0.054,
       "massBiasDiff": 0.018,
       "releaseDate": "2025-10",
-      "colors": ["orange", "blue"]
+      "colors": [
+        "orange",
+        "blue"
+      ]
     },
     {
       "id": "b027-rst-hyperdrive-pearl",
@@ -372,11 +450,14 @@
       "coverstockType": "pearl",
       "coreName": "RST + A.I.",
       "coreType": "asymmetric",
-      "rg": 2.520,
+      "rg": 2.52,
       "differential": 0.055,
       "massBiasDiff": 0.017,
       "releaseDate": "2025-09",
-      "colors": ["blue", "purple"]
+      "colors": [
+        "blue",
+        "purple"
+      ]
     },
     {
       "id": "b028-black-dragon-pearl",
@@ -386,11 +467,14 @@
       "coverstockType": "pearl",
       "coreName": "Dragon",
       "coreType": "asymmetric",
-      "rg": 2.480,
+      "rg": 2.48,
       "differential": 0.054,
       "massBiasDiff": 0.018,
       "releaseDate": "2025-09",
-      "colors": ["black", "red"]
+      "colors": [
+        "black",
+        "red"
+      ]
     },
     {
       "id": "b029-judge-pearl",
@@ -400,11 +484,14 @@
       "coverstockType": "pearl",
       "coreName": "Judge",
       "coreType": "asymmetric",
-      "rg": 2.490,
+      "rg": 2.49,
       "differential": 0.052,
       "massBiasDiff": 0.019,
       "releaseDate": "2025-09",
-      "colors": ["purple", "gold"]
+      "colors": [
+        "purple",
+        "gold"
+      ]
     },
     {
       "id": "b030-mantra-solid",
@@ -418,7 +505,10 @@
       "differential": 0.047,
       "massBiasDiff": 0.011,
       "releaseDate": "2025-09",
-      "colors": ["blue", "black"]
+      "colors": [
+        "blue",
+        "black"
+      ]
     },
     {
       "id": "b031-the-one-ovation",
@@ -432,7 +522,10 @@
       "differential": 0.056,
       "massBiasDiff": 0.027,
       "releaseDate": "2025-09",
-      "colors": ["blue", "orange"]
+      "colors": [
+        "blue",
+        "orange"
+      ]
     },
     {
       "id": "b032-black-widow-tour-v1",
@@ -442,11 +535,14 @@
       "coverstockType": "hybrid",
       "coreName": "Gas Mask Low Diff",
       "coreType": "asymmetric",
-      "rg": 2.500,
+      "rg": 2.5,
       "differential": 0.034,
       "massBiasDiff": 0.016,
       "releaseDate": "2025-09",
-      "colors": ["black", "red"]
+      "colors": [
+        "black",
+        "red"
+      ]
     },
     {
       "id": "b033-maximum-effect",
@@ -456,11 +552,14 @@
       "coverstockType": "hybrid",
       "coreName": "Huntsman",
       "coreType": "asymmetric",
-      "rg": 2.470,
-      "differential": 0.050,
+      "rg": 2.47,
+      "differential": 0.05,
       "massBiasDiff": 0.017,
       "releaseDate": "2025-09",
-      "colors": ["green", "gold"]
+      "colors": [
+        "green",
+        "gold"
+      ]
     },
     {
       "id": "b034-primal-ghost",
@@ -470,11 +569,14 @@
       "coverstockType": "solid",
       "coreName": "Impulse V2",
       "coreType": "symmetric",
-      "rg": 2.550,
-      "differential": 0.050,
+      "rg": 2.55,
+      "differential": 0.05,
       "massBiasDiff": null,
       "releaseDate": "2025-09",
-      "colors": ["white", "gray"]
+      "colors": [
+        "white",
+        "gray"
+      ]
     },
     {
       "id": "b035-fusion-hybrid",
@@ -484,11 +586,14 @@
       "coverstockType": "hybrid",
       "coreName": "Fusion",
       "coreType": "symmetric",
-      "rg": 2.540,
+      "rg": 2.54,
       "differential": 0.036,
       "massBiasDiff": null,
       "releaseDate": "2025-09",
-      "colors": ["blue", "orange"]
+      "colors": [
+        "blue",
+        "orange"
+      ]
     },
     {
       "id": "b036-combat",
@@ -502,7 +607,10 @@
       "differential": 0.051,
       "massBiasDiff": 0.019,
       "releaseDate": "2025-08",
-      "colors": ["black", "red"]
+      "colors": [
+        "black",
+        "red"
+      ]
     },
     {
       "id": "b037-infinity-quest",
@@ -514,9 +622,12 @@
       "coreType": "asymmetric",
       "rg": 2.521,
       "differential": 0.051,
-      "massBiasDiff": 0.010,
+      "massBiasDiff": 0.01,
       "releaseDate": "2025-08",
-      "colors": ["purple", "blue"]
+      "colors": [
+        "purple",
+        "blue"
+      ]
     },
     {
       "id": "b038-pulse",
@@ -530,7 +641,10 @@
       "differential": 0.045,
       "massBiasDiff": null,
       "releaseDate": "2025-08",
-      "colors": ["blue", "purple"]
+      "colors": [
+        "blue",
+        "purple"
+      ]
     },
     {
       "id": "b039-guru-oracle",
@@ -544,7 +658,10 @@
       "differential": 0.044,
       "massBiasDiff": 0.018,
       "releaseDate": "2025-08",
-      "colors": ["purple", "silver"]
+      "colors": [
+        "purple",
+        "silver"
+      ]
     },
     {
       "id": "b040-snapshot-hybrid",
@@ -555,10 +672,13 @@
       "coreName": "Snapshot",
       "coreType": "symmetric",
       "rg": 2.523,
-      "differential": 0.050,
+      "differential": 0.05,
       "massBiasDiff": null,
       "releaseDate": "2025-08",
-      "colors": ["red", "blue"]
+      "colors": [
+        "red",
+        "blue"
+      ]
     },
     {
       "id": "b041-theorem-solid",
@@ -572,7 +692,10 @@
       "differential": 0.046,
       "massBiasDiff": 0.017,
       "releaseDate": "2025-08",
-      "colors": ["blue", "black"]
+      "colors": [
+        "blue",
+        "black"
+      ]
     },
     {
       "id": "b042-steel-forge",
@@ -582,11 +705,14 @@
       "coverstockType": "pearl",
       "coreName": "Detonator",
       "coreType": "symmetric",
-      "rg": 2.470,
+      "rg": 2.47,
       "differential": 0.055,
       "massBiasDiff": null,
       "releaseDate": "2025-08",
-      "colors": ["silver", "blue"]
+      "colors": [
+        "silver",
+        "blue"
+      ]
     },
     {
       "id": "b043-apex-pearl",
@@ -596,11 +722,14 @@
       "coverstockType": "pearl",
       "coreName": "APX V1",
       "coreType": "symmetric",
-      "rg": 2.500,
+      "rg": 2.5,
       "differential": 0.042,
       "massBiasDiff": null,
       "releaseDate": "2025-08",
-      "colors": ["orange", "white"]
+      "colors": [
+        "orange",
+        "white"
+      ]
     },
     {
       "id": "b044-apex-solid",
@@ -610,11 +739,14 @@
       "coverstockType": "solid",
       "coreName": "APX V1",
       "coreType": "symmetric",
-      "rg": 2.500,
+      "rg": 2.5,
       "differential": 0.042,
       "massBiasDiff": null,
       "releaseDate": "2025-08",
-      "colors": ["black", "orange"]
+      "colors": [
+        "black",
+        "orange"
+      ]
     },
     {
       "id": "b045-craze-hybrid",
@@ -624,11 +756,14 @@
       "coverstockType": "hybrid",
       "coreName": "Craze",
       "coreType": "symmetric",
-      "rg": 2.520,
-      "differential": 0.030,
+      "rg": 2.52,
+      "differential": 0.03,
       "massBiasDiff": null,
       "releaseDate": "2025-08",
-      "colors": ["blue", "pink"]
+      "colors": [
+        "blue",
+        "pink"
+      ]
     },
     {
       "id": "b046-gremlin",
@@ -638,11 +773,14 @@
       "coverstockType": "pearl",
       "coreName": "Rondure MaxD",
       "coreType": "asymmetric",
-      "rg": 2.500,
+      "rg": 2.5,
       "differential": 0.058,
-      "massBiasDiff": 0.010,
+      "massBiasDiff": 0.01,
       "releaseDate": "2025-07",
-      "colors": ["green", "black"]
+      "colors": [
+        "green",
+        "black"
+      ]
     },
     {
       "id": "b047-ember",
@@ -652,11 +790,14 @@
       "coverstockType": "pearl",
       "coreName": "Magna A.I.",
       "coreType": "symmetric",
-      "rg": 2.490,
+      "rg": 2.49,
       "differential": 0.044,
       "massBiasDiff": null,
       "releaseDate": "2025-07",
-      "colors": ["orange", "red"]
+      "colors": [
+        "orange",
+        "red"
+      ]
     },
     {
       "id": "b048-cove",
@@ -666,11 +807,14 @@
       "coverstockType": "hybrid",
       "coreName": "Magna A.I.",
       "coreType": "symmetric",
-      "rg": 2.490,
+      "rg": 2.49,
       "differential": 0.044,
       "massBiasDiff": null,
       "releaseDate": "2025-07",
-      "colors": ["blue", "teal"]
+      "colors": [
+        "blue",
+        "teal"
+      ]
     },
     {
       "id": "b049-severe-collision",
@@ -684,7 +828,10 @@
       "differential": 0.052,
       "massBiasDiff": 0.019,
       "releaseDate": "2025-07",
-      "colors": ["red", "black"]
+      "colors": [
+        "red",
+        "black"
+      ]
     },
     {
       "id": "b050-entity",
@@ -696,9 +843,12 @@
       "coreType": "asymmetric",
       "rg": 2.515,
       "differential": 0.052,
-      "massBiasDiff": 0.020,
+      "massBiasDiff": 0.02,
       "releaseDate": "2025-07",
-      "colors": ["black", "purple"]
+      "colors": [
+        "black",
+        "purple"
+      ]
     },
     {
       "id": "b051-anger-solid",
@@ -712,7 +862,10 @@
       "differential": 0.049,
       "massBiasDiff": null,
       "releaseDate": "2025-07",
-      "colors": ["red", "black"]
+      "colors": [
+        "red",
+        "black"
+      ]
     },
     {
       "id": "b052-bubblegum-vibe",
@@ -722,11 +875,14 @@
       "coverstockType": "pearl",
       "coreName": "Vibe",
       "coreType": "symmetric",
-      "rg": 2.510,
+      "rg": 2.51,
       "differential": 0.042,
       "massBiasDiff": null,
       "releaseDate": "2025-07",
-      "colors": ["pink", "white"]
+      "colors": [
+        "pink",
+        "white"
+      ]
     },
     {
       "id": "b053-supra-clutch",
@@ -736,11 +892,14 @@
       "coverstockType": "hybrid",
       "coreName": "Quadfire",
       "coreType": "symmetric",
-      "rg": 2.550,
+      "rg": 2.55,
       "differential": 0.043,
       "massBiasDiff": null,
       "releaseDate": "2025-07",
-      "colors": ["blue", "silver"]
+      "colors": [
+        "blue",
+        "silver"
+      ]
     },
     {
       "id": "b054-identity-bcp",
@@ -750,11 +909,15 @@
       "coverstockType": "pearl",
       "coreName": "ID A.I.",
       "coreType": "asymmetric",
-      "rg": 2.510,
+      "rg": 2.51,
       "differential": 0.055,
       "massBiasDiff": 0.011,
       "releaseDate": "2025-07",
-      "colors": ["black", "charcoal", "purple"]
+      "colors": [
+        "black",
+        "charcoal",
+        "purple"
+      ]
     },
     {
       "id": "b055-ion-pro-solid",
@@ -764,11 +927,14 @@
       "coverstockType": "solid",
       "coreName": "Element Tour A.I.",
       "coreType": "asymmetric",
-      "rg": 2.470,
+      "rg": 2.47,
       "differential": 0.035,
       "massBiasDiff": 0.014,
       "releaseDate": "2025-06",
-      "colors": ["blue", "silver"]
+      "colors": [
+        "blue",
+        "silver"
+      ]
     },
     {
       "id": "b056-hyroad-40",
@@ -778,11 +944,14 @@
       "coverstockType": "pearl",
       "coreName": "Inverted Fe2",
       "coreType": "symmetric",
-      "rg": 2.570,
+      "rg": 2.57,
       "differential": 0.046,
       "massBiasDiff": null,
       "releaseDate": "2025-06",
-      "colors": ["purple", "gold"]
+      "colors": [
+        "purple",
+        "gold"
+      ]
     },
     {
       "id": "b057-ethos-solid",
@@ -796,7 +965,10 @@
       "differential": 0.053,
       "massBiasDiff": null,
       "releaseDate": "2025-06",
-      "colors": ["green", "black"]
+      "colors": [
+        "green",
+        "black"
+      ]
     },
     {
       "id": "b058-super-cuda-powercor-pearl",
@@ -810,7 +982,10 @@
       "differential": 0.047,
       "massBiasDiff": null,
       "releaseDate": "2025-06",
-      "colors": ["blue", "purple"]
+      "colors": [
+        "blue",
+        "purple"
+      ]
     },
     {
       "id": "b059-no-doubt-solid",
@@ -824,7 +999,10 @@
       "differential": 0.051,
       "massBiasDiff": null,
       "releaseDate": "2025-06",
-      "colors": ["red", "black"]
+      "colors": [
+        "red",
+        "black"
+      ]
     },
     {
       "id": "b060-power-hitter",
@@ -838,7 +1016,10 @@
       "differential": 0.053,
       "massBiasDiff": 0.015,
       "releaseDate": "2025-06",
-      "colors": ["black", "gold"]
+      "colors": [
+        "black",
+        "gold"
+      ]
     },
     {
       "id": "b061-paragon-shadow",
@@ -852,7 +1033,10 @@
       "differential": 0.056,
       "massBiasDiff": 0.015,
       "releaseDate": "2025-06",
-      "colors": ["black", "gray"]
+      "colors": [
+        "black",
+        "gray"
+      ]
     },
     {
       "id": "b062-jackal-exj",
@@ -862,11 +1046,14 @@
       "coverstockType": "hybrid",
       "coreName": "Predator V2",
       "coreType": "asymmetric",
-      "rg": 2.470,
+      "rg": 2.47,
       "differential": 0.054,
       "massBiasDiff": 0.015,
       "releaseDate": "2025-06",
-      "colors": ["red", "black"]
+      "colors": [
+        "red",
+        "black"
+      ]
     },
     {
       "id": "b063-ultimate-wrecker",
@@ -876,11 +1063,14 @@
       "coverstockType": "hybrid",
       "coreName": "Wrecker A.I.",
       "coreType": "symmetric",
-      "rg": 2.540,
+      "rg": 2.54,
       "differential": 0.045,
       "massBiasDiff": null,
       "releaseDate": "2025-05",
-      "colors": ["purple", "blue"]
+      "colors": [
+        "purple",
+        "blue"
+      ]
     },
     {
       "id": "b064-hustle-earth",
@@ -890,11 +1080,14 @@
       "coverstockType": "solid",
       "coreName": "Hustle",
       "coreType": "symmetric",
-      "rg": 2.530,
-      "differential": 0.030,
+      "rg": 2.53,
+      "differential": 0.03,
       "massBiasDiff": null,
       "releaseDate": "2025-05",
-      "colors": ["brown", "green"]
+      "colors": [
+        "brown",
+        "green"
+      ]
     },
     {
       "id": "b065-hustle-glow",
@@ -904,11 +1097,14 @@
       "coverstockType": "hybrid",
       "coreName": "Hustle",
       "coreType": "symmetric",
-      "rg": 2.530,
-      "differential": 0.030,
+      "rg": 2.53,
+      "differential": 0.03,
       "massBiasDiff": null,
       "releaseDate": "2025-05",
-      "colors": ["yellow", "green"]
+      "colors": [
+        "yellow",
+        "green"
+      ]
     },
     {
       "id": "b066-origin-ex",
@@ -918,11 +1114,14 @@
       "coverstockType": "solid",
       "coreName": "Ellipse A.I.",
       "coreType": "asymmetric",
-      "rg": 2.480,
-      "differential": 0.050,
-      "massBiasDiff": 0.020,
+      "rg": 2.48,
+      "differential": 0.05,
+      "massBiasDiff": 0.02,
       "releaseDate": "2025-05",
-      "colors": ["purple", "black"]
+      "colors": [
+        "purple",
+        "black"
+      ]
     },
     {
       "id": "b067-hater-pearl",
@@ -936,7 +1135,10 @@
       "differential": 0.054,
       "massBiasDiff": 0.024,
       "releaseDate": "2025-05",
-      "colors": ["green", "purple"]
+      "colors": [
+        "green",
+        "purple"
+      ]
     },
     {
       "id": "b068-turbo-x",
@@ -947,10 +1149,13 @@
       "coreName": "Turbo (2025+)",
       "coreType": "symmetric",
       "rg": 2.517,
-      "differential": 0.040,
+      "differential": 0.04,
       "massBiasDiff": null,
       "releaseDate": "2025-05",
-      "colors": ["blue", "white"]
+      "colors": [
+        "blue",
+        "white"
+      ]
     },
     {
       "id": "b069-hazmat-pearl",
@@ -964,7 +1169,10 @@
       "differential": 0.055,
       "massBiasDiff": null,
       "releaseDate": "2025-05",
-      "colors": ["yellow", "black"]
+      "colors": [
+        "yellow",
+        "black"
+      ]
     },
     {
       "id": "b070-rise-solid",
@@ -974,11 +1182,14 @@
       "coverstockType": "solid",
       "coreName": "Launch",
       "coreType": "symmetric",
-      "rg": 2.530,
+      "rg": 2.53,
       "differential": 0.047,
       "massBiasDiff": null,
       "releaseDate": "2025-05",
-      "colors": ["orange", "black"]
+      "colors": [
+        "orange",
+        "black"
+      ]
     },
     {
       "id": "b071-rise-pearl",
@@ -988,11 +1199,14 @@
       "coverstockType": "pearl",
       "coreName": "Launch",
       "coreType": "symmetric",
-      "rg": 2.530,
+      "rg": 2.53,
       "differential": 0.047,
       "massBiasDiff": null,
       "releaseDate": "2025-05",
-      "colors": ["purple", "silver"]
+      "colors": [
+        "purple",
+        "silver"
+      ]
     },
     {
       "id": "b072-max-thrill-hybrid",
@@ -1002,11 +1216,14 @@
       "coverstockType": "hybrid",
       "coreName": "Halogen",
       "coreType": "symmetric",
-      "rg": 2.550,
+      "rg": 2.55,
       "differential": 0.037,
       "massBiasDiff": null,
       "releaseDate": "2025-04",
-      "colors": ["orange", "blue"]
+      "colors": [
+        "orange",
+        "blue"
+      ]
     },
     {
       "id": "b073-typhoon",
@@ -1016,11 +1233,14 @@
       "coverstockType": "pearl",
       "coreName": "Atmos A.I.",
       "coreType": "symmetric",
-      "rg": 2.530,
+      "rg": 2.53,
       "differential": 0.042,
       "massBiasDiff": null,
       "releaseDate": "2025-04",
-      "colors": ["blue", "white"]
+      "colors": [
+        "blue",
+        "white"
+      ]
     },
     {
       "id": "b074-crown-victory",
@@ -1030,11 +1250,14 @@
       "coverstockType": "hybrid",
       "coreName": "Tiered Hexagon",
       "coreType": "symmetric",
-      "rg": 2.540,
+      "rg": 2.54,
       "differential": 0.045,
       "massBiasDiff": null,
       "releaseDate": "2025-04",
-      "colors": ["purple", "gold"]
+      "colors": [
+        "purple",
+        "gold"
+      ]
     },
     {
       "id": "b075-rally",
@@ -1045,10 +1268,13 @@
       "coreName": "Shifter",
       "coreType": "asymmetric",
       "rg": 2.478,
-      "differential": 0.050,
+      "differential": 0.05,
       "massBiasDiff": 0.015,
       "releaseDate": "2025-04",
-      "colors": ["red", "blue"]
+      "colors": [
+        "red",
+        "blue"
+      ]
     },
     {
       "id": "b076-cypher-pearl",
@@ -1058,11 +1284,14 @@
       "coverstockType": "pearl",
       "coreName": "Synergy",
       "coreType": "symmetric",
-      "rg": 2.540,
+      "rg": 2.54,
       "differential": 0.047,
       "massBiasDiff": null,
       "releaseDate": "2025-04",
-      "colors": ["blue", "purple"]
+      "colors": [
+        "blue",
+        "purple"
+      ]
     },
     {
       "id": "b077-iq-tour-ai",
@@ -1072,11 +1301,14 @@
       "coverstockType": "hybrid",
       "coreName": "C3 A.I.",
       "coreType": "symmetric",
-      "rg": 2.480,
+      "rg": 2.48,
       "differential": 0.031,
       "massBiasDiff": null,
       "releaseDate": "2025-03",
-      "colors": ["purple", "blue"]
+      "colors": [
+        "purple",
+        "blue"
+      ]
     },
     {
       "id": "b078-dark-side",
@@ -1086,11 +1318,14 @@
       "coverstockType": "hybrid",
       "coreName": "Duality",
       "coreType": "symmetric",
-      "rg": 2.480,
+      "rg": 2.48,
       "differential": 0.036,
       "massBiasDiff": null,
       "releaseDate": "2025-03",
-      "colors": ["black", "purple"]
+      "colors": [
+        "black",
+        "purple"
+      ]
     },
     {
       "id": "b079-game-breaker-5-pearl",
@@ -1100,11 +1335,14 @@
       "coverstockType": "pearl",
       "coreName": "Enhanced V2",
       "coreType": "symmetric",
-      "rg": 2.480,
+      "rg": 2.48,
       "differential": 0.048,
       "massBiasDiff": null,
       "releaseDate": "2025-03",
-      "colors": ["teal", "blue"]
+      "colors": [
+        "teal",
+        "blue"
+      ]
     },
     {
       "id": "b080-hammerhead",
@@ -1118,7 +1356,10 @@
       "differential": 0.048,
       "massBiasDiff": null,
       "releaseDate": "2025-03",
-      "colors": ["blue", "silver"]
+      "colors": [
+        "blue",
+        "silver"
+      ]
     },
     {
       "id": "b081-raw-hammer-smoke-blue-gold",
@@ -1132,7 +1373,11 @@
       "differential": 0.038,
       "massBiasDiff": null,
       "releaseDate": "2025-03",
-      "colors": ["smoke", "blue", "gold"]
+      "colors": [
+        "smoke",
+        "blue",
+        "gold"
+      ]
     },
     {
       "id": "b082-special-effect",
@@ -1142,11 +1387,14 @@
       "coverstockType": "solid",
       "coreName": "Huntsman",
       "coreType": "asymmetric",
-      "rg": 2.470,
-      "differential": 0.050,
+      "rg": 2.47,
+      "differential": 0.05,
       "massBiasDiff": 0.017,
       "releaseDate": "2025-03",
-      "colors": ["purple", "gold"]
+      "colors": [
+        "purple",
+        "gold"
+      ]
     },
     {
       "id": "b083-torpedo",
@@ -1160,7 +1408,10 @@
       "differential": 0.054,
       "massBiasDiff": 0.017,
       "releaseDate": "2025-03",
-      "colors": ["red", "black"]
+      "colors": [
+        "red",
+        "black"
+      ]
     },
     {
       "id": "b084-torpedo-direct-hit",
@@ -1174,7 +1425,10 @@
       "differential": 0.054,
       "massBiasDiff": 0.017,
       "releaseDate": "2025-03",
-      "colors": ["white", "red"]
+      "colors": [
+        "white",
+        "red"
+      ]
     },
     {
       "id": "b085-evoke-hysteria",
@@ -1184,11 +1438,14 @@
       "coverstockType": "pearl",
       "coreName": "Overload",
       "coreType": "asymmetric",
-      "rg": 2.480,
-      "differential": 0.050,
+      "rg": 2.48,
+      "differential": 0.05,
       "massBiasDiff": 0.015,
       "releaseDate": "2025-03",
-      "colors": ["purple", "pink"]
+      "colors": [
+        "purple",
+        "pink"
+      ]
     },
     {
       "id": "b086-revelated",
@@ -1198,11 +1455,14 @@
       "coverstockType": "pearl",
       "coreName": "HIH Symmetric",
       "coreType": "symmetric",
-      "rg": 2.550,
+      "rg": 2.55,
       "differential": 0.032,
       "massBiasDiff": null,
       "releaseDate": "2025-03",
-      "colors": ["blue", "white"]
+      "colors": [
+        "blue",
+        "white"
+      ]
     },
     {
       "id": "b087-rst-hyperdrive",
@@ -1212,11 +1472,14 @@
       "coverstockType": "solid",
       "coreName": "RST + A.I.",
       "coreType": "asymmetric",
-      "rg": 2.520,
+      "rg": 2.52,
       "differential": 0.055,
       "massBiasDiff": 0.017,
       "releaseDate": "2025-03",
-      "colors": ["purple", "black"]
+      "colors": [
+        "purple",
+        "black"
+      ]
     },
     {
       "id": "b088-rockstar",
@@ -1226,11 +1489,14 @@
       "coverstockType": "solid",
       "coreName": "Rocker A.I.",
       "coreType": "symmetric",
-      "rg": 2.480,
-      "differential": 0.050,
+      "rg": 2.48,
+      "differential": 0.05,
       "massBiasDiff": null,
       "releaseDate": "2025-02",
-      "colors": ["blue", "black"]
+      "colors": [
+        "blue",
+        "black"
+      ]
     },
     {
       "id": "b089-hypnotize",
@@ -1240,11 +1506,14 @@
       "coverstockType": "hybrid",
       "coreName": "Tri-Elliptic",
       "coreType": "asymmetric",
-      "rg": 2.510,
+      "rg": 2.51,
       "differential": 0.056,
       "massBiasDiff": 0.017,
       "releaseDate": "2025-02",
-      "colors": ["purple", "blue"]
+      "colors": [
+        "purple",
+        "blue"
+      ]
     },
     {
       "id": "b090-piranha-powercor-pearl",
@@ -1258,7 +1527,10 @@
       "differential": 0.055,
       "massBiasDiff": null,
       "releaseDate": "2025-02",
-      "colors": ["red", "black"]
+      "colors": [
+        "red",
+        "black"
+      ]
     },
     {
       "id": "b091-criterion-hybrid",
@@ -1268,11 +1540,14 @@
       "coverstockType": "hybrid",
       "coreName": "Criterion M.D.",
       "coreType": "asymmetric",
-      "rg": 2.500,
+      "rg": 2.5,
       "differential": 0.052,
       "massBiasDiff": 0.018,
       "releaseDate": "2025-02",
-      "colors": ["black", "purple"]
+      "colors": [
+        "black",
+        "purple"
+      ]
     },
     {
       "id": "b092-stealth-mode",
@@ -1286,7 +1561,10 @@
       "differential": 0.056,
       "massBiasDiff": null,
       "releaseDate": "2025-02",
-      "colors": ["black", "gray"]
+      "colors": [
+        "black",
+        "gray"
+      ]
     },
     {
       "id": "b093-lethal-venom",
@@ -1296,11 +1574,14 @@
       "coverstockType": "solid",
       "coreName": "Gear APG",
       "coreType": "asymmetric",
-      "rg": 2.470,
+      "rg": 2.47,
       "differential": 0.036,
       "massBiasDiff": 0.013,
       "releaseDate": "2025-02",
-      "colors": ["green", "black"]
+      "colors": [
+        "green",
+        "black"
+      ]
     },
     {
       "id": "b094-equinox",
@@ -1310,11 +1591,14 @@
       "coverstockType": "pearl",
       "coreName": "Solarion A.I.",
       "coreType": "asymmetric",
-      "rg": 2.480,
+      "rg": 2.48,
       "differential": 0.054,
       "massBiasDiff": 0.018,
       "releaseDate": "2025-02",
-      "colors": ["orange", "black"]
+      "colors": [
+        "orange",
+        "black"
+      ]
     },
     {
       "id": "b095-identity",
@@ -1324,11 +1608,14 @@
       "coverstockType": "pearl",
       "coreName": "ID A.I.",
       "coreType": "asymmetric",
-      "rg": 2.510,
+      "rg": 2.51,
       "differential": 0.055,
       "massBiasDiff": 0.011,
       "releaseDate": "2025-02",
-      "colors": ["blue", "purple"]
+      "colors": [
+        "blue",
+        "purple"
+      ]
     },
     {
       "id": "b096-unreal",
@@ -1338,11 +1625,14 @@
       "coverstockType": "solid",
       "coreName": "Unreal",
       "coreType": "symmetric",
-      "rg": 2.510,
+      "rg": 2.51,
       "differential": 0.047,
       "massBiasDiff": null,
       "releaseDate": "2025-01",
-      "colors": ["blue", "orange"]
+      "colors": [
+        "blue",
+        "orange"
+      ]
     },
     {
       "id": "b097-fusion",
@@ -1352,11 +1642,14 @@
       "coverstockType": "solid",
       "coreName": "Fusion",
       "coreType": "symmetric",
-      "rg": 2.540,
+      "rg": 2.54,
       "differential": 0.036,
       "massBiasDiff": null,
       "releaseDate": "2025-01",
-      "colors": ["red", "blue"]
+      "colors": [
+        "red",
+        "blue"
+      ]
     },
     {
       "id": "b098-black-dragon",
@@ -1366,11 +1659,14 @@
       "coverstockType": "solid",
       "coreName": "Dragon",
       "coreType": "asymmetric",
-      "rg": 2.480,
+      "rg": 2.48,
       "differential": 0.054,
       "massBiasDiff": 0.018,
       "releaseDate": "2025-01",
-      "colors": ["black", "red"]
+      "colors": [
+        "black",
+        "red"
+      ]
     },
     {
       "id": "b099-judge",
@@ -1380,11 +1676,14 @@
       "coverstockType": "solid",
       "coreName": "Judge",
       "coreType": "asymmetric",
-      "rg": 2.490,
+      "rg": 2.49,
       "differential": 0.052,
       "massBiasDiff": 0.019,
       "releaseDate": "2025-01",
-      "colors": ["purple", "gold"]
+      "colors": [
+        "purple",
+        "gold"
+      ]
     },
     {
       "id": "b100-craze-solid",
@@ -1394,11 +1693,14 @@
       "coverstockType": "solid",
       "coreName": "Craze",
       "coreType": "symmetric",
-      "rg": 2.520,
-      "differential": 0.030,
+      "rg": 2.52,
+      "differential": 0.03,
       "massBiasDiff": null,
       "releaseDate": "2025-01",
-      "colors": ["black", "pink"]
+      "colors": [
+        "black",
+        "pink"
+      ]
     },
     {
       "id": "b101-nuclear-forge",
@@ -1408,11 +1710,14 @@
       "coverstockType": "pearl",
       "coreName": "Detonator",
       "coreType": "symmetric",
-      "rg": 2.470,
+      "rg": 2.47,
       "differential": 0.055,
       "massBiasDiff": null,
       "releaseDate": "2023-10",
-      "colors": ["orange", "black"]
+      "colors": [
+        "orange",
+        "black"
+      ]
     },
     {
       "id": "b102-virtual-energy-blackout",
@@ -1422,11 +1727,14 @@
       "coverstockType": "pearl",
       "coreName": "Shape-Lock HD",
       "coreType": "asymmetric",
-      "rg": 2.480,
+      "rg": 2.48,
       "differential": 0.052,
-      "massBiasDiff": 0.020,
+      "massBiasDiff": 0.02,
       "releaseDate": "2023-09",
-      "colors": ["black", "purple"]
+      "colors": [
+        "black",
+        "purple"
+      ]
     },
     {
       "id": "b103-eternity-pi",
@@ -1436,11 +1744,14 @@
       "coverstockType": "solid",
       "coreName": "Epoch",
       "coreType": "asymmetric",
-      "rg": 2.490,
-      "differential": 0.050,
+      "rg": 2.49,
+      "differential": 0.05,
       "massBiasDiff": 0.014,
       "releaseDate": "2023-09",
-      "colors": ["purple", "gold"]
+      "colors": [
+        "purple",
+        "gold"
+      ]
     },
     {
       "id": "b104-fortress-hybrid",
@@ -1454,7 +1765,10 @@
       "differential": 0.047,
       "massBiasDiff": null,
       "releaseDate": "2023-09",
-      "colors": ["blue", "black"]
+      "colors": [
+        "blue",
+        "black"
+      ]
     },
     {
       "id": "b105-pride-dynasty",
@@ -1464,11 +1778,14 @@
       "coverstockType": "solid",
       "coreName": "Dominion",
       "coreType": "asymmetric",
-      "rg": 2.500,
+      "rg": 2.5,
       "differential": 0.042,
-      "massBiasDiff": 0.010,
+      "massBiasDiff": 0.01,
       "releaseDate": "2023-09",
-      "colors": ["rainbow", "black"]
+      "colors": [
+        "rainbow",
+        "black"
+      ]
     },
     {
       "id": "b106-tank-yellowjacket",
@@ -1478,11 +1795,14 @@
       "coverstockType": "solid",
       "coreName": "Flux",
       "coreType": "symmetric",
-      "rg": 2.570,
+      "rg": 2.57,
       "differential": 0.015,
       "massBiasDiff": null,
       "releaseDate": "2023-07",
-      "colors": ["yellow", "black"]
+      "colors": [
+        "yellow",
+        "black"
+      ]
     },
     {
       "id": "b107-hustle-rip",
@@ -1492,11 +1812,15 @@
       "coverstockType": "solid",
       "coreName": "Hustle",
       "coreType": "symmetric",
-      "rg": 2.530,
-      "differential": 0.030,
+      "rg": 2.53,
+      "differential": 0.03,
       "massBiasDiff": null,
       "releaseDate": "2023-06",
-      "colors": ["royal", "imperial", "purple"]
+      "colors": [
+        "royal",
+        "imperial",
+        "purple"
+      ]
     },
     {
       "id": "b108-hustle-mm",
@@ -1506,11 +1830,14 @@
       "coverstockType": "pearl",
       "coreName": "Hustle",
       "coreType": "symmetric",
-      "rg": 2.530,
-      "differential": 0.030,
+      "rg": 2.53,
+      "differential": 0.03,
       "massBiasDiff": null,
       "releaseDate": "2023-06",
-      "colors": ["magenta", "midnight"]
+      "colors": [
+        "magenta",
+        "midnight"
+      ]
     },
     {
       "id": "b109-axe",
@@ -1524,7 +1851,10 @@
       "differential": 0.019,
       "massBiasDiff": null,
       "releaseDate": "2023-05",
-      "colors": ["blue", "black"]
+      "colors": [
+        "blue",
+        "black"
+      ]
     },
     {
       "id": "b110-black-venom",
@@ -1534,11 +1864,13 @@
       "coverstockType": "solid",
       "coreName": "Gear APG",
       "coreType": "asymmetric",
-      "rg": 2.470,
+      "rg": 2.47,
       "differential": 0.036,
       "massBiasDiff": 0.013,
       "releaseDate": "2023-03",
-      "colors": ["black"]
+      "colors": [
+        "black"
+      ]
     },
     {
       "id": "b111-game-breaker-4-hybrid",
@@ -1548,11 +1880,14 @@
       "coverstockType": "hybrid",
       "coreName": "Enhanced V2",
       "coreType": "symmetric",
-      "rg": 2.480,
+      "rg": 2.48,
       "differential": 0.048,
       "massBiasDiff": null,
       "releaseDate": "2023-03",
-      "colors": ["blue", "black"]
+      "colors": [
+        "blue",
+        "black"
+      ]
     },
     {
       "id": "b112-iq-tour-ruby",
@@ -1562,11 +1897,14 @@
       "coverstockType": "pearl",
       "coreName": "C3 Centripetal Control",
       "coreType": "symmetric",
-      "rg": 2.490,
+      "rg": 2.49,
       "differential": 0.029,
       "massBiasDiff": null,
       "releaseDate": "2023-03",
-      "colors": ["ruby", "red"]
+      "colors": [
+        "ruby",
+        "red"
+      ]
     },
     {
       "id": "b113-black-widow-2-hybrid",
@@ -1576,11 +1914,14 @@
       "coverstockType": "hybrid",
       "coreName": "Gas Mask",
       "coreType": "asymmetric",
-      "rg": 2.500,
+      "rg": 2.5,
       "differential": 0.058,
       "massBiasDiff": 0.016,
       "releaseDate": "2023-02",
-      "colors": ["black", "red"]
+      "colors": [
+        "black",
+        "red"
+      ]
     },
     {
       "id": "b114-primal-shock",
@@ -1590,11 +1931,14 @@
       "coverstockType": "solid",
       "coreName": "Impulse V2",
       "coreType": "symmetric",
-      "rg": 2.550,
-      "differential": 0.050,
+      "rg": 2.55,
+      "differential": 0.05,
       "massBiasDiff": null,
       "releaseDate": "2023-02",
-      "colors": ["orange", "black"]
+      "colors": [
+        "orange",
+        "black"
+      ]
     },
     {
       "id": "b115-ocean-vibe",
@@ -1604,11 +1948,14 @@
       "coverstockType": "pearl",
       "coreName": "Vibe",
       "coreType": "symmetric",
-      "rg": 2.510,
+      "rg": 2.51,
       "differential": 0.042,
       "massBiasDiff": null,
       "releaseDate": "2022-07",
-      "colors": ["blue", "teal"]
+      "colors": [
+        "blue",
+        "teal"
+      ]
     },
     {
       "id": "b116-phaze-ii",
@@ -1618,11 +1965,14 @@
       "coverstockType": "solid",
       "coreName": "Velocity",
       "coreType": "symmetric",
-      "rg": 2.480,
+      "rg": 2.48,
       "differential": 0.051,
       "massBiasDiff": null,
       "releaseDate": "2016-10",
-      "colors": ["navy", "orange"]
+      "colors": [
+        "navy",
+        "orange"
+      ]
     },
     {
       "id": "b117-purple-pearl-urethane",
@@ -1632,11 +1982,13 @@
       "coverstockType": "urethane",
       "coreName": "LED",
       "coreType": "symmetric",
-      "rg": 2.650,
+      "rg": 2.65,
       "differential": 0.015,
       "massBiasDiff": null,
       "releaseDate": "2016-10",
-      "colors": ["purple"]
+      "colors": [
+        "purple"
+      ]
     },
     {
       "id": "b118-hyroad",
@@ -1646,11 +1998,14 @@
       "coverstockType": "hybrid",
       "coreName": "Inverted Fe2",
       "coreType": "symmetric",
-      "rg": 2.570,
+      "rg": 2.57,
       "differential": 0.046,
       "massBiasDiff": null,
       "releaseDate": "2008-11",
-      "colors": ["purple", "white"]
+      "colors": [
+        "purple",
+        "white"
+      ]
     },
     {
       "id": "b119-pitch-black",
@@ -1660,11 +2015,13 @@
       "coverstockType": "urethane",
       "coreName": "Capacitor",
       "coreType": "symmetric",
-      "rg": 2.570,
+      "rg": 2.57,
       "differential": 0.022,
       "massBiasDiff": null,
       "releaseDate": "2014-05",
-      "colors": ["black"]
+      "colors": [
+        "black"
+      ]
     },
     {
       "id": "b120-venom-shock",
@@ -1674,11 +2031,14 @@
       "coverstockType": "solid",
       "coreName": "Gear",
       "coreType": "symmetric",
-      "rg": 2.480,
+      "rg": 2.48,
       "differential": 0.034,
       "massBiasDiff": null,
       "releaseDate": "2014-03",
-      "colors": ["purple", "green"]
+      "colors": [
+        "purple",
+        "green"
+      ]
     },
     {
       "id": "b121-iq-tour-edition",
@@ -1688,11 +2048,14 @@
       "coverstockType": "solid",
       "coreName": "C3 Centripetal Control",
       "coreType": "symmetric",
-      "rg": 2.490,
+      "rg": 2.49,
       "differential": 0.029,
       "massBiasDiff": null,
       "releaseDate": "2012-07",
-      "colors": ["purple", "blue"]
+      "colors": [
+        "purple",
+        "blue"
+      ]
     },
     {
       "id": "b122-jackal-ghost",
@@ -1702,11 +2065,14 @@
       "coverstockType": "solid",
       "coreName": "Predator V2",
       "coreType": "asymmetric",
-      "rg": 2.470,
+      "rg": 2.47,
       "differential": 0.054,
       "massBiasDiff": 0.015,
       "releaseDate": "2017-01",
-      "colors": ["white", "gray"]
+      "colors": [
+        "white",
+        "gray"
+      ]
     },
     {
       "id": "b123-tropical-surge",
@@ -1716,11 +2082,14 @@
       "coverstockType": "pearl",
       "coreName": "Surge",
       "coreType": "symmetric",
-      "rg": 2.580,
+      "rg": 2.58,
       "differential": 0.024,
       "massBiasDiff": null,
       "releaseDate": "2019-05",
-      "colors": ["pink", "purple"]
+      "colors": [
+        "pink",
+        "purple"
+      ]
     },
     {
       "id": "b124-twist",
@@ -1734,7 +2103,10 @@
       "differential": 0.018,
       "massBiasDiff": null,
       "releaseDate": "2018-06",
-      "colors": ["blue", "silver"]
+      "colors": [
+        "blue",
+        "silver"
+      ]
     },
     {
       "id": "b125-rhino",
@@ -1745,10 +2117,13 @@
       "coreName": "Brunswick Light Bulb",
       "coreType": "symmetric",
       "rg": 2.524,
-      "differential": 0.030,
+      "differential": 0.03,
       "massBiasDiff": null,
       "releaseDate": "2016-05",
-      "colors": ["blue", "black"]
+      "colors": [
+        "blue",
+        "black"
+      ]
     },
     {
       "id": "b126-tzone",
@@ -1762,7 +2137,11 @@
       "differential": 0.019,
       "massBiasDiff": null,
       "releaseDate": "2015-07",
-      "colors": ["blue", "red", "purple"]
+      "colors": [
+        "blue",
+        "red",
+        "purple"
+      ]
     },
     {
       "id": "b127-white-dot",
@@ -1776,7 +2155,9 @@
       "differential": 0.019,
       "massBiasDiff": null,
       "releaseDate": "2020-08",
-      "colors": ["various"]
+      "colors": [
+        "various"
+      ]
     },
     {
       "id": "b128-aspire",
@@ -1786,11 +2167,13 @@
       "coverstockType": "polyester",
       "coreName": "Tyro",
       "coreType": "symmetric",
-      "rg": 2.750,
+      "rg": 2.75,
       "differential": 0.028,
       "massBiasDiff": null,
       "releaseDate": "2019-09",
-      "colors": ["various"]
+      "colors": [
+        "various"
+      ]
     },
     {
       "id": "b129-fortress",
@@ -1804,7 +2187,10 @@
       "differential": 0.047,
       "massBiasDiff": null,
       "releaseDate": "2022-10",
-      "colors": ["blue", "silver"]
+      "colors": [
+        "blue",
+        "silver"
+      ]
     },
     {
       "id": "b130-antidote",
@@ -1814,11 +2200,14 @@
       "coverstockType": "solid",
       "coreName": "New Era 149",
       "coreType": "symmetric",
-      "rg": 2.550,
+      "rg": 2.55,
       "differential": 0.054,
       "massBiasDiff": null,
       "releaseDate": "2016-08",
-      "colors": ["green", "black"]
+      "colors": [
+        "green",
+        "black"
+      ]
     },
     {
       "id": "b131-antidote-pearl",
@@ -1828,11 +2217,14 @@
       "coverstockType": "pearl",
       "coreName": "New Era 140",
       "coreType": "symmetric",
-      "rg": 2.550,
+      "rg": 2.55,
       "differential": 0.054,
       "massBiasDiff": null,
       "releaseDate": "2022-02",
-      "colors": ["blue", "silver"]
+      "colors": [
+        "blue",
+        "silver"
+      ]
     },
     {
       "id": "b132-pathogen",
@@ -1842,11 +2234,14 @@
       "coverstockType": "solid",
       "coreName": "New Era 139",
       "coreType": "symmetric",
-      "rg": 2.550,
+      "rg": 2.55,
       "differential": 0.032,
       "massBiasDiff": null,
       "releaseDate": "2015-11",
-      "colors": ["purple", "black"]
+      "colors": [
+        "purple",
+        "black"
+      ]
     },
     {
       "id": "b133-path-rising",
@@ -1856,11 +2251,14 @@
       "coverstockType": "solid",
       "coreName": "New Era 139",
       "coreType": "symmetric",
-      "rg": 2.540,
+      "rg": 2.54,
       "differential": 0.032,
       "massBiasDiff": null,
       "releaseDate": "2022-01",
-      "colors": ["orange", "black"]
+      "colors": [
+        "orange",
+        "black"
+      ]
     },
     {
       "id": "b134-blood-moon-rising",
@@ -1870,11 +2268,14 @@
       "coverstockType": "hybrid",
       "coreName": "SG 19.5 Dual Density",
       "coreType": "asymmetric",
-      "rg": 2.480,
+      "rg": 2.48,
       "differential": 0.039,
       "massBiasDiff": 0.012,
       "releaseDate": "2017-11",
-      "colors": ["red", "black"]
+      "colors": [
+        "red",
+        "black"
+      ]
     },
     {
       "id": "b135-force",
@@ -1884,11 +2285,14 @@
       "coverstockType": "solid",
       "coreName": "SG Precessional",
       "coreType": "asymmetric",
-      "rg": 2.530,
+      "rg": 2.53,
       "differential": 0.051,
       "massBiasDiff": 0.019,
       "releaseDate": "2016-08",
-      "colors": ["blue", "orange"]
+      "colors": [
+        "blue",
+        "orange"
+      ]
     },
     {
       "id": "b136-path",
@@ -1898,11 +2302,13 @@
       "coverstockType": "polyester",
       "coreName": "Pancake",
       "coreType": "symmetric",
-      "rg": 2.680,
+      "rg": 2.68,
       "differential": 0.006,
       "massBiasDiff": null,
       "releaseDate": "2011-08",
-      "colors": ["various"]
+      "colors": [
+        "various"
+      ]
     },
     {
       "id": "b137-craze-pearl",
@@ -1912,11 +2318,14 @@
       "coverstockType": "pearl",
       "coreName": "Craze",
       "coreType": "symmetric",
-      "rg": 2.520,
-      "differential": 0.030,
+      "rg": 2.52,
+      "differential": 0.03,
       "massBiasDiff": null,
       "releaseDate": "2025-01",
-      "colors": ["white", "red"]
+      "colors": [
+        "white",
+        "red"
+      ]
     },
     {
       "id": "b138-zen-25",
@@ -1926,11 +2335,14 @@
       "coverstockType": "pearl",
       "coreName": "Meditate A.I.",
       "coreType": "symmetric",
-      "rg": 2.480,
+      "rg": 2.48,
       "differential": 0.053,
       "massBiasDiff": null,
       "releaseDate": "2025-01",
-      "colors": ["blue", "silver"]
+      "colors": [
+        "blue",
+        "silver"
+      ]
     },
     {
       "id": "b139-level",
@@ -1940,11 +2352,14 @@
       "coverstockType": "solid",
       "coreName": "Equalizer A.I.",
       "coreType": "symmetric",
-      "rg": 2.590,
+      "rg": 2.59,
       "differential": 0.027,
       "massBiasDiff": null,
       "releaseDate": "2025-01",
-      "colors": ["purple", "silver"]
+      "colors": [
+        "purple",
+        "silver"
+      ]
     },
     {
       "id": "b140-trouble-maker-solid",
@@ -1958,7 +2373,10 @@
       "differential": 0.045,
       "massBiasDiff": null,
       "releaseDate": "2025-01",
-      "colors": ["black", "red"]
+      "colors": [
+        "black",
+        "red"
+      ]
     },
     {
       "id": "b141-crusher-hybrid",
@@ -1972,7 +2390,10 @@
       "differential": 0.056,
       "massBiasDiff": 0.016,
       "releaseDate": "2025-01",
-      "colors": ["blue", "black"]
+      "colors": [
+        "blue",
+        "black"
+      ]
     },
     {
       "id": "b142-3d-offset-assault",
@@ -1986,7 +2407,10 @@
       "differential": 0.053,
       "massBiasDiff": 0.008,
       "releaseDate": "2025-01",
-      "colors": ["orange", "black"]
+      "colors": [
+        "orange",
+        "black"
+      ]
     },
     {
       "id": "b143-black-widow-mania",
@@ -1996,11 +2420,15 @@
       "coverstockType": "pearl",
       "coreName": "Gas Mask",
       "coreType": "asymmetric",
-      "rg": 2.500,
+      "rg": 2.5,
       "differential": 0.058,
       "massBiasDiff": 0.016,
       "releaseDate": "2025-01",
-      "colors": ["black", "red", "purple"]
+      "colors": [
+        "black",
+        "red",
+        "purple"
+      ]
     },
     {
       "id": "b144-outer-limits-solid",
@@ -2014,7 +2442,10 @@
       "differential": 0.051,
       "massBiasDiff": 0.014,
       "releaseDate": "2025-01",
-      "colors": ["purple", "black"]
+      "colors": [
+        "purple",
+        "black"
+      ]
     },
     {
       "id": "b145-snapshot",
@@ -2025,10 +2456,13 @@
       "coreName": "Snapshot",
       "coreType": "symmetric",
       "rg": 2.523,
-      "differential": 0.050,
+      "differential": 0.05,
       "massBiasDiff": null,
       "releaseDate": "2025-01",
-      "colors": ["blue", "silver"]
+      "colors": [
+        "blue",
+        "silver"
+      ]
     },
     {
       "id": "b146-jackal-onyx",
@@ -2038,11 +2472,14 @@
       "coverstockType": "solid",
       "coreName": "Predator V2",
       "coreType": "asymmetric",
-      "rg": 2.470,
+      "rg": 2.47,
       "differential": 0.054,
       "massBiasDiff": 0.015,
       "releaseDate": "2025-01",
-      "colors": ["black", "gold"]
+      "colors": [
+        "black",
+        "gold"
+      ]
     },
     {
       "id": "b147-physix-blackout",
@@ -2052,11 +2489,14 @@
       "coverstockType": "pearl",
       "coreName": "Atomic A.I.",
       "coreType": "asymmetric",
-      "rg": 2.470,
+      "rg": 2.47,
       "differential": 0.055,
       "massBiasDiff": 0.018,
       "releaseDate": "2024-12",
-      "colors": ["black", "purple"]
+      "colors": [
+        "black",
+        "purple"
+      ]
     },
     {
       "id": "b148-road-warrior",
@@ -2066,11 +2506,14 @@
       "coverstockType": "pearl",
       "coreName": "Inverted Fe2 A.I.",
       "coreType": "symmetric",
-      "rg": 2.550,
+      "rg": 2.55,
       "differential": 0.045,
       "massBiasDiff": null,
       "releaseDate": "2024-11",
-      "colors": ["blue", "black"]
+      "colors": [
+        "blue",
+        "black"
+      ]
     },
     {
       "id": "b149-origin",
@@ -2080,11 +2523,14 @@
       "coverstockType": "hybrid",
       "coreName": "Ellipse A.I.",
       "coreType": "asymmetric",
-      "rg": 2.480,
-      "differential": 0.050,
-      "massBiasDiff": 0.020,
+      "rg": 2.48,
+      "differential": 0.05,
+      "massBiasDiff": 0.02,
       "releaseDate": "2024-11",
-      "colors": ["purple", "blue"]
+      "colors": [
+        "purple",
+        "blue"
+      ]
     },
     {
       "id": "b150-ion-max",
@@ -2094,11 +2540,14 @@
       "coverstockType": "solid",
       "coreName": "Element Max A.I.",
       "coreType": "asymmetric",
-      "rg": 2.470,
+      "rg": 2.47,
       "differential": 0.055,
       "massBiasDiff": 0.014,
       "releaseDate": "2024-09",
-      "colors": ["black", "orange"]
+      "colors": [
+        "black",
+        "orange"
+      ]
     },
     {
       "id": "b151-ion-pro",
@@ -2108,11 +2557,14 @@
       "coverstockType": "hybrid",
       "coreName": "Element Tour A.I.",
       "coreType": "asymmetric",
-      "rg": 2.470,
+      "rg": 2.47,
       "differential": 0.035,
       "massBiasDiff": 0.014,
       "releaseDate": "2024-06",
-      "colors": ["blue", "silver"]
+      "colors": [
+        "blue",
+        "silver"
+      ]
     },
     {
       "id": "b152-summit-ascent",
@@ -2122,11 +2574,14 @@
       "coverstockType": "solid",
       "coreName": "Centripetal HD A.I.",
       "coreType": "symmetric",
-      "rg": 2.460,
+      "rg": 2.46,
       "differential": 0.056,
       "massBiasDiff": null,
       "releaseDate": "2024-08",
-      "colors": ["blue", "purple"]
+      "colors": [
+        "blue",
+        "purple"
+      ]
     },
     {
       "id": "b153-summit-peak",
@@ -2136,11 +2591,14 @@
       "coverstockType": "pearl",
       "coreName": "Centripetal HD A.I.",
       "coreType": "symmetric",
-      "rg": 2.460,
+      "rg": 2.46,
       "differential": 0.056,
       "massBiasDiff": null,
       "releaseDate": "2024-01",
-      "colors": ["teal", "silver"]
+      "colors": [
+        "teal",
+        "silver"
+      ]
     },
     {
       "id": "b154-the-road",
@@ -2150,11 +2608,14 @@
       "coverstockType": "hybrid",
       "coreName": "Inverted Fe2 A.I.",
       "coreType": "symmetric",
-      "rg": 2.550,
+      "rg": 2.55,
       "differential": 0.045,
       "massBiasDiff": null,
       "releaseDate": "2024-04",
-      "colors": ["blue", "black"]
+      "colors": [
+        "blue",
+        "black"
+      ]
     },
     {
       "id": "b155-absolute-power",
@@ -2164,11 +2625,14 @@
       "coverstockType": "solid",
       "coreName": "Sentinel",
       "coreType": "asymmetric",
-      "rg": 2.480,
-      "differential": 0.050,
+      "rg": 2.48,
+      "differential": 0.05,
       "massBiasDiff": 0.021,
       "releaseDate": "2024-01",
-      "colors": ["black", "red"]
+      "colors": [
+        "black",
+        "red"
+      ]
     },
     {
       "id": "b156-lightning-blackout",
@@ -2178,11 +2642,14 @@
       "coverstockType": "pearl",
       "coreName": "Warp A.I.",
       "coreType": "symmetric",
-      "rg": 2.530,
+      "rg": 2.53,
       "differential": 0.029,
       "massBiasDiff": null,
       "releaseDate": "2024-05",
-      "colors": ["black", "yellow"]
+      "colors": [
+        "black",
+        "yellow"
+      ]
     },
     {
       "id": "b157-iq-tour-78u",
@@ -2192,53 +2659,14 @@
       "coverstockType": "urethane",
       "coreName": "C3 Centripetal Control",
       "coreType": "symmetric",
-      "rg": 2.490,
+      "rg": 2.49,
       "differential": 0.029,
       "massBiasDiff": null,
       "releaseDate": "2023-12",
-      "colors": ["blue", "silver"]
-    },
-    {
-      "id": "b158-iq-tour-ruby",
-      "name": "!Q Tour Ruby",
-      "brand": "Storm",
-      "coverstock": "R2S Pearl",
-      "coverstockType": "pearl",
-      "coreName": "C3 Centripetal Control",
-      "coreType": "symmetric",
-      "rg": 2.490,
-      "differential": 0.029,
-      "massBiasDiff": null,
-      "releaseDate": "2023-03",
-      "colors": ["red", "silver"]
-    },
-    {
-      "id": "b159-hustle-rip",
-      "name": "Hustle RIP",
-      "brand": "Roto Grip",
-      "coverstock": "VTC Solid",
-      "coverstockType": "solid",
-      "coreName": "Hustle",
-      "coreType": "symmetric",
-      "rg": 2.530,
-      "differential": 0.030,
-      "massBiasDiff": null,
-      "releaseDate": "2023-06",
-      "colors": ["red", "silver"]
-    },
-    {
-      "id": "b160-hustle-mm",
-      "name": "Hustle M-M",
-      "brand": "Roto Grip",
-      "coverstock": "VTC Pearl",
-      "coverstockType": "pearl",
-      "coreName": "Hustle",
-      "coreType": "symmetric",
-      "rg": 2.530,
-      "differential": 0.030,
-      "massBiasDiff": null,
-      "releaseDate": "2023-06",
-      "colors": ["magenta", "mint"]
+      "colors": [
+        "blue",
+        "silver"
+      ]
     },
     {
       "id": "b161-hustle-bry",
@@ -2248,11 +2676,15 @@
       "coverstockType": "hybrid",
       "coreName": "Hustle",
       "coreType": "symmetric",
-      "rg": 2.530,
-      "differential": 0.030,
+      "rg": 2.53,
+      "differential": 0.03,
       "massBiasDiff": null,
       "releaseDate": "2024-04",
-      "colors": ["blue", "red", "yellow"]
+      "colors": [
+        "blue",
+        "red",
+        "yellow"
+      ]
     },
     {
       "id": "b162-hustle-xray",
@@ -2262,11 +2694,14 @@
       "coverstockType": "solid",
       "coreName": "Hustle",
       "coreType": "symmetric",
-      "rg": 2.530,
-      "differential": 0.030,
+      "rg": 2.53,
+      "differential": 0.03,
       "massBiasDiff": null,
       "releaseDate": "2024-04",
-      "colors": ["black", "red"]
+      "colors": [
+        "black",
+        "red"
+      ]
     },
     {
       "id": "b163-x-cell",
@@ -2276,11 +2711,14 @@
       "coverstockType": "solid",
       "coreName": "Nucleus + A.I.",
       "coreType": "asymmetric",
-      "rg": 2.500,
+      "rg": 2.5,
       "differential": 0.056,
       "massBiasDiff": 0.019,
       "releaseDate": "2024-06",
-      "colors": ["purple", "black"]
+      "colors": [
+        "purple",
+        "black"
+      ]
     },
     {
       "id": "b164-attention-star",
@@ -2290,11 +2728,14 @@
       "coverstockType": "pearl",
       "coreName": "Momentous AV + A.I.",
       "coreType": "asymmetric",
-      "rg": 2.480,
+      "rg": 2.48,
       "differential": 0.049,
       "massBiasDiff": 0.017,
       "releaseDate": "2024-02",
-      "colors": ["black", "blue"]
+      "colors": [
+        "black",
+        "blue"
+      ]
     },
     {
       "id": "b165-optimum-idol",
@@ -2304,11 +2745,14 @@
       "coverstockType": "solid",
       "coreName": "Ikon + A.I.",
       "coreType": "symmetric",
-      "rg": 2.470,
+      "rg": 2.47,
       "differential": 0.056,
       "massBiasDiff": null,
       "releaseDate": "2024-03",
-      "colors": ["red", "black"]
+      "colors": [
+        "red",
+        "black"
+      ]
     },
     {
       "id": "b166-optimum-idol-pearl",
@@ -2318,11 +2762,14 @@
       "coverstockType": "pearl",
       "coreName": "Ikon + A.I.",
       "coreType": "symmetric",
-      "rg": 2.470,
+      "rg": 2.47,
       "differential": 0.056,
       "massBiasDiff": null,
       "releaseDate": "2024-08",
-      "colors": ["purple", "silver"]
+      "colors": [
+        "purple",
+        "silver"
+      ]
     },
     {
       "id": "b167-black-widow-3",
@@ -2332,25 +2779,14 @@
       "coverstockType": "solid",
       "coreName": "Gas Mask",
       "coreType": "asymmetric",
-      "rg": 2.500,
+      "rg": 2.5,
       "differential": 0.058,
       "massBiasDiff": 0.016,
       "releaseDate": "2024-01",
-      "colors": ["black", "red"]
-    },
-    {
-      "id": "b168-black-widow-2-hybrid",
-      "name": "Black Widow 2.0 Hybrid",
-      "brand": "Hammer",
-      "coverstock": "HK22 - Aggression Hybrid",
-      "coverstockType": "hybrid",
-      "coreName": "Gas Mask",
-      "coreType": "asymmetric",
-      "rg": 2.500,
-      "differential": 0.058,
-      "massBiasDiff": 0.016,
-      "releaseDate": "2023-02",
-      "colors": ["black", "purple"]
+      "colors": [
+        "black",
+        "red"
+      ]
     },
     {
       "id": "b169-effect",
@@ -2360,11 +2796,14 @@
       "coverstockType": "pearl",
       "coreName": "Huntsman",
       "coreType": "asymmetric",
-      "rg": 2.470,
-      "differential": 0.050,
+      "rg": 2.47,
+      "differential": 0.05,
       "massBiasDiff": 0.017,
       "releaseDate": "2024-03",
-      "colors": ["purple", "black"]
+      "colors": [
+        "purple",
+        "black"
+      ]
     },
     {
       "id": "b170-effect-tour",
@@ -2378,7 +2817,10 @@
       "differential": 0.036,
       "massBiasDiff": 0.012,
       "releaseDate": "2024-11",
-      "colors": ["blue", "silver"]
+      "colors": [
+        "blue",
+        "silver"
+      ]
     },
     {
       "id": "b171-pure-envy",
@@ -2392,21 +2834,10 @@
       "differential": 0.055,
       "massBiasDiff": 0.021,
       "releaseDate": "2024-09",
-      "colors": ["green", "black"]
-    },
-    {
-      "id": "b172-ocean-vibe",
-      "name": "Ocean Vibe",
-      "brand": "Hammer",
-      "coverstock": "CT Plus Pearl",
-      "coverstockType": "pearl",
-      "coreName": "Vibe",
-      "coreType": "symmetric",
-      "rg": 2.510,
-      "differential": 0.042,
-      "massBiasDiff": null,
-      "releaseDate": "2022-07",
-      "colors": ["blue", "teal"]
+      "colors": [
+        "green",
+        "black"
+      ]
     },
     {
       "id": "b173-arctic-vibe",
@@ -2416,25 +2847,14 @@
       "coverstockType": "hybrid",
       "coreName": "Vibe",
       "coreType": "symmetric",
-      "rg": 2.510,
+      "rg": 2.51,
       "differential": 0.042,
       "massBiasDiff": null,
       "releaseDate": "2024-05",
-      "colors": ["white", "blue"]
-    },
-    {
-      "id": "b174-axe",
-      "name": "Axe",
-      "brand": "Hammer",
-      "coverstock": "Low Friction Reactive",
-      "coverstockType": "pearl",
-      "coreName": "Bullet",
-      "coreType": "symmetric",
-      "rg": 2.715,
-      "differential": 0.019,
-      "massBiasDiff": null,
-      "releaseDate": "2023-05",
-      "colors": ["silver", "black"]
+      "colors": [
+        "white",
+        "blue"
+      ]
     },
     {
       "id": "b175-raw-hammer-hybrid",
@@ -2448,7 +2868,11 @@
       "differential": 0.038,
       "massBiasDiff": null,
       "releaseDate": "2024-05",
-      "colors": ["blue", "black", "orange"]
+      "colors": [
+        "blue",
+        "black",
+        "orange"
+      ]
     },
     {
       "id": "b176-game-breaker-5",
@@ -2458,25 +2882,14 @@
       "coverstockType": "solid",
       "coreName": "Enhanced V2",
       "coreType": "symmetric",
-      "rg": 2.480,
+      "rg": 2.48,
       "differential": 0.048,
       "massBiasDiff": null,
       "releaseDate": "2024-03",
-      "colors": ["purple", "gold"]
-    },
-    {
-      "id": "b177-game-breaker-4-hybrid",
-      "name": "Game Breaker 4 Hybrid",
-      "brand": "Ebonite",
-      "coverstock": "HK22 - GB 12.0 Hybrid",
-      "coverstockType": "hybrid",
-      "coreName": "Enhanced V2",
-      "coreType": "symmetric",
-      "rg": 2.480,
-      "differential": 0.048,
-      "massBiasDiff": null,
-      "releaseDate": "2023-03",
-      "colors": ["blue", "silver"]
+      "colors": [
+        "purple",
+        "gold"
+      ]
     },
     {
       "id": "b178-the-one-reverb",
@@ -2490,7 +2903,10 @@
       "differential": 0.056,
       "massBiasDiff": 0.027,
       "releaseDate": "2024-09",
-      "colors": ["purple", "blue"]
+      "colors": [
+        "purple",
+        "blue"
+      ]
     },
     {
       "id": "b179-crimson-jackal",
@@ -2500,11 +2916,14 @@
       "coverstockType": "pearl",
       "coreName": "Predator V2",
       "coreType": "asymmetric",
-      "rg": 2.470,
+      "rg": 2.47,
       "differential": 0.054,
       "massBiasDiff": 0.015,
       "releaseDate": "2024-01",
-      "colors": ["red", "black"]
+      "colors": [
+        "red",
+        "black"
+      ]
     },
     {
       "id": "b180-raptor-fury",
@@ -2514,11 +2933,14 @@
       "coverstockType": "solid",
       "coreName": "Affliction V2",
       "coreType": "symmetric",
-      "rg": 2.480,
+      "rg": 2.48,
       "differential": 0.055,
       "massBiasDiff": null,
       "releaseDate": "2023-11",
-      "colors": ["orange", "black"]
+      "colors": [
+        "orange",
+        "black"
+      ]
     },
     {
       "id": "b181-evoke",
@@ -2528,25 +2950,14 @@
       "coverstockType": "solid",
       "coreName": "Overload",
       "coreType": "asymmetric",
-      "rg": 2.480,
-      "differential": 0.050,
+      "rg": 2.48,
+      "differential": 0.05,
       "massBiasDiff": 0.015,
       "releaseDate": "2024-02",
-      "colors": ["blue", "purple"]
-    },
-    {
-      "id": "b182-pride-dynasty",
-      "name": "Pride Dynasty",
-      "brand": "Motiv",
-      "coverstock": "Leverage MFS",
-      "coverstockType": "solid",
-      "coreName": "Dominion",
-      "coreType": "asymmetric",
-      "rg": 2.500,
-      "differential": 0.042,
-      "massBiasDiff": 0.010,
-      "releaseDate": "2023-09",
-      "colors": ["red", "white", "blue"]
+      "colors": [
+        "blue",
+        "purple"
+      ]
     },
     {
       "id": "b183-pride-liberty",
@@ -2556,25 +2967,15 @@
       "coverstockType": "hybrid",
       "coreName": "Dominion",
       "coreType": "asymmetric",
-      "rg": 2.500,
+      "rg": 2.5,
       "differential": 0.042,
-      "massBiasDiff": 0.010,
+      "massBiasDiff": 0.01,
       "releaseDate": "2024-08",
-      "colors": ["red", "white", "blue"]
-    },
-    {
-      "id": "b184-black-venom",
-      "name": "Black Venom",
-      "brand": "Motiv",
-      "coverstock": "Leverage MFS",
-      "coverstockType": "solid",
-      "coreName": "Gear APG",
-      "coreType": "asymmetric",
-      "rg": 2.470,
-      "differential": 0.036,
-      "massBiasDiff": 0.013,
-      "releaseDate": "2023-03",
-      "colors": ["black", "silver"]
+      "colors": [
+        "red",
+        "white",
+        "blue"
+      ]
     },
     {
       "id": "b185-hyper-venom",
@@ -2584,25 +2985,14 @@
       "coverstockType": "pearl",
       "coreName": "Gear",
       "coreType": "symmetric",
-      "rg": 2.480,
+      "rg": 2.48,
       "differential": 0.034,
       "massBiasDiff": null,
       "releaseDate": "2024-03",
-      "colors": ["purple", "orange"]
-    },
-    {
-      "id": "b186-primal-shock",
-      "name": "Primal Shock",
-      "brand": "Motiv",
-      "coverstock": "Turmoil MFS",
-      "coverstockType": "solid",
-      "coreName": "Impulse V2",
-      "coreType": "symmetric",
-      "rg": 2.550,
-      "differential": 0.050,
-      "massBiasDiff": null,
-      "releaseDate": "2023-02",
-      "colors": ["blue", "silver"]
+      "colors": [
+        "purple",
+        "orange"
+      ]
     },
     {
       "id": "b187-theorem",
@@ -2616,7 +3006,10 @@
       "differential": 0.046,
       "massBiasDiff": 0.017,
       "releaseDate": "2023-12",
-      "colors": ["purple", "black"]
+      "colors": [
+        "purple",
+        "black"
+      ]
     },
     {
       "id": "b188-theorem-pearl",
@@ -2630,7 +3023,10 @@
       "differential": 0.046,
       "massBiasDiff": 0.017,
       "releaseDate": "2024-11",
-      "colors": ["purple", "silver"]
+      "colors": [
+        "purple",
+        "silver"
+      ]
     },
     {
       "id": "b189-criterion",
@@ -2640,39 +3036,14 @@
       "coverstockType": "solid",
       "coreName": "Criterion M.D.",
       "coreType": "asymmetric",
-      "rg": 2.500,
+      "rg": 2.5,
       "differential": 0.052,
       "massBiasDiff": 0.018,
       "releaseDate": "2024-10",
-      "colors": ["purple", "black"]
-    },
-    {
-      "id": "b190-virtual-energy-blackout",
-      "name": "Virtual Energy Blackout",
-      "brand": "Storm",
-      "coverstock": "ReX Pearl",
-      "coverstockType": "pearl",
-      "coreName": "Shape-Lock HD",
-      "coreType": "asymmetric",
-      "rg": 2.480,
-      "differential": 0.052,
-      "massBiasDiff": 0.020,
-      "releaseDate": "2023-09",
-      "colors": ["black", "purple"]
-    },
-    {
-      "id": "b191-eternity-pi",
-      "name": "Eternity Pi",
-      "brand": "900 Global",
-      "coverstock": "Reserve Blend 901 Solid",
-      "coverstockType": "solid",
-      "coreName": "Epoch",
-      "coreType": "asymmetric",
-      "rg": 2.490,
-      "differential": 0.050,
-      "massBiasDiff": 0.014,
-      "releaseDate": "2023-09",
-      "colors": ["purple", "gold"]
+      "colors": [
+        "purple",
+        "black"
+      ]
     },
     {
       "id": "b192-harsh-reality",
@@ -2682,11 +3053,14 @@
       "coverstockType": "solid",
       "coreName": "Disturbance AI",
       "coreType": "asymmetric",
-      "rg": 2.480,
+      "rg": 2.48,
       "differential": 0.054,
       "massBiasDiff": 0.019,
       "releaseDate": "2024-02",
-      "colors": ["red", "black"]
+      "colors": [
+        "red",
+        "black"
+      ]
     },
     {
       "id": "b193-harsh-reality-pearl",
@@ -2696,11 +3070,14 @@
       "coverstockType": "pearl",
       "coreName": "Disturbance AI",
       "coreType": "asymmetric",
-      "rg": 2.480,
+      "rg": 2.48,
       "differential": 0.054,
       "massBiasDiff": 0.019,
       "releaseDate": "2024-07",
-      "colors": ["red", "black"]
+      "colors": [
+        "red",
+        "black"
+      ]
     },
     {
       "id": "b194-sublime",
@@ -2710,11 +3087,14 @@
       "coverstockType": "hybrid",
       "coreName": "Immersed",
       "coreType": "symmetric",
-      "rg": 2.470,
+      "rg": 2.47,
       "differential": 0.056,
       "massBiasDiff": null,
       "releaseDate": "2023-12",
-      "colors": ["blue", "silver"]
+      "colors": [
+        "blue",
+        "silver"
+      ]
     },
     {
       "id": "b195-sublime-focus",
@@ -2724,11 +3104,14 @@
       "coverstockType": "solid",
       "coreName": "Immersed A.I.",
       "coreType": "symmetric",
-      "rg": 2.470,
+      "rg": 2.47,
       "differential": 0.056,
       "massBiasDiff": null,
       "releaseDate": "2024-09",
-      "colors": ["blue", "black"]
+      "colors": [
+        "blue",
+        "black"
+      ]
     }
   ],
   "brands": [
@@ -2760,6 +3143,6 @@
     "asymmetric"
   ],
   "lastUpdated": "2025-12-31",
-  "totalBalls": 195,
+  "totalBalls": 183,
   "dataSource": "bowwwl.com"
 }
