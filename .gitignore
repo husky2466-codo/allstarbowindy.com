@@ -25,3 +25,4 @@ public/uploads/gmaps-photos/
 
 # Generated 3D models (regenerable intermediates, kept local — large binaries)
 public/uploads/3d/
+**/graphify-out/
