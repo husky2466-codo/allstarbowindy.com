@@ -252,3 +252,35 @@
 @media (max-width: 520px) {
   .footer-grid { grid-template-columns: 1fr; }
 }
+
+/* ============================================================
+   ACCOUNT MENU (nav dropdown) + nav cluster divider
+   ============================================================ */
+.nav-div { width: 1px; height: 26px; background: rgba(245,241,230,.18); flex: none; }
+.acctmenu { position: relative; flex: none; }
+.acctmenu-btn { width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; color: var(--cream); border: 1px solid rgba(245,241,230,.28); background: transparent; transition: border-color .18s, background .18s; }
+.acctmenu-btn:hover { border-color: rgba(245,241,230,.6); }
+.acctmenu-btn.open { border-color: var(--cream); background: rgba(245,241,230,.1); }
+.acctmenu-btn.authed { border-color: transparent; padding: 0; }
+.acctmenu-avatar { width: 33px; height: 33px; border-radius: 50%; display: grid; place-items: center; background: linear-gradient(150deg, var(--red-500), var(--red-700)); color: #fff; font-family: var(--f-head); font-weight: 800; font-size: 1rem; letter-spacing: .02em; box-shadow: 0 2px 8px -2px rgba(224,36,31,.6); }
+.acctmenu-avatar.lg { width: 44px; height: 44px; font-size: 1.2rem; }
+
+.acctmenu-scrim { position: fixed; inset: 0; z-index: 60; background: transparent; }
+.acctmenu-pop { position: absolute; top: calc(100% + 12px); right: 0; z-index: 61; width: 256px; background: #fff; border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow-lg); padding: 8px; }
+.acctmenu-pop::before { content: ""; position: absolute; top: -7px; right: 13px; width: 13px; height: 13px; background: #fff; border-left: 1px solid var(--line); border-top: 1px solid var(--line); transform: rotate(45deg); }
+.acctmenu-head { display: flex; align-items: center; gap: 11px; padding: 10px 10px 13px; border-bottom: 1px solid var(--line); margin-bottom: 6px; }
+.acctmenu-id { display: flex; flex-direction: column; min-width: 0; }
+.acctmenu-id strong { font-family: var(--f-head); font-weight: 700; color: var(--navy-900); font-size: 1rem; line-height: 1.1; }
+.acctmenu-id span { font-size: .8rem; color: var(--ink-mut); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.acctmenu-item { width: 100%; display: flex; align-items: center; gap: 11px; padding: 10px 12px; border-radius: 10px; font-family: var(--f-head); font-weight: 600; font-size: .96rem; color: var(--ink-soft); text-align: left; transition: background .14s, color .14s; }
+.acctmenu-item:hover { background: var(--paper); color: var(--navy-900); }
+.acctmenu-item svg { color: var(--ink-mut); flex: none; }
+.acctmenu-item.strong { color: var(--red-600); }
+.acctmenu-item.strong svg { color: var(--red-500); }
+.acctmenu-item.danger:hover { background: rgba(224,36,31,.08); color: var(--red-600); }
+.acctmenu-item.danger:hover svg { color: var(--red-500); }
+.acctmenu-ext { margin-left: auto; opacity: .55; }
+.acctmenu-div { height: 1px; background: var(--line); margin: 6px 6px; }
+@media (max-width: 520px) {
+  .nav-div { display: none; }
+}

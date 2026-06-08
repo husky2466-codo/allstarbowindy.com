@@ -151,12 +151,111 @@ function PartyRequest() {
   );
 }
 
+/* ---- Group / corporate package pricing tiers ---- */
+function PartyTiers() {
+  const ref = useReveal();
+  const tiers = [
+    { key: "weekday", name: "Weekday Party", when: "Mon–Fri before 5 PM", featured: false,
+      rows: [{ g: "2 games", p: "10.50" }, { g: "3 games", p: "14.00" }] },
+    { key: "primetime", name: "Primetime Party", when: "Weekends & weekdays after 5 PM", featured: true,
+      rows: [{ g: "2 games", p: "13.00" }, { g: "3 games", p: "17.75" }] }
+  ];
+  return (
+    <section className="section" ref={ref}>
+      <div className="wrap">
+        <SectionHead center kicker="Bigger groups & events" title="Group party packages." sub="Birthday parties (above) are all-inclusive. For larger groups, team nights and fundraisers, start with a bowling package — shoes included — and add food. Priced per guest." />
+        <div className="ptier-grid reveal reveal-d1">
+          {tiers.map(function (t) {
+            return (
+              <div key={t.key} className={"ptier-card" + (t.featured ? " featured" : "")}>
+                <span className="ptier-when">{t.when}</span>
+                <h3 className="ptier-name">{t.name}</h3>
+                <div className="ptier-rows">
+                  {t.rows.map(function (r, i) {
+                    return <div key={i} className="ptier-row"><span>{r.g}</span><strong>${r.p}<small>/guest</small></strong></div>;
+                  })}
+                </div>
+              </div>
+            );
+          })}
+          <div className="ptier-card ptier-food">
+            <span className="ptier-when">Add to any package</span>
+            <h3 className="ptier-name">Food add-on</h3>
+            <div className="ptier-rows">
+              <div className="ptier-row"><span>Pizza Buffet or Tailgate</span><strong>$12.00<small>/guest</small></strong></div>
+              <div className="ptier-row"><span>Kids 12 &amp; under</span><strong>$9.00<small>/guest</small></strong></div>
+            </div>
+          </div>
+        </div>
+        <div className="ptier-notes reveal reveal-d2">
+          <span className="ptier-note"><Icon name="users" size={17} /> Seats up to 67</span>
+          <span className="ptier-note"><Icon name="ball" size={17} /> Up to 48 lanes</span>
+          <span className="ptier-note"><Icon name="shoe" size={17} /> Shoes included</span>
+          <span className="ptier-note"><Icon name="beer" size={17} /> Full bar &amp; Alley Cafe</span>
+          <span className="ptier-note"><Icon name="ticket" size={17} /> 50% deposit at booking</span>
+        </div>
+        <div className="ptier-corp reveal reveal-d2">
+          <div>
+            <strong>Corporate &amp; team-building nights</strong>
+            <span>Custom lane blocks, catering and meeting space for up to 67 — we'll tailor it to your group.</span>
+          </div>
+          <a className="btn btn-blue" href={ASB.BIZ.phoneHref}><Icon name="phone" size={17} /> Call to book</a>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ---- Seasonal & signature events ---- */
+function PartySeasonal() {
+  const ref = useReveal();
+  const events = [
+    { icon: "spark", tag: "New Year's Eve · Family", name: "Family NYE Bash", when: "Dec 31 · 5:30–8:00 PM", price: "~$80", unit: "/ lane",
+      pts: ["2.5 hrs unlimited bowling", "Free shoes · hats & noisemakers", "Pizza, drinks & a ginger-ale toast", "Raffles & prizes all night"] },
+    { icon: "star", tag: "New Year's Eve · Adults", name: "Midnight Casino Bowl", when: "Dec 31 · 9 PM–Midnight", price: "$25–30", unit: "/ person",
+      pts: ["Casino bowling all night long", "Champagne toast at midnight", "$25 Cosmic · $30 Interactive"] },
+    { icon: "trophy", tag: "Youth · Competitive", name: "Junior Gold Practice", when: "Mondays · 7–9 PM", price: "$120", unit: "/ 8-week session",
+      pts: ["8 weeks of coached practice", "Oil pattern changes every 2 weeks", "Tournament-style prep"] }
+  ];
+  return (
+    <section className="section field-navy" ref={ref}>
+      <div className="halftone bowlhero-tex"></div>
+      <div className="wrap">
+        <SectionHead light center kicker="Seasonal & signature events" title="More ways to celebrate." sub="From a New Year's Eve blowout to serious youth training — booked by phone, priced below." />
+        <div className="pseason reveal reveal-d1">
+          {events.map(function (e, i) {
+            return (
+              <div key={i} className="pseason-card">
+                <span className="pseason-ic"><Icon name={e.icon} size={22} /></span>
+                <span className="pseason-tag">{e.tag}</span>
+                <h3 className="pseason-name">{e.name}</h3>
+                <span className="pseason-when">{e.when}</span>
+                <span className="pseason-price display">{e.price}<small>{e.unit}</small></span>
+                <div className="pseason-pts">
+                  {e.pts.map(function (p, j) {
+                    return <span key={j} className="pseason-pt"><Icon name="check" size={15} /> {p}</span>;
+                  })}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        <div className="center reveal reveal-d2" style={{ marginTop: 30 }}>
+          <a className="btn btn-red btn-lg" href={ASB.BIZ.phoneHref}><Icon name="phone" size={18} /> Call {ASB.BIZ.phone} to book</a>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function PartiesPage() {
   return (
     <main>
       <PartiesHero />
       <PartyPackage />
       <PartyEstimator />
+      <PartyTiers />
+      <PartySeasonal />
       <PartyRequest />
     </main>
   );

@@ -34,6 +34,7 @@ function App() {
   else if (route.indexOf("/parties") === 0) Page = window.PartiesPage;
   else if (route.indexOf("/proshop") === 0) Page = window.ProShopPage;
   else if (route.indexOf("/account") === 0) Page = window.AccountPage;
+  else if (route.indexOf("/login") === 0) Page = window.LoginPage;
   else if (route.indexOf("/join") === 0) Page = window.JoinPage;
   else if (route.indexOf("/specials") === 0) Page = window.SpecialsPage;
   else if (route.indexOf("/contact") === 0) Page = window.ContactPage;
@@ -51,6 +52,7 @@ function App() {
       <Footer />
       <CornerBuddy />
       <ReserveHost />
+      <BallWipe />
     </React.Fragment>
   );
 }

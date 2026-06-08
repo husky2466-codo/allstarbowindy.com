@@ -16,19 +16,12 @@ function nextTier(k) {
 }
 
 function AccountPage() {
-  const [loggedIn, setLoggedIn] = useState(false);
+  const authed = useAuth();
   return (
     <main>
-      <div className="acct-toggle-bar">
-        <div className="wrap acct-toggle-in">
-          <span className="acct-toggle-label">Preview:</span>
-          <div className="acct-toggle">
-            <button className={!loggedIn ? "on" : ""} onClick={function () { setLoggedIn(false); }}>Not a member yet</button>
-            <button className={loggedIn ? "on" : ""} onClick={function () { setLoggedIn(true); }}>Signed-in member</button>
-          </div>
-        </div>
-      </div>
-      {loggedIn ? <Dashboard onSignOut={function () { setLoggedIn(false); }} /> : <RewardsTeaserPage onJoin={function () { setLoggedIn(true); }} />}
+      {authed
+        ? <MemberArea onSignOut={function () { AuthStore.signOut(); Router.go("/"); }} />
+        : <RewardsTeaserPage onJoin={function () { Router.go("/login"); }} />}
     </main>
   );
 }
@@ -182,135 +175,10 @@ function TierCardShow() {
   );
 }
 
-/* ---------- Signed-in dashboard ---------- */
-/* Empty / no-data state — shown when there is no authenticated member or no
-   captured games. Honest by design (docs/MEMBER-AREA-SCOPING.md): we surface
-   real Tier-A actions, never invented stats. */
-function DashboardEmpty(props) {
-  const ref = useReveal();
-  return (
-    <section className="section dash-sec" ref={ref}>
-      <div className="wrap">
-        <div className="dash-head reveal">
-          <div>
-            <span className="kicker" style={{ color: "var(--red-600)" }}>Your account</span>
-            <h1 className="display dash-title">Welcome to the club.</h1>
-          </div>
-          <button className="btn btn-ghost btn-sm" style={{ color: "var(--navy-800)" }} onClick={props.onSignOut}>Sign out</button>
-        </div>
-        <div className="reveal reveal-d1" style={{ maxWidth: 640 }}>
-          <div className="dash-cta-card">
-            <h4 className="dash-h">No games tracked yet</h4>
-            <p className="muted" style={{ fontSize: ".95rem", lineHeight: 1.55, marginBottom: 16 }}>
-              Track a game in the All Star Bowl app and your average, high game and series history
-              will show up here. We only ever show games you&rsquo;ve actually bowled &mdash; never a number you haven&rsquo;t.
-            </p>
-            <div className="hero-cta" style={{ flexWrap: "wrap" }}>
-              <button className="btn btn-red" onClick={function () { Router.go("/bowl"); }}><Icon name="ball" size={18} /> Reserve a lane</button>
-              <button className="btn btn-blue" onClick={function () { Router.go("/proshop"); }}><Icon name="bag" size={18} /> Browse equipment</button>
-              <button className="btn btn-ghost" style={{ color: "var(--navy-800)" }} onClick={function () { Router.go("/scores"); }}><Icon name="trophy" size={18} /> Live league scores</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function Dashboard(props) {
-  const ref = useReveal();
-  const MEMBER = getMember();
-  if (!MEMBER) return <DashboardEmpty onSignOut={props.onSignOut} />;
-  const tier = tierByKey(MEMBER.tierKey);
-  const next = nextTier(MEMBER.tierKey);
-  const gamesToNext = next ? next.gamesReq - MEMBER.games : 0;
-  const prevReq = tier.gamesReq;
-  const span = next ? next.gamesReq - prevReq : 1;
-  const progress = next ? Math.min(100, Math.round(((MEMBER.games - prevReq) / span) * 100)) : 100;
-  const s = useStatus();
-  // savings vs base BAC rate
-  const savedPerGame = (ASB.BAC_TIERS[0].day - tier.day);
-  const totalSaved = (MEMBER.games * savedPerGame).toFixed(0);
-
-  return (
-    <section className="section dash-sec" ref={ref}>
-      <div className="wrap">
-        <div className="dash-head reveal">
-          <div>
-            <span className="kicker" style={{ color: "var(--red-600)" }}>Welcome back</span>
-            <h1 className="display dash-title">Hey, {MEMBER.first}.</h1>
-          </div>
-          <button className="btn btn-ghost btn-sm" style={{ color: "var(--navy-800)" }} onClick={props.onSignOut}>Sign out</button>
-        </div>
-
-        <div className="dash-grid">
-          <div className="dash-main reveal reveal-d1">
-            <div className="dash-progress-card">
-              <div className="dash-pc-top">
-                <div>
-                  <span className="dash-pc-tier">{tier.name} member</span>
-                  <span className="dash-pc-games"><strong>{MEMBER.games}</strong> games bowled</span>
-                </div>
-                <span className="dash-pc-rate"><strong>${tier.day.toFixed(2)}</strong><small>your daytime game</small></span>
-              </div>
-              {next ? (
-                <React.Fragment>
-                  <div className="dash-bar"><span style={{ width: progress + "%" }}></span></div>
-                  <span className="dash-next">{gamesToNext} games to <strong>{next.name}</strong> — unlock ${next.day.toFixed(2)} daytime games</span>
-                </React.Fragment>
-              ) : (
-                <span className="dash-next">You've reached the top tier. Enjoy Diamond pricing! 💎</span>
-              )}
-              <div className="dash-tier-row">
-                {ASB.BAC_TIERS.map(function (tt) {
-                  const reached = tt.gamesReq <= MEMBER.games;
-                  return <span key={tt.key} className={"dash-tier-chip" + (reached ? " on" : "") + (tt.key === MEMBER.tierKey ? " cur" : "")}>{tt.name}</span>;
-                })}
-              </div>
-            </div>
-
-            <div className="dash-stats">
-              <div className="dash-stat"><span className="dash-stat-v display">${totalSaved}</span><span className="dash-stat-l">saved vs. new-member rate</span></div>
-              <div className="dash-stat"><span className="dash-stat-v display">{MEMBER.games}</span><span className="dash-stat-l">lifetime games</span></div>
-              <div className="dash-stat"><span className="dash-stat-v display">{MEMBER.joined}</span><span className="dash-stat-l">member since</span></div>
-            </div>
-
-            <div className="dash-history">
-              <h4 className="dash-h">Recent activity</h4>
-              {MEMBER.history.map(function (h, i) {
-                return (
-                  <div key={i} className="dash-hist-row">
-                    <span className="dash-hist-date">{h.date}</span>
-                    <span className="dash-hist-desc">{h.desc}</span>
-                    <span className="dash-hist-games">+{h.games}</span>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-
-          <div className="dash-side reveal reveal-d2">
-            <BacCard tier={tier} name={MEMBER.name} games={MEMBER.games} />
-            <div className="dash-cta-card">
-              <h4 className="dash-h">{s.isOpen ? "Lanes are open right now" : "Plan your next visit"}</h4>
-              <p className="muted" style={{ fontSize: ".92rem", marginBottom: 14 }}>
-                {s.isOpen ? (s.lanesOpen + " of " + s.total + " lanes open. Lock one in and rack up more games toward " + (next ? next.name : "the top") + ".") : "Reserve ahead and keep climbing toward " + (next ? next.name : "the top") + "."}
-              </p>
-              <button className="btn btn-red" style={{ justifyContent: "center", width: "100%" }} onClick={function () { Router.go("/bowl"); }}><Icon name="ball" size={18} /> Reserve a lane</button>
-            </div>
-            <div className="dash-perks">
-              <h4 className="dash-h">Your perks</h4>
-              <ul>
-                <li><Icon name="check" size={16} /> ${tier.day.toFixed(2)} daytime · ${tier.night.toFixed(2)} weeknight games</li>
-                <li><Icon name="check" size={16} /> Members-only Facebook specials</li>
-                <li><Icon name="check" size={16} /> Military discount eligible</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
+/* ---------- Signed-in member area ---------------------------------------
+   The full Tier-A signed-in experience (stats / equipment / bag / links)
+   now lives in js/member-area.jsx as <MemberArea/>. AccountPage renders it
+   for the signed-in branch. The old fabricated-stats Dashboard was removed
+   per docs/MEMBER-AREA-SCOPING.md (no invented member data).
+   ------------------------------------------------------------------------ */
 Object.assign(window, { AccountPage });

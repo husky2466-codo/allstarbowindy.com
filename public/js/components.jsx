@@ -125,7 +125,12 @@ function Icon(props) {
     cart: <g><circle cx="9" cy="20" r="1.5" /><circle cx="17.5" cy="20" r="1.5" /><path d="M3 4h2.2l1.8 11a1.2 1.2 0 0 0 1.2 1h7.4a1.2 1.2 0 0 0 1.2 -1L19 8H6.2" /></g>,
     tag: <g><path d="M4 12.5V5a1 1 0 0 1 1 -1h7.5L20 11.5a1.4 1.4 0 0 1 0 2L13 20.5a1.4 1.4 0 0 1 -2 0L4 13.5a1.4 1.4 0 0 1 -.4 -1z" /><circle cx="8" cy="8" r="1.3" fill="currentColor" stroke="none" /></g>,
     plus: <path d="M12 5v14M5 12h14" />,
-    minus: <path d="M5 12h14" />
+    minus: <path d="M5 12h14" />,
+    search: <g><circle cx="11" cy="11" r="6.5" /><path d="M16 16l4.5 4.5" /></g>,
+    ext: <g><path d="M14 4h6v6" /><path d="M20 4l-9 9" /><path d="M18 13v5a2 2 0 0 1 -2 2H6a2 2 0 0 1 -2 -2V8a2 2 0 0 1 2 -2h5" /></g>,
+    sliders: <g><path d="M4 7h10M18 7h2M4 17h2M10 17h10" /><circle cx="16" cy="7" r="2" /><circle cx="8" cy="17" r="2" /></g>,
+    chart: <g><path d="M4 4v16h16" /><path d="M7 14l3.5 -4 3 2.5L20 6" /></g>,
+    medal: <g><circle cx="12" cy="14" r="5" /><path d="M9 9.5L7 3h10l-2 6.5M12 12.2l.8 1.6 1.7.2 -1.2 1.2.3 1.7 -1.6 -.9 -1.6.9.3 -1.7 -1.2 -1.2 1.7 -.2z" /></g>
   };
   return <svg {...p}>{paths[props.name] || null}</svg>;
 }
@@ -162,6 +167,83 @@ function useRoute() {
   const [route, setRoute] = useState(Router.parse());
   useEffect(function () { return Router.sub(setRoute); }, []);
   return route;
+}
+
+/* ---- Auth session (demo) — localStorage-backed; drives nav + account ----
+   A LOCK, not an account system: in production Cloudflare Access authenticates
+   (Google / email one-time code, no password) and the app trusts the verified
+   email. Here we persist a simple signed-in flag so the nav + member area
+   reflect a real session across pages and refresh. Member DATA still comes from
+   window.ASB_DATA — this only tracks "are we signed in." */
+const AuthStore = (function () {
+  const KEY = "asb_auth";
+  const subs = new Set();
+  function read() { try { return JSON.parse(window.localStorage.getItem(KEY)) || null; } catch (e) { return null; } }
+  let state = read();
+  function notify() { subs.forEach(function (f) { f(state); }); }
+  return {
+    isAuthed: function () { return !!(state && state.authed); },
+    signIn: function () { state = { authed: true, at: Date.now() }; try { window.localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} notify(); },
+    signOut: function () { state = null; try { window.localStorage.removeItem(KEY); } catch (e) {} notify(); },
+    sub: function (f) { subs.add(f); return function () { subs.delete(f); }; }
+  };
+})();
+function useAuth() {
+  const [a, setA] = useState(AuthStore.isAuthed());
+  useEffect(function () { return AuthStore.sub(function () { setA(AuthStore.isAuthed()); }); }, []);
+  return a;
+}
+
+/* ---- Account menu (nav dropdown) — swaps logged-out / logged-in ---- */
+function AccountMenu() {
+  const authed = useAuth();
+  const route = useRoute();
+  const [open, setOpen] = useState(false);
+  useEffect(function () { setOpen(false); }, [route]);
+  useEffect(function () {
+    function onKey(e) { if (e.key === "Escape") setOpen(false); }
+    if (open) window.addEventListener("keydown", onKey);
+    return function () { window.removeEventListener("keydown", onKey); };
+  }, [open]);
+  const m = (window.ASB_DATA && window.ASB_DATA.getMember && window.ASB_DATA.getMember()) || null;
+  const initial = (m && m.first ? m.first[0] : "A").toUpperCase();
+  function goTab(tab) { window.__maInitialTab = tab; setOpen(false); Router.go("/account"); window.dispatchEvent(new CustomEvent("asb-matab", { detail: tab })); }
+  function signOut() { AuthStore.signOut(); setOpen(false); Router.go("/"); }
+  return (
+    <div className="acctmenu">
+      <button className={"acctmenu-btn" + (authed ? " authed" : "") + (open ? " open" : "")} aria-label="Account menu" aria-haspopup="true" aria-expanded={open} onClick={function () { setOpen(!open); }}>
+        {authed ? <span className="acctmenu-avatar">{initial}</span> : <Icon name="user" size={20} />}
+      </button>
+      {open ? <div className="acctmenu-scrim" onClick={function () { setOpen(false); }}></div> : null}
+      {open ? (
+        <div className="acctmenu-pop" role="menu">
+          {authed ? (
+            <React.Fragment>
+              <div className="acctmenu-head">
+                <span className="acctmenu-avatar lg">{initial}</span>
+                <span className="acctmenu-id"><strong>{m ? m.name : "Member"}</strong><span>{m ? m.email : ""}</span></span>
+              </div>
+              <button className="acctmenu-item" role="menuitem" onClick={function () { goTab("stats"); }}><Icon name="chart" size={17} /> My Stats</button>
+              <button className="acctmenu-item" role="menuitem" onClick={function () { goTab("bag"); }}><Icon name="bag" size={17} /> My Bag</button>
+              <button className="acctmenu-item" role="menuitem" onClick={function () { goTab("links"); }}><Icon name="trophy" size={17} /> Scores &amp; standings</button>
+              <button className="acctmenu-item" role="menuitem" onClick={function () { goTab("settings"); }}><Icon name="sliders" size={17} /> Account settings</button>
+              <div className="acctmenu-div"></div>
+              <button className="acctmenu-item danger" role="menuitem" onClick={signOut}><Icon name="arrow" size={17} style={{ transform: "rotate(180deg)" }} /> Sign out</button>
+            </React.Fragment>
+          ) : (
+            <React.Fragment>
+              <button className="acctmenu-item strong" role="menuitem" onClick={function () { setOpen(false); Router.go("/login"); }}><Icon name="user" size={17} /> Sign in</button>
+              <button className="acctmenu-item" role="menuitem" onClick={function () { setOpen(false); Router.go("/join"); }}><Icon name="star" size={17} fillStar /> Join the club &mdash; free</button>
+              <button className="acctmenu-item" role="menuitem" onClick={function () { setOpen(false); Router.go("/account"); }}><Icon name="gift" size={17} /> Rewards &amp; perks</button>
+              <div className="acctmenu-div"></div>
+              <a className="acctmenu-item" role="menuitem" href="https://www.bowl.com/find-a-member" target="_blank" rel="noopener noreferrer" onClick={function () { setOpen(false); }}><Icon name="medal" size={17} /> Find my USBC average <Icon name="ext" size={13} className="acctmenu-ext" /></a>
+              <button className="acctmenu-item" role="menuitem" onClick={function () { setOpen(false); Router.go("/scores"); }}><Icon name="chart" size={17} /> League standings</button>
+            </React.Fragment>
+          )}
+        </div>
+      ) : null}
+    </div>
+  );
 }
 
 /* ---- Mini live chip used in the nav ---- */
@@ -264,6 +346,7 @@ const NAV_ITEMS = [
 
 function Nav(props) {
   const route = useRoute();
+  const authed = useAuth();
   const [open, setOpen] = useState(false);
   const [cartOpen, setCartOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -324,9 +407,11 @@ function Nav(props) {
           <span className="nav-shop-label">Pro Shop</span>
         </button>
         <div className="nav-right">
-          <NavCart open={cartOpen} setOpen={setCartOpen} />
           <a className="nav-phone" href={ASB.BIZ.phoneHref}><Icon name="phone" size={16} /> {ASB.BIZ.phone}</a>
           <button className="btn btn-red btn-sm" onClick={function () { navTo("/bowl"); }}>Reserve a Lane</button>
+          <span className="nav-div" aria-hidden="true"></span>
+          <NavCart open={cartOpen} setOpen={setCartOpen} />
+          <AccountMenu />
           <button className="nav-burger" aria-label="Menu" onClick={function () { setOpen(!open); }}>
             <Icon name={open ? "close" : "menu"} size={24} />
           </button>
@@ -351,6 +436,18 @@ function Nav(props) {
             return <button key={it.path} className={"nav-sheet-link" + (isActive(it.path) ? " active" : "")} onClick={function () { navTo(it.path); }}>{it.label}<Icon name="chev" size={18} /></button>;
           })}
           <button className={"nav-sheet-link ns-shop" + (isActive("/proshop") ? " active" : "")} onClick={function () { navTo("/proshop"); }}><span style={{ display: "inline-flex", alignItems: "center", gap: 10 }}><Icon name="bag" size={18} /> Pro Shop</span><Icon name="chev" size={18} /></button>
+          <div className="nav-sheet-group">Account</div>
+          {authed ? (
+            <React.Fragment>
+              <button className="nav-sheet-link" onClick={function () { navTo("/account"); }}><span className="ns-child-in"><Icon name="user" size={16} /> My account</span><Icon name="chev" size={18} /></button>
+              <button className="nav-sheet-link" onClick={function () { AuthStore.signOut(); navTo("/"); }}><span className="ns-child-in"><Icon name="arrow" size={16} style={{ transform: "rotate(180deg)" }} /> Sign out</span><Icon name="chev" size={18} /></button>
+            </React.Fragment>
+          ) : (
+            <React.Fragment>
+              <button className="nav-sheet-link" onClick={function () { navTo("/login"); }}><span className="ns-child-in"><Icon name="user" size={16} /> Sign in</span><Icon name="chev" size={18} /></button>
+              <button className="nav-sheet-link" onClick={function () { navTo("/join"); }}><span className="ns-child-in"><Icon name="star" size={16} fillStar /> Join free</span><Icon name="chev" size={18} /></button>
+            </React.Fragment>
+          )}
           <a className="btn btn-red btn-lg" style={{ margin: "14px 4px 4px", justifyContent: "center" }} href={ASB.BIZ.phoneHref}><Icon name="phone" size={18} /> {ASB.BIZ.phone}</a>
         </div>
       )}
@@ -420,5 +517,6 @@ function Footer() {
 
 Object.assign(window, {
   ClockStore, useStatus, useCountUp, useReveal, Icon, Logo, Router, useRoute,
+  AuthStore, useAuth, AccountMenu,
   Nav, Footer, NavStatusChip, NAV_ITEMS
 });

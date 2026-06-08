@@ -10,6 +10,9 @@
 
 const BUDDY_HOVER_LINES = ["Ready to bowl?", "Strike!", "Grab a lane!", "Hey there!", "Let's roll!"];
 
+// shown on /account only when the member is signed in (auth-aware below)
+const BUDDY_ACCOUNT_IN = "Welcome back, hot shot!";
+
 const BUDDY_ROUTE_LINES = {
   "/": "Ready to roll?",
   "/bowl": "Let's book a lane!",
@@ -21,6 +24,7 @@ const BUDDY_ROUTE_LINES = {
   "/specials": "Don't miss a deal!",
   "/parties": "Let's party!",
   "/account": "Earn free games!",
+  "/login": "Roll on in!",
   "/join": "Join the club — it's free!",
   "/contact": "Say hi!",
   "/terms": "Just the fine print!",
@@ -29,6 +33,8 @@ const BUDDY_ROUTE_LINES = {
 
 function buddyLineFor(route) {
   if (route === "" ) return BUDDY_ROUTE_LINES["/"];
+  // auth-aware: signed-in members get a "welcome back" instead of the join pitch
+  if (route.indexOf("/account") === 0 && window.AuthStore && window.AuthStore.isAuthed()) return BUDDY_ACCOUNT_IN;
   const keys = Object.keys(BUDDY_ROUTE_LINES);
   for (let i = 0; i < keys.length; i++) {
     const k = keys[i];
