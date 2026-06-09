@@ -44,3 +44,7 @@ _local-artifacts/
 # email attachments, but NOT committed — they bloat the repo. The Remotion source
 # that generates them lives in a separate project. Docs reference them by path.
 docs/assets/aws-diagrams/
+
+# Client-facing documents: generated HTML/PDF + copied image assets. Build output,
+# regenerable, kept on disk for sending to the client. The markdown sources stay tracked.
+docs/client-docs/
