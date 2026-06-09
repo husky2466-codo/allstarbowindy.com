@@ -39,3 +39,8 @@ docs/Email Drafts/
 # Sensitive/local artifacts moved OUT of the served public/ root (scraped photos,
 # code-graph output, livescores screenshots+token). Never served, never committed.
 _local-artifacts/
+
+# Rendered diagram binaries (GIF/MP4). Kept on disk for local doc preview and as
+# email attachments, but NOT committed — they bloat the repo. The Remotion source
+# that generates them lives in a separate project. Docs reference them by path.
+docs/assets/aws-diagrams/
