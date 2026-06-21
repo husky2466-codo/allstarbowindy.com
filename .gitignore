@@ -48,3 +48,6 @@ docs/assets/aws-diagrams/
 # Client-facing documents: generated HTML/PDF + copied image assets. Build output,
 # regenerable, kept on disk for sending to the client. The markdown sources stay tracked.
 docs/client-docs/
+server/lib/secrets.ts
+.env.docker
+CREDENTIALS_STATUS.md
